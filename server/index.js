@@ -14,7 +14,12 @@ app.use(express.json());
 
 // Paths
 // Paths
-const DATA_DIR = path.join(process.cwd(), 'data');
+// Robust DATA_DIR resolution
+let DATA_DIR = path.join(process.cwd(), 'data');
+if (!fs.existsSync(DATA_DIR)) {
+    DATA_DIR = path.resolve(__dirname, '../data');
+}
+
 const OUTPUT_DIR = path.join(DATA_DIR, 'pipeline_output');
 const IMAGES_DIR = path.join(DATA_DIR, 'jpg');
 const VOTES_FILE = path.join(DATA_DIR, 'votes.csv');
@@ -22,12 +27,33 @@ const VOTES_FILE = path.join(DATA_DIR, 'votes.csv');
 // Serve images
 app.use('/images', express.static(IMAGES_DIR));
 
+// Debug endpoint to check paths
+app.get('/api/debug', (req, res) => {
+    res.json({
+        cwd: process.cwd(),
+        dirname: __dirname,
+        DATA_DIR,
+        OUTPUT_DIR,
+        IMAGES_DIR,
+        dataExists: fs.existsSync(DATA_DIR),
+        outputExists: fs.existsSync(OUTPUT_DIR),
+        imagesExists: fs.existsSync(IMAGES_DIR),
+        contentOfData: fs.existsSync(DATA_DIR) ? fs.readdirSync(DATA_DIR) : 'Data dir not found'
+    });
+});
+
 // Get list of JSON files
 app.get('/api/files', (req, res) => {
+    console.log(`Reading files from: ${OUTPUT_DIR}`);
     fs.readdir(OUTPUT_DIR, (err, files) => {
         if (err) {
             console.error('Error reading output directory:', err);
-            return res.status(500).json({ error: 'Failed to read directory' });
+            return res.status(500).json({
+                error: 'Failed to read directory',
+                details: err.message,
+                path: OUTPUT_DIR,
+                resolvedDataDir: DATA_DIR
+            });
         }
         const jsonFiles = files.filter(file => file.endsWith('.json'));
         res.json(jsonFiles);
