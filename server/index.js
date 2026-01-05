@@ -83,7 +83,11 @@ app.post('/api/vote', async (req, res) => {
         res.json({ success: true });
     } catch (err) {
         console.error('Error writing vote:', err);
-        res.status(500).json({ error: 'Failed to write vote' });
+        res.status(500).json({
+            error: 'Failed to write vote',
+            details: err.message,
+            stack: process.env.NODE_ENV === 'development' ? err.stack : undefined
+        });
     }
 });
 
