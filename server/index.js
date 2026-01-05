@@ -1,10 +1,6 @@
 const express = require('express');
 const cors = require('cors');
-const fs = require('fs');
 const path = require('path');
-const { createObjectCsvWriter } = require('csv-writer');
-const googleSheetService = require('./services/googleSheet');
-require('dotenv').config();
 
 const app = express();
 const PORT = 3001;
@@ -12,47 +8,37 @@ const PORT = 3001;
 app.use(cors());
 app.use(express.json());
 
-// Paths
-// Paths
-// Robust DATA_DIR resolution
-const PUBLIC_DATA_DIR = path.join(__dirname, '../client/public/data');
-const VOTES_FILE = path.join(PUBLIC_DATA_DIR, 'votes.csv');
+/**
+ * STATIC ASSETS
+ * Images are served directly from public/
+ * (JSON is fetched directly by frontend, not via API)
+ */
+app.use(
+    '/images',
+    express.static(path.join(__dirname, '../client/public/data/jpg'))
+);
 
-
-// Serve images
-app.use('/images', express.static(path.join(__dirname, '../client/public/data/jpg')));
-
-// Debug endpoint to check paths
+/**
+ * DEBUG (SAFE)
+ * Confirms public data is visible on Vercel
+ */
 app.get('/api/debug', (req, res) => {
+    const PUBLIC_DATA_DIR = path.join(__dirname, '../client/public/data');
     res.json({
         cwd: process.cwd(),
         dirname: __dirname,
         publicDataDir: PUBLIC_DATA_DIR,
-        exists: fs.existsSync(PUBLIC_DATA_DIR),
-        contents: fs.existsSync(PUBLIC_DATA_DIR)
-            ? fs.readdirSync(PUBLIC_DATA_DIR)
+        exists: require('fs').existsSync(PUBLIC_DATA_DIR),
+        contents: require('fs').existsSync(PUBLIC_DATA_DIR)
+            ? require('fs').readdirSync(PUBLIC_DATA_DIR)
             : 'Public data dir not found'
     });
 });
 
-
-// Get list of JSON files
-app.get('/api/files', (req, res) => {
-    res.sendFile(path.join(__dirname, '../client/public/data/pipeline_output/files.json'));
-});
-
-
-// Get content of a JSON file
-app.get('/api/file/:filename', (req, res) => {
-    const filename = req.params.filename;
-    if (filename.includes('..') || filename.includes('/')) {
-        return res.status(400).json({ error: 'Invalid filename' });
-    }
-    res.sendFile(path.join(__dirname, `../client/public/data/pipeline_output/${filename}`));
-});
-
-
-// Save vote
+/**
+ * SAVE VOTE
+ * This is the ONLY endpoint that needs a server
+ */
 app.post('/api/vote', async (req, res) => {
     const {
         user_name,
@@ -63,8 +49,17 @@ app.post('/api/vote', async (req, res) => {
         comments
     } = req.body;
 
-    if (!filename || !user_name) {
-        return res.status(400).json({ error: 'Missing filename or user_name' });
+    if (!user_name || !filename) {
+        return res.status(400).json({ error: 'Missing user_name or filename' });
+    }
+
+    let googleSheetService;
+    try {
+        // ✅ Lazy load (prevents Vercel crash)
+        googleSheetService = require('./services/googleSheet');
+    } catch (err) {
+        console.error('Google Sheets init failed:', err);
+        return res.status(500).json({ error: 'Server misconfigured' });
     }
 
     try {
@@ -78,85 +73,14 @@ app.post('/api/vote', async (req, res) => {
         });
         res.json({ success: true });
     } catch (err) {
-        console.error('Error writing to Google Sheet:', err);
-        res.status(500).json({ error: 'Failed to write to Google Sheet' });
+        console.error('Error writing vote:', err);
+        res.status(500).json({ error: 'Failed to write vote' });
     }
 });
 
-// Helper to parse CSV manually since we don't want to add deps
-function parseCSV(content) {
-    const lines = content.trim().split('\n');
-    if (lines.length < 2) return []; // Header only or empty
-
-    const headers = lines[0].split(',').map(h => h.trim());
-
-    // Simple parser that handles basic quotes
-    const parseLine = (line) => {
-        const values = [];
-        let current = '';
-        let inQuotes = false;
-
-        for (let i = 0; i < line.length; i++) {
-            const char = line[i];
-            if (char === '"') {
-                if (i + 1 < line.length && line[i + 1] === '"') {
-                    current += '"';
-                    i++;
-                } else {
-                    inQuotes = !inQuotes;
-                }
-            } else if (char === ',' && !inQuotes) {
-                values.push(current);
-                current = '';
-            } else {
-                current += char;
-            }
-        }
-        values.push(current);
-        return values;
-    };
-
-    return lines.slice(1).map(line => {
-        const values = parseLine(line);
-        return headers.reduce((obj, header, index) => {
-            // Clean matched quotes if wrapped
-            let val = values[index] || '';
-            // If csv-writer adds quotes, we might want to strip them if they are outer wrappers?
-            // csv-writer usually adds quotes if needed.
-            // Our parseLine handles splitting correctly.
-            // We might have explicit quotes in the value itself?
-            // Let's assume values are clean strings for now.
-            obj[header] = val;
-            return obj;
-        }, {});
-    });
-}
-
-// Get votes for a file
-// app.get('/api/votes/:filename', (req, res) => {
-//     const filename = req.params.filename;
-
-//     if (!fs.existsSync(VOTES_FILE)) {
-//         return res.json([]);
-//     }
-
-//     fs.readFile(VOTES_FILE, 'utf8', (err, data) => {
-//         if (err) {
-//             console.error('Error reading votes file:', err);
-//             return res.status(500).json({ error: 'Failed to read votes file' });
-//         }
-
-//         try {
-//             const allVotes = parseCSV(data);
-//             const fileVotes = allVotes.filter(v => v.filename === filename);
-//             res.json(fileVotes);
-//         } catch (parseErr) {
-//             console.error('Error parsing votes CSV:', parseErr);
-//             res.status(500).json({ error: 'Failed to parse votes CSV' });
-//         }
-//     });
-// });
-
+/**
+ * LOCAL DEV ONLY
+ */
 if (process.env.NODE_ENV !== 'production') {
     app.listen(PORT, () => {
         console.log(`Server running on http://localhost:${PORT}`);

@@ -6,8 +6,8 @@ const ImageViewer = ({ imagePath }) => {
     // Example path: "images/train2017/2017_10035653.jpg" -> "2017_10035653.jpg"
     const filename = imagePath ? imagePath.split('/').pop() : null;
 
-    // Construct URL for our backend
-    const imageUrl = filename ? `/images/${filename}` : null;
+    // Construct URL for our backend (now serving static assets from public/data)
+    const imageUrl = filename ? `/data/jpg/${filename}` : null;
 
     if (!imageUrl) {
         return <div className="image-viewer-placeholder">No Image Data</div>;

@@ -22,7 +22,8 @@ function App() {
 
   const fetchFiles = async () => {
     try {
-      const response = await axios.get(`${API_BASE}/files`);
+      // Fetch static file list
+      const response = await axios.get('/data/pipeline_output/files.json');
       // Sort files naturally if possible, or simple sort
       const sortedFiles = response.data.sort();
       setFiles(sortedFiles);
@@ -42,8 +43,8 @@ function App() {
 
     try {
       const [fileResponse, votesResponse] = await Promise.all([
-        axios.get(`${API_BASE}/file/${filename}`),
-        axios.get(`${API_BASE}/votes/${filename}`)
+        axios.get(`/data/pipeline_output/${filename}`), // Fetch static JSON
+        axios.get(`${API_BASE}/votes/${filename}`)      // Fetch dynamic votes
       ]);
 
       setCurrentData(fileResponse.data);
