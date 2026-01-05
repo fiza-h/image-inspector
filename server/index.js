@@ -15,75 +15,42 @@ app.use(express.json());
 // Paths
 // Paths
 // Robust DATA_DIR resolution
-let DATA_DIR = path.join(process.cwd(), 'data');
-if (!fs.existsSync(DATA_DIR)) {
-    DATA_DIR = path.resolve(__dirname, '../data');
-}
+const PUBLIC_DATA_DIR = path.join(__dirname, '../client/public/data');
+const VOTES_FILE = path.join(PUBLIC_DATA_DIR, 'votes.csv');
 
-const OUTPUT_DIR = path.join(DATA_DIR, 'pipeline_output');
-const IMAGES_DIR = path.join(DATA_DIR, 'jpg');
-const VOTES_FILE = path.join(DATA_DIR, 'votes.csv');
 
 // Serve images
-app.use('/images', express.static(IMAGES_DIR));
+app.use('/images', express.static(path.join(__dirname, '../client/public/data/jpg')));
 
 // Debug endpoint to check paths
 app.get('/api/debug', (req, res) => {
     res.json({
         cwd: process.cwd(),
         dirname: __dirname,
-        DATA_DIR,
-        OUTPUT_DIR,
-        IMAGES_DIR,
-        dataExists: fs.existsSync(DATA_DIR),
-        outputExists: fs.existsSync(OUTPUT_DIR),
-        imagesExists: fs.existsSync(IMAGES_DIR),
-        contentOfData: fs.existsSync(DATA_DIR) ? fs.readdirSync(DATA_DIR) : 'Data dir not found'
+        publicDataDir: PUBLIC_DATA_DIR,
+        exists: fs.existsSync(PUBLIC_DATA_DIR),
+        contents: fs.existsSync(PUBLIC_DATA_DIR)
+            ? fs.readdirSync(PUBLIC_DATA_DIR)
+            : 'Public data dir not found'
     });
 });
 
+
 // Get list of JSON files
 app.get('/api/files', (req, res) => {
-    console.log(`Reading files from: ${OUTPUT_DIR}`);
-    fs.readdir(OUTPUT_DIR, (err, files) => {
-        if (err) {
-            console.error('Error reading output directory:', err);
-            return res.status(500).json({
-                error: 'Failed to read directory',
-                details: err.message,
-                path: OUTPUT_DIR,
-                resolvedDataDir: DATA_DIR
-            });
-        }
-        const jsonFiles = files.filter(file => file.endsWith('.json'));
-        res.json(jsonFiles);
-    });
+    res.sendFile(path.join(__dirname, '../client/public/data/pipeline_output/files.json'));
 });
+
 
 // Get content of a JSON file
 app.get('/api/file/:filename', (req, res) => {
     const filename = req.params.filename;
-    // Basic security check
     if (filename.includes('..') || filename.includes('/')) {
         return res.status(400).json({ error: 'Invalid filename' });
     }
-
-    const filePath = path.join(OUTPUT_DIR, filename);
-
-    fs.readFile(filePath, 'utf8', (err, data) => {
-        if (err) {
-            console.error(`Error reading file ${filename}:`, err);
-            return res.status(500).json({ error: 'Failed to read file' });
-        }
-        try {
-            const jsonData = JSON.parse(data);
-            res.json(jsonData);
-        } catch (parseErr) {
-            console.error(`Error parsing JSON for ${filename}:`, parseErr);
-            res.status(500).json({ error: 'Failed to parse JSON' });
-        }
-    });
+    res.sendFile(path.join(__dirname, `../client/public/data/pipeline_output/${filename}`));
 });
+
 
 // Save vote
 app.post('/api/vote', async (req, res) => {
@@ -166,29 +133,29 @@ function parseCSV(content) {
 }
 
 // Get votes for a file
-app.get('/api/votes/:filename', (req, res) => {
-    const filename = req.params.filename;
+// app.get('/api/votes/:filename', (req, res) => {
+//     const filename = req.params.filename;
 
-    if (!fs.existsSync(VOTES_FILE)) {
-        return res.json([]);
-    }
+//     if (!fs.existsSync(VOTES_FILE)) {
+//         return res.json([]);
+//     }
 
-    fs.readFile(VOTES_FILE, 'utf8', (err, data) => {
-        if (err) {
-            console.error('Error reading votes file:', err);
-            return res.status(500).json({ error: 'Failed to read votes file' });
-        }
+//     fs.readFile(VOTES_FILE, 'utf8', (err, data) => {
+//         if (err) {
+//             console.error('Error reading votes file:', err);
+//             return res.status(500).json({ error: 'Failed to read votes file' });
+//         }
 
-        try {
-            const allVotes = parseCSV(data);
-            const fileVotes = allVotes.filter(v => v.filename === filename);
-            res.json(fileVotes);
-        } catch (parseErr) {
-            console.error('Error parsing votes CSV:', parseErr);
-            res.status(500).json({ error: 'Failed to parse votes CSV' });
-        }
-    });
-});
+//         try {
+//             const allVotes = parseCSV(data);
+//             const fileVotes = allVotes.filter(v => v.filename === filename);
+//             res.json(fileVotes);
+//         } catch (parseErr) {
+//             console.error('Error parsing votes CSV:', parseErr);
+//             res.status(500).json({ error: 'Failed to parse votes CSV' });
+//         }
+//     });
+// });
 
 if (process.env.NODE_ENV !== 'production') {
     app.listen(PORT, () => {
