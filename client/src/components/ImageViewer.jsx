@@ -7,7 +7,7 @@ const ImageViewer = ({ imagePath }) => {
     const filename = imagePath ? imagePath.split('/').pop() : null;
 
     // Construct URL for our backend
-    const imageUrl = filename ? `http://localhost:3001/images/${filename}` : null;
+    const imageUrl = filename ? `/images/${filename}` : null;
 
     if (!imageUrl) {
         return <div className="image-viewer-placeholder">No Image Data</div>;

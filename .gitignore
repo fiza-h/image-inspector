@@ -1,4 +1,7 @@
-server/credentials.json
-node_modules/
+node_modules
 .env
 credentials.json
+votes.csv
+.DS_Store
+dist
+.vercel

@@ -5,7 +5,7 @@ import MetadataViewer from './components/MetadataViewer';
 import Controls from './components/Controls';
 import './App.css';
 
-const API_BASE = 'http://localhost:3001/api';
+const API_BASE = '/api';
 
 function App() {
   const [files, setFiles] = useState([]);
