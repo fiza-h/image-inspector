@@ -14,7 +14,7 @@ app.use(express.json());
 
 // Paths
 // Paths
-const DATA_DIR = path.resolve(__dirname, '../data');
+const DATA_DIR = path.join(process.cwd(), 'data');
 const OUTPUT_DIR = path.join(DATA_DIR, 'pipeline_output');
 const IMAGES_DIR = path.join(DATA_DIR, 'jpg');
 const VOTES_FILE = path.join(DATA_DIR, 'votes.csv');
