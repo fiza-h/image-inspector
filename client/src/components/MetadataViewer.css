@@ -1,0 +1,134 @@
+/* Existing styles... */
+.metadata-viewer {
+  padding: 20px;
+  overflow-y: auto;
+  height: 100%;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  color: #333;
+}
+
+.meta-section {
+  margin-bottom: 24px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 16px;
+}
+
+.meta-section:last-child {
+  border-bottom: none;
+}
+
+.meta-section h3 {
+  margin-top: 0;
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.model-name {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 12px;
+}
+
+.generated-captions-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+}
+
+.caption-box {
+  background-color: #f9fafb;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  padding: 12px;
+}
+
+.caption-box h4 {
+  margin: 0 0 8px 0;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  color: #9ca3af;
+}
+
+.caption-box p {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  white-space: pre-wrap;
+  /* Preserves newlines */
+}
+
+.caption-box.explicit {
+  border-left: 4px solid #ef4444;
+}
+
+.caption-box.moderate {
+  border-left: 4px solid #f59e0b;
+}
+
+.caption-box.no-leak {
+  border-left: 4px solid #10b981;
+}
+
+.privacy-section {
+  background-color: #f9fafb;
+  padding: 12px;
+  border-radius: 8px;
+}
+
+.privacy-block {
+  margin-bottom: 16px;
+}
+
+.privacy-block h4 {
+  margin: 0 0 8px 0;
+  font-size: 0.95rem;
+  color: #666;
+}
+
+.pii-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+  font-size: 0.9rem;
+}
+
+.tier-badge {
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.tier-badge.high {
+  background-color: #fee2e2;
+  color: #dc2626;
+}
+
+.tier-badge.medium {
+  background-color: #fef3c7;
+  color: #d97706;
+}
+
+.tier-badge.low {
+  background-color: #d1fae5;
+  color: #059669;
+}
+
+.selection-details {
+  background-color: #eff6ff;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #bfdbfe;
+}
+
+.selection-info p {
+  margin: 8px 0;
+  line-height: 1.5;
+  font-size: 0.95rem;
+}

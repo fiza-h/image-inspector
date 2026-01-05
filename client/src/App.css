@@ -1,0 +1,98 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  background-color: #f3f4f6;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+.app-header {
+  background-color: #fff;
+  border-bottom: 1px solid #e5e7eb;
+  padding: 12px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.app-header h1 {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #111827;
+}
+
+.file-info {
+  font-size: 0.9rem;
+  color: #6b7280;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.current-filename {
+  background-color: #f3f4f6;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-family: monospace;
+  color: #374151;
+}
+
+.main-content {
+  flex: 1;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.error-banner {
+  background-color: #fee2e2;
+  color: #b91c1c;
+  padding: 8px 16px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.content-grid {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+}
+
+.image-column {
+  flex: 1;
+  padding: 24px;
+  background-color: #e5e7eb;
+  /* Slightly darker than container for contrast */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid #d1d5db;
+}
+
+.info-column {
+  flex: 1;
+  background-color: #fff;
+  overflow-y: auto;
+  max-width: 600px;
+  /* Optional constraint */
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  color: #6b7280;
+  font-size: 1.1rem;
+}
+
+.app-footer {
+  background-color: #fff;
+  border-top: 1px solid #e5e7eb;
+  /* Controls component handles its own padding, but header/footer consistency matters */
+}
