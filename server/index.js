@@ -36,6 +36,15 @@ app.get('/api/debug', (req, res) => {
 });
 
 /**
+ * GET VOTES
+ * Returns empty array if using Google Sheets (as we don't read back yet)
+ * or facilitates migration.
+ */
+app.get('/api/votes/:filename', (req, res) => {
+    res.json([]);
+});
+
+/**
  * SAVE VOTE
  * This is the ONLY endpoint that needs a server
  */

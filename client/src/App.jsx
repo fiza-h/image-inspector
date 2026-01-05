@@ -42,13 +42,17 @@ function App() {
     setExistingVotes([]);
 
     try {
-      const [fileResponse, votesResponse] = await Promise.all([
-        axios.get(`/data/pipeline_output/${filename}`), // Fetch static JSON
-        axios.get(`${API_BASE}/votes/${filename}`)      // Fetch dynamic votes
-      ]);
-
+      const fileResponse = await axios.get(`/data/pipeline_output/${filename}`);
       setCurrentData(fileResponse.data);
-      setExistingVotes(votesResponse.data);
+
+      // Best effort to fetch votes
+      try {
+        const votesResponse = await axios.get(`${API_BASE}/votes/${filename}`);
+        setExistingVotes(votesResponse.data);
+      } catch (voteErr) {
+        console.warn('Failed to fetch votes, assuming empty:', voteErr);
+        setExistingVotes([]);
+      }
     } catch (err) {
       setError(`Failed to load data for ${filename}`);
       console.error(err);
