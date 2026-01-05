@@ -3,5 +3,6 @@ node_modules
 credentials.json
 votes.csv
 .DS_Store
-dist
-.vercel
+# data/ (Uncommented for Vercel deployment)
+!data/pipeline_output/
+!data/jpg/
