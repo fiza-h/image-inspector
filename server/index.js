@@ -68,7 +68,15 @@ app.post('/api/vote', async (req, res) => {
         googleSheetService = require('./services/googleSheet');
     } catch (err) {
         console.error('Google Sheets init failed:', err);
-        return res.status(500).json({ error: 'Server misconfigured' });
+        return res.status(500).json({
+            error: 'Server misconfigured',
+            details: err.message,
+            stack: process.env.NODE_ENV === 'development' ? err.stack : undefined,
+            envVars: {
+                hasGoogleCreds: !!process.env.GOOGLE_CREDENTIALS,
+                sheetId: process.env.SHEET_ID
+            }
+        });
     }
 
     try {
