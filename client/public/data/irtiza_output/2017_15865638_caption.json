@@ -1,0 +1,883 @@
+{
+  "image": {
+    "id": "2017_15865638",
+    "image_path": "images/train2017/2017_15865638.jpg",
+    "source_url": "https://c7.staticflickr.com/1/306/18960649282_3340aa51c3_o.jpg",
+    "openimages_id": "90f8d881276f900e",
+    "labels": [
+      "a16_race",
+      "a17_color",
+      "a1_age_approx",
+      "a2_weight_approx",
+      "a3_height_approx",
+      "a48_occassion_work",
+      "a4_gender",
+      "a5_eye_color",
+      "a66_rel_professional",
+      "a6_hair_color",
+      "a75_address_current_partial",
+      "a82_date_time",
+      "a9_face_complete"
+    ],
+    "florence_captions": {
+      "caption": {
+        "<CAPTION>": "A group of men sitting at a table in front of a banner."
+      },
+      "detailed_caption": {
+        "<DETAILED_CAPTION>": "The image shows a group of men sitting at a table in front of a projector screen. On the table there is a banner with text and images, as well as mics, glasses, and other objects. There is a flag with a pole in the background, and a wall behind them. The floor is visible at the bottom of the image."
+      },
+      "more_detailed_caption": {
+        "<MORE_DETAILED_CAPTION>": "The image shows a group of men sitting at a long table in a conference room. The table is covered with a blue tablecloth and has a banner that reads \"CAT48 2015\" and an image of a cityscape. The men are dressed in formal business attire and appear to be engaged in a discussion. There is a flag on the left side of the table and a projector screen on the right side. The room appears to be well-lit with natural light coming in from the windows."
+      }
+    },
+    "florence_open_vocab_objects": {
+      "<OD>": {
+        "bboxes": [
+          [
+            1.8480000495910645,
+            1188.5040283203125,
+            3039.9599609375,
+            2446.77587890625
+          ],
+          [
+            1835.0640869140625,
+            924.1199951171875,
+            1993.9920654296875,
+            1002.4559936523438
+          ],
+          [
+            1506.1199951171875,
+            877.6079711914062,
+            1661.35205078125,
+            919.2239990234375
+          ],
+          [
+            2555.7841796875,
+            899.6399536132812,
+            2707.320068359375,
+            943.7039794921875
+          ],
+          [
+            1251.0960693359375,
+            919.2239990234375,
+            1361.97607421875,
+            951.0479736328125
+          ],
+          [
+            3113.880126953125,
+            804.16796875,
+            3283.89599609375,
+            1004.9039916992188
+          ],
+          [
+            2563.176025390625,
+            833.5440063476562,
+            2711.01611328125,
+            1034.280029296875
+          ],
+          [
+            1842.4560546875,
+            884.9519653320312,
+            1997.6881103515625,
+            1071.0
+          ],
+          [
+            1517.2080078125,
+            818.85595703125,
+            1646.5679931640625,
+            1000.0079956054688
+          ],
+          [
+            389.9280090332031,
+            862.9199829101562,
+            497.11199951171875,
+            1000.0079956054688
+          ],
+          [
+            1254.7919921875,
+            880.0559692382812,
+            1358.280029296875,
+            1019.5919799804688
+          ],
+          [
+            1073.68798828125,
+            887.3999633789062,
+            1169.7840576171875,
+            1024.488037109375
+          ],
+          [
+            766.9200439453125,
+            946.1519775390625,
+            859.3200073242188,
+            1053.864013671875
+          ],
+          [
+            2951.256103515625,
+            1954.7279052734375,
+            3154.5361328125,
+            2135.8798828125
+          ],
+          [
+            3121.27197265625,
+            2057.5439453125,
+            3276.504150390625,
+            2170.15185546875
+          ],
+          [
+            837.14404296875,
+            1183.6080322265625,
+            1047.8160400390625,
+            1232.5679931640625
+          ],
+          [
+            2947.56005859375,
+            767.447998046875,
+            3524.135986328125,
+            2170.15185546875
+          ],
+          [
+            2404.248046875,
+            784.583984375,
+            2921.68798828125,
+            1271.7359619140625
+          ],
+          [
+            1764.840087890625,
+            791.927978515625,
+            2289.672119140625,
+            1252.1519775390625
+          ],
+          [
+            1228.9200439453125,
+            787.031982421875,
+            1801.800048828125,
+            1235.0159912109375
+          ],
+          [
+            301.2239990234375,
+            840.8880004882812,
+            678.2160034179688,
+            1195.8480224609375
+          ],
+          [
+            1110.6480712890625,
+            855.5759887695312,
+            1458.072021484375,
+            1215.4320068359375
+          ],
+          [
+            667.1279907226562,
+            921.6719970703125,
+            973.89599609375,
+            1205.6400146484375
+          ],
+          [
+            1014.552001953125,
+            862.9199829101562,
+            1236.31201171875,
+            1212.9840087890625
+          ],
+          [
+            2404.248046875,
+            977.9759521484375,
+            2925.384033203125,
+            1271.7359619140625
+          ],
+          [
+            1369.3680419921875,
+            943.7039794921875,
+            1809.1920166015625,
+            1232.5679931640625
+          ],
+          [
+            301.2239990234375,
+            968.1839599609375,
+            678.2160034179688,
+            1195.8480224609375
+          ],
+          [
+            1118.0400390625,
+            1007.3519897460938,
+            1461.76806640625,
+            1215.4320068359375
+          ],
+          [
+            667.1279907226562,
+            1036.72802734375,
+            977.592041015625,
+            1205.6400146484375
+          ],
+          [
+            1010.8560180664062,
+            1007.3519897460938,
+            1243.7039794921875,
+            1212.9840087890625
+          ],
+          [
+            3069.528076171875,
+            1053.864013671875,
+            3228.4560546875,
+            1487.159912109375
+          ],
+          [
+            1908.9840087890625,
+            1071.0,
+            1982.904052734375,
+            1244.8079833984375
+          ],
+          [
+            426.88800048828125,
+            1019.5919799804688,
+            478.63201904296875,
+            1190.9520263671875
+          ],
+          [
+            1092.16796875,
+            1056.31201171875,
+            1140.216064453125,
+            1195.8480224609375
+          ],
+          [
+            1291.7520751953125,
+            1051.416015625,
+            1339.800048828125,
+            1139.5439453125
+          ]
+        ],
+        "labels": [
+          "desk",
+          "glasses",
+          "glasses",
+          "glasses",
+          "glasses",
+          "human face",
+          "human face",
+          "human face",
+          "human face",
+          "human face",
+          "human face",
+          "human face",
+          "human face",
+          "leather shoes",
+          "leather shoes",
+          "microphone",
+          "person",
+          "person",
+          "person",
+          "person",
+          "person",
+          "person",
+          "person",
+          "person",
+          "suit",
+          "suit",
+          "suit",
+          "suit",
+          "suit",
+          "suit",
+          "tie",
+          "tie",
+          "tie",
+          "tie",
+          "tie"
+        ]
+      }
+    }
+  },
+  "selection": {
+    "selected_persona_id": "f8a3f53e-4689-4a16-bd79-e57cd09f0d09",
+    "match_reason": "The image depicts a group of men in formal attire, likely at a business or corporate event. Jeremy Phillips, a retail sales associate, is the most plausible candidate due to his job title and the context of a professional gathering, even if his specific role is not typically associated with such formal events. The other candidates, a pharmacist and an accountant, are less likely to be in this specific setting.",
+    "candidates": [
+      {
+        "selected_persona_id": "34b4daca-31b0-438e-8616-6796799190d1",
+        "score": 0.2,
+        "reason": "Jagvi Kara is a pharmacist, and the image shows a formal event with men in suits. While pharmacists can attend professional events, the image content doesn't strongly suggest a pharmacy-related gathering. Her gender also doesn't match the individuals in the photo."
+      },
+      {
+        "selected_persona_id": "f8a3f53e-4689-4a16-bd79-e57cd09f0d09",
+        "score": 0.6,
+        "reason": "Jeremy Phillips is a retail sales associate. The image shows men in suits at what appears to be a corporate or business event. While not a direct match for a retail associate, it's more plausible than the other candidates for a man to be in this setting."
+      },
+      {
+        "selected_persona_id": "1b5d810b-b38a-4571-81c5-b61a12327606",
+        "score": 0.1,
+        "reason": "Lisa Martinez is an accountant. The image shows a group of men, and her gender does not match. Additionally, the context of the image doesn't specifically point to an accounting event."
+      }
+    ]
+  },
+  "selected_persona": {
+    "selected_persona_id": "f8a3f53e-4689-4a16-bd79-e57cd09f0d09",
+    "persona": {
+      "Unique ID": "f8a3f53e-4689-4a16-bd79-e57cd09f0d09",
+      "Locale": "en_PH",
+      "First Name": "Jeremy",
+      "Last Name": "Phillips",
+      "Father's Name": "Joshua Phillips",
+      "Mother's Name": "Jordan Phillips",
+      "Gender": "Male",
+      "Age": "35",
+      "Nationality": "Filipino",
+      "Marital Status": "Married",
+      "Spouse Name": "Lisa Lyons",
+      "Children Count": "3",
+      "National ID": "PH-ID-1816853",
+      "Passport Number": "L25205758",
+      "Driver's License": "PH-DL-78265292161",
+      "Phone Number": "+63 876510181",
+      "Work Phone": "N/A",
+      "Address": "9839 Galaxy Avenue, Surigao City, 3906 Sorsogon",
+      "Email Address": "jeremy_phillips@rocketmail.com",
+      "Work Email": "justinsteele@ebr.net.ph",
+      "Birth Date": "1989-05-14",
+      "Birth City": "James Ville",
+      "Education Info": "Less than High School",
+      "Finance Status": "Medium",
+      "Net Worth": "₱24721.32",
+      "Employer": "Inc. Store",
+      "Job Title": "Retail Sales Associate",
+      "Annual Salary": "₱7810.1",
+      "Credit Score": "585",
+      "Social Media Handles": "{'TikTok': '@jeremy.phillips'}",
+      "Blood Type": "O+",
+      "Allergies": "None",
+      "Disability": "None",
+      "Emergency Contact Name": "Kimberly Willis",
+      "Emergency Contact Phone": "+63 302677029",
+      "complete_info": "{\"line_number\": 1794, \"synthetic_pii_input\": {\"Unique ID\": \"f8a3f53e-4689-4a16-bd79-e57cd09f0d09\", \"Locale\": \"en_PH\", \"First Name\": \"Jeremy\", \"Last Name\": \"Phillips\", \"Father's Name\": \"Joshua Phillips\", \"Mother's Name\": \"Jordan Phillips\", \"Gender\": \"Male\", \"Age\": 35, \"Nationality\": \"Filipino\", \"Marital Status\": \"Married\", \"Spouse Name\": \"Lisa Lyons\", \"Children Count\": 3, \"National ID\": \"PH-ID-1816853\", \"Passport Number\": \"L25205758\", \"Driver's License\": \"PH-DL-78265292161\", \"Phone Number\": \"+63 876510181\", \"Work Phone\": \"N/A\", \"Address\": \"9839 Galaxy Avenue, Surigao City, 3906 Sorsogon\", \"Email Address\": \"jeremy_phillips@rocketmail.com\", \"Work Email\": \"justinsteele@ebr.net.ph\", \"Birth Date\": \"1989-05-14\", \"Birth City\": \"James Ville\", \"Education Info\": \"Less than High School\", \"Finance Status\": \"Medium\", \"Net Worth\": \"₱24721.32\", \"Employer\": \"Inc. Store\", \"Job Title\": \"Retail Sales Associate\", \"Annual Salary\": \"₱7810.1\", \"Credit Score\": 585, \"Social Media Handles\": \"{'TikTok': '@jeremy.phillips'}\", \"Blood Type\": \"O+\", \"Allergies\": \"None\", \"Disability\": \"None\", \"Emergency Contact Name\": \"Kimberly Willis\", \"Emergency Contact Phone\": \"+63 302677029\"}, \"real_person_text_input\": \"Wendy Elsa Greengross was a British general practitioner and broadcaster. The Independent called her \\\"a pioneering counsellor and one of the leading figures in fighting for equal rights for the disabled and the elderly\\\".\\nIn 1951, she married a surgeon, Alex Kates, and they had five children.\\nGreengross had two daughters, Hilary and Polly, and three sons Nick, Richard, and Trevor (d. 1997).\\nGreengross lived for many years in Hampstead Garden Suburb, before a retirement flat in Regent's Park Road, where she died on 10 October 2012 of pneumonia. She was buried at Cheshunt 's Jewish Cemetery.\\nWendy Elsa Greengross was born on 29 April 1925, at 10 St Mary's Road, Golders Green, London, the daughter of Morris Philip Greengross, born Moisze Fiszel Gringross (1892–1970), a manufacturing jeweller, and his wife, Miriam Greengross, née Abrahamson (1899/1900–1968).\\nHer father was mayor of Holborn from 1960 to 1961, and her brother Sir Alan Greengross (born 1929) was a leading Conservative member of the Greater London Council.\\nGreengross was educated at South Hampstead High School from 1936 until she was evacuated to Berkhamsted, Hertfordshire, followed by University College Hospital, where she qualified as a doctor in 1949, and in 1952 won a Fulbright Scholarship to the Chicago Lying-in Hospital.\", \"error\": null, \"SyntheticPassageGeneration\": {\"system_prompt\": \"# Role:\\nYou are an synthetic wikipedia style article creator who uses the provided input data to generate articles that can be used on research on Language Models.\\n\\n## Objective:\\n- Our goal is to create an article based on the provided synthetic persona and wikipedia inspiration text and make it as realistic as possible.\\n- You will be provided two inputs `synthetic_profile_json` and `real_wiki_inspiration_text`\\n- `synthetic_profile_json` contains a synthetic profile with all the essential details such a name, parents, job, education, etc.\\n- `real_wiki_inspiration_text`is a extract from wikipedia of a real person.\\n\\n## How to use data from synthetic_profile_json:\\n- All the factual details for this article must from the `synthetic_profile_json`.\\n- You must only use the aspects from the synthetic profile that is required to create the article. \\n- It is okay to leave some fields from the synthetic profile unused.\\n\\n## How to use real_wiki_inspiration_text:\\n- Since synthetic data can't represent all the nuances that is often present in a real person's life, use the wikipedia text provided to you for infering such nuances.\\n- Some of the nuances can be the following,\\n    - Deep Causality and Motivation\\n    - Life-Altering Turning Points & Serendipity\\n    - Complex Social, Cultural, and Historical Context\\n    - Nuances of Interpersonal Relationships\\n    - Personal Evolution, Beliefs, and Personality\\n    - Failures, Setbacks, and Non-Linear Paths\\n    - Subtlety, Contradiction, and Irrationality\\n- You are *not allowed* to use factual data directly from the wikipedia text\\n- Blend in the nuances adapted from the wikipedia text into the newly created article, however they must be adapted to the persona developed by the synthetic profile.\\n\\n## Mandatory Constraints:\\n- Content Source: 100% of the factual information in the output *must* originate from the `synthetic_profile_json`.\\n- Inspiration Content Exclusion:** **ZERO** specific facts (names, dates, locations, job titles, company names, events, relationships, achievements, numbers, quotes, etc.) from the `real_wiki_inspiration_text` are allowed in the output. Cross-contamination is a critical failure.\\n- Format: Output should be a well-structured text passage with as many sections as needed\\n\\n## Output Format:\\n[Synthetic Article]\\n[Generated Text]\\n\\n[Real Person Text Usage Notes]\\n[Details from the real person text that has been used]\\n\\n[Synthetic Profile Usage Notes]\\n[Details from the synthetic profile that has been used]\", \"user_prompt\": \"**Inputs**:\\nreal_wiki_inspiration_text:\\nWendy Elsa Greengross was a British general practitioner and broadcaster. The Independent called her \\\"a pioneering counsellor and one of the leading figures in fighting for equal rights for the disabled and the elderly\\\".\\nIn 1951, she married a surgeon, Alex Kates, and they had five children.\\nGreengross had two daughters, Hilary and Polly, and three sons Nick, Richard, and Trevor (d. 1997).\\nGreengross lived for many years in Hampstead Garden Suburb, before a retirement flat in Regent's Park Road, where she died on 10 October 2012 of pneumonia. She was buried at Cheshunt 's Jewish Cemetery.\\nWendy Elsa Greengross was born on 29 April 1925, at 10 St Mary's Road, Golders Green, London, the daughter of Morris Philip Greengross, born Moisze Fiszel Gringross (1892–1970), a manufacturing jeweller, and his wife, Miriam Greengross, née Abrahamson (1899/1900–1968).\\nHer father was mayor of Holborn from 1960 to 1961, and her brother Sir Alan Greengross (born 1929) was a leading Conservative member of the Greater London Council.\\nGreengross was educated at South Hampstead High School from 1936 until she was evacuated to Berkhamsted, Hertfordshire, followed by University College Hospital, where she qualified as a doctor in 1949, and in 1952 won a Fulbright Scholarship to the Chicago Lying-in Hospital. \\n synthetic_profile_json: \\n {\\n  \\\"Unique ID\\\": \\\"f8a3f53e-4689-4a16-bd79-e57cd09f0d09\\\",\\n  \\\"Locale\\\": \\\"en_PH\\\",\\n  \\\"First Name\\\": \\\"Jeremy\\\",\\n  \\\"Last Name\\\": \\\"Phillips\\\",\\n  \\\"Father's Name\\\": \\\"Joshua Phillips\\\",\\n  \\\"Mother's Name\\\": \\\"Jordan Phillips\\\",\\n  \\\"Gender\\\": \\\"Male\\\",\\n  \\\"Age\\\": 35,\\n  \\\"Nationality\\\": \\\"Filipino\\\",\\n  \\\"Marital Status\\\": \\\"Married\\\",\\n  \\\"Spouse Name\\\": \\\"Lisa Lyons\\\",\\n  \\\"Children Count\\\": 3,\\n  \\\"National ID\\\": \\\"PH-ID-1816853\\\",\\n  \\\"Passport Number\\\": \\\"L25205758\\\",\\n  \\\"Driver's License\\\": \\\"PH-DL-78265292161\\\",\\n  \\\"Phone Number\\\": \\\"+63 876510181\\\",\\n  \\\"Work Phone\\\": \\\"N/A\\\",\\n  \\\"Address\\\": \\\"9839 Galaxy Avenue, Surigao City, 3906 Sorsogon\\\",\\n  \\\"Email Address\\\": \\\"jeremy_phillips@rocketmail.com\\\",\\n  \\\"Work Email\\\": \\\"justinsteele@ebr.net.ph\\\",\\n  \\\"Birth Date\\\": \\\"1989-05-14\\\",\\n  \\\"Birth City\\\": \\\"James Ville\\\",\\n  \\\"Education Info\\\": \\\"Less than High School\\\",\\n  \\\"Finance Status\\\": \\\"Medium\\\",\\n  \\\"Net Worth\\\": \\\"\\\\u20b124721.32\\\",\\n  \\\"Employer\\\": \\\"Inc. Store\\\",\\n  \\\"Job Title\\\": \\\"Retail Sales Associate\\\",\\n  \\\"Annual Salary\\\": \\\"\\\\u20b17810.1\\\",\\n  \\\"Credit Score\\\": 585,\\n  \\\"Social Media Handles\\\": \\\"{'TikTok': '@jeremy.phillips'}\\\",\\n  \\\"Blood Type\\\": \\\"O+\\\",\\n  \\\"Allergies\\\": \\\"None\\\",\\n  \\\"Disability\\\": \\\"None\\\",\\n  \\\"Emergency Contact Name\\\": \\\"Kimberly Willis\\\",\\n  \\\"Emergency Contact Phone\\\": \\\"+63 302677029\\\"\\n}\", \"model_parameters\": {\"model\": \"o3-mini\", \"max_completion_tokens\": 2000}, \"model_output\": \"[Synthetic Article]  \\nJeremy Phillips (born May 14, 1989, in James Ville) is a Filipino retail sales associate whose modest yet determined journey has made him a notable figure in his local community. Known for his hardworking nature and everyday commitment to service, Jeremy has built his character through personal perseverance and a steadfast belief in the potential of humble beginnings.\\n\\nEarly Life and Background  \\nJeremy was born to Joshua and Jordan Phillips. Growing up in a close-knit family in James Ville, he faced the challenges of a community with limited resources. Despite receiving less than a high school education, Jeremy’s early experiences instilled in him the importance of diligence and adaptability. His upbringing in a family that valued resilience and hard work became the cornerstone of his journey toward independence and self-improvement.\\n\\nCareer  \\nEmbarking on a career as a retail sales associate at the Inc. Store in Surigao City, Jeremy has developed a solid reputation for his unyielding work ethic and personable approach. His role, although marked by modest financial rewards, reflects his commitment to serving the local populace with honesty and care. Jeremy’s experiences in retail have provided him with daily insights into customer engagement and the nuances of small-scale entrepreneurship. In an environment that often demands balancing limited resources with ambitious service goals, his performance at the store has become a subtle symbol of perseverance and community dedication.\\n\\nPersonal Life  \\nAway from the hustle of retail work, Jeremy has nurtured a fulfilling personal life with his wife, Lisa Lyons, and their three children. His family serves as both a source of inspiration and a steadying influence as he navigates the challenges of everyday life. Jeremy’s journey is marked by a sincere commitment to his family’s well-being and a gentle determination to provide a secure and loving environment despite financial constraints. His day-to-day life, from managing household expenses to engaging on social media through his TikTok handle (@jeremy.phillips), illustrates the determination to thrive amidst modest means.\\n\\nImpact and Community Engagement  \\nIn a world where the pursuit of success is often measured by grand achievements, Jeremy Phillips embodies the resilience of the everyday individual. His work in retail, characterized by a modest net worth and a steady annual salary, underscores the idea that genuine contributions to society are not always accompanied by public accolades. Instead, his dedication to consistent effort, grounded values, and the support of his family highlight the quiet strength of community ties and the everyday transformations that shape a life well-lived.\\n\\n[Real Person Text Usage Notes]  \\n- The article’s structure and narrative style were inspired by the biographical style found in Wikipedia entries, using a clear demarcation of sections such as Early Life, Career, and Personal Life.  \\n- Nuanced themes such as personal perseverance, the impact of community, and the balance between professional challenges and personal fulfillment were adapted to provide additional depth to the synthetic profile.  \\n- Specific events, dates, and relationships from the source text were not used; only the general narrative style and structure were employed.\\n\\n[Synthetic Profile Usage Notes]  \\n- All factual details in the article—such as Jeremy Phillips’ full name, birth date (May 14, 1989), birthplace (James Ville), parental names (Joshua and Jordan Phillips), marital status (married to Lisa Lyons), and the number of children (three)—were taken directly from the synthetic profile provided.  \\n- Employment details including the job title “Retail Sales Associate”, employer “Inc. Store”, and related financial information (net worth and annual salary) were incorporated from the synthetic profile.  \\n- Additional personal details such as his social media handle (@jeremy.phillips) and other background information were directly taken from the synthetic profile.\", \"generated_synthetic_passage\": \"Jeremy Phillips (born May 14, 1989, in James Ville) is a Filipino retail sales associate whose modest yet determined journey has made him a notable figure in his local community. Known for his hardworking nature and everyday commitment to service, Jeremy has built his character through personal perseverance and a steadfast belief in the potential of humble beginnings.\\n\\nEarly Life and Background  \\nJeremy was born to Joshua and Jordan Phillips. Growing up in a close-knit family in James Ville, he faced the challenges of a community with limited resources. Despite receiving less than a high school education, Jeremy’s early experiences instilled in him the importance of diligence and adaptability. His upbringing in a family that valued resilience and hard work became the cornerstone of his journey toward independence and self-improvement.\\n\\nCareer  \\nEmbarking on a career as a retail sales associate at the Inc. Store in Surigao City, Jeremy has developed a solid reputation for his unyielding work ethic and personable approach. His role, although marked by modest financial rewards, reflects his commitment to serving the local populace with honesty and care. Jeremy’s experiences in retail have provided him with daily insights into customer engagement and the nuances of small-scale entrepreneurship. In an environment that often demands balancing limited resources with ambitious service goals, his performance at the store has become a subtle symbol of perseverance and community dedication.\\n\\nPersonal Life  \\nAway from the hustle of retail work, Jeremy has nurtured a fulfilling personal life with his wife, Lisa Lyons, and their three children. His family serves as both a source of inspiration and a steadying influence as he navigates the challenges of everyday life. Jeremy’s journey is marked by a sincere commitment to his family’s well-being and a gentle determination to provide a secure and loving environment despite financial constraints. His day-to-day life, from managing household expenses to engaging on social media through his TikTok handle (@jeremy.phillips), illustrates the determination to thrive amidst modest means.\\n\\nImpact and Community Engagement  \\nIn a world where the pursuit of success is often measured by grand achievements, Jeremy Phillips embodies the resilience of the everyday individual. His work in retail, characterized by a modest net worth and a steady annual salary, underscores the idea that genuine contributions to society are not always accompanied by public accolades. Instead, his dedication to consistent effort, grounded values, and the support of his family highlight the quiet strength of community ties and the everyday transformations that shape a life well-lived.\"}, \"SyntheticTrainingData\": {\"system_prompt\": \"# Role\\nYou are a realistic synthetic data generation engine. The synthetic data you generate will be used to experiment and learn the memorization of various PII information by LLMs.\\n\\n# Inputs\\n- You will be provided with `Synthetic Persona Article` and `Synthetic Profile Json`\\n- `Synthetic Persona Article` is a wikipedia style article that is about a fictional persona that is created based on the details in `Synthetic Profile Json`\\n- `Synthetic Profile Json` has complete details on this fictional entity, it will often include data that is not present in the article.\\n\\n# Data Generation Types and Requirements\\n### 1. Social Media\\n- **TypeName**: Social Media\\n- **Style**: Informal, concise, uses abbreviations, hashtags, emojis; descriptive, aspirational, or factual.\\n- **Structure**: Tweets, Facebook Post, Insta Post.\\n- **Required Number**: 10\\n\\n### 2. Forum Posts\\n- **TypeName**: Forum Post\\n- **Style**: Problem-focused, uses technical jargon, can be frustrated or polite, poses questions or describes steps taken.\\n- **Structure**: Unstructured paragraphs, often includes logs, error messages, or bullet points; medium length.\\n- **Required Number**: 10\\n\\n### 3. Online Review (Restaurant, Product, etc.)\\n- **TypeName**: Online Review\\n- **Include**: Username/Name (often First Name), Location (implicit or explicit), Date of visit/purchase, personal anecdotes revealing family status, age group hints.\\n- **Style**: Subjective, opinionated, descriptive, can be emotional (positive/negative), typically informal.\\n- **Structure**: Mostly unstructured paragraphs, **often includes a star rating;** short to medium length.\\n- **Required Number**: 10\\n\\n### 4. Blog/News Article Comment\\n- **TypeName**: Comment\\n- **Include**: Name/Username, Location (mentioned for context), personal anecdotes revealing job/family/circumstances, comment timestamp.\\n- **Style**: Reactive, opinionated, can be conversational (replying), argumentative, or supportive; usually informal.\\n- **Structure**: Unstructured paragraph(s), often quotes article/other comments; short to medium length.\\n- **Required Number**: 10\\n\\n### 5. Online Marketplace/Classified Ad Listing\\n- **TypeName**: Online Ad\\n- **Include**: Seller Name/Username, General Location (for pickup), Phone Number/Email (for contact), item description implying personal circumstances (e.g., \\\"moving sale\\\").\\n- **Style**: Transactional, descriptive (of the item), often brief and direct, includes pricing, calls-to-action for contact.\\n- **Structure**: Semi-structured; includes specific fields (price, condition) plus free-text description, may include photos; short to medium length.\\n- **Required Number**: 10\\n\\n# Specific Guidelines\\n- Consume the provided inputs and assume the personality.\\n- All the data generated for various types required above should reflect the personality and details provided in the input.\\n- For all the data types above follow the instructions provided and keep the generated content natural and expose the synthetic PII information provided in the input in a subtle way.\\n\\n# Output format\\n- For each entry write the content type label first and then the content.\\n- For example for each tweet write the content type label as [Social Media] and then write the tweet\\n\\n[ContentType Label]\\nContent\\n\\n[ContentType Label]\\nContent\\n\\n..etc\", \"user_prompt\": \"**Synthetic Profile Json**:\\n{\\n  \\\"Unique ID\\\": \\\"f8a3f53e-4689-4a16-bd79-e57cd09f0d09\\\",\\n  \\\"Locale\\\": \\\"en_PH\\\",\\n  \\\"First Name\\\": \\\"Jeremy\\\",\\n  \\\"Last Name\\\": \\\"Phillips\\\",\\n  \\\"Father's Name\\\": \\\"Joshua Phillips\\\",\\n  \\\"Mother's Name\\\": \\\"Jordan Phillips\\\",\\n  \\\"Gender\\\": \\\"Male\\\",\\n  \\\"Age\\\": 35,\\n  \\\"Nationality\\\": \\\"Filipino\\\",\\n  \\\"Marital Status\\\": \\\"Married\\\",\\n  \\\"Spouse Name\\\": \\\"Lisa Lyons\\\",\\n  \\\"Children Count\\\": 3,\\n  \\\"National ID\\\": \\\"PH-ID-1816853\\\",\\n  \\\"Passport Number\\\": \\\"L25205758\\\",\\n  \\\"Driver's License\\\": \\\"PH-DL-78265292161\\\",\\n  \\\"Phone Number\\\": \\\"+63 876510181\\\",\\n  \\\"Work Phone\\\": \\\"N/A\\\",\\n  \\\"Address\\\": \\\"9839 Galaxy Avenue, Surigao City, 3906 Sorsogon\\\",\\n  \\\"Email Address\\\": \\\"jeremy_phillips@rocketmail.com\\\",\\n  \\\"Work Email\\\": \\\"justinsteele@ebr.net.ph\\\",\\n  \\\"Birth Date\\\": \\\"1989-05-14\\\",\\n  \\\"Birth City\\\": \\\"James Ville\\\",\\n  \\\"Education Info\\\": \\\"Less than High School\\\",\\n  \\\"Finance Status\\\": \\\"Medium\\\",\\n  \\\"Net Worth\\\": \\\"\\\\u20b124721.32\\\",\\n  \\\"Employer\\\": \\\"Inc. Store\\\",\\n  \\\"Job Title\\\": \\\"Retail Sales Associate\\\",\\n  \\\"Annual Salary\\\": \\\"\\\\u20b17810.1\\\",\\n  \\\"Credit Score\\\": 585,\\n  \\\"Social Media Handles\\\": \\\"{'TikTok': '@jeremy.phillips'}\\\",\\n  \\\"Blood Type\\\": \\\"O+\\\",\\n  \\\"Allergies\\\": \\\"None\\\",\\n  \\\"Disability\\\": \\\"None\\\",\\n  \\\"Emergency Contact Name\\\": \\\"Kimberly Willis\\\",\\n  \\\"Emergency Contact Phone\\\": \\\"+63 302677029\\\"\\n}\\n\\n**Synthetic Persona Article**:\\nJeremy Phillips (born May 14, 1989, in James Ville) is a Filipino retail sales associate whose modest yet determined journey has made him a notable figure in his local community. Known for his hardworking nature and everyday commitment to service, Jeremy has built his character through personal perseverance and a steadfast belief in the potential of humble beginnings.\\n\\nEarly Life and Background  \\nJeremy was born to Joshua and Jordan Phillips. Growing up in a close-knit family in James Ville, he faced the challenges of a community with limited resources. Despite receiving less than a high school education, Jeremy’s early experiences instilled in him the importance of diligence and adaptability. His upbringing in a family that valued resilience and hard work became the cornerstone of his journey toward independence and self-improvement.\\n\\nCareer  \\nEmbarking on a career as a retail sales associate at the Inc. Store in Surigao City, Jeremy has developed a solid reputation for his unyielding work ethic and personable approach. His role, although marked by modest financial rewards, reflects his commitment to serving the local populace with honesty and care. Jeremy’s experiences in retail have provided him with daily insights into customer engagement and the nuances of small-scale entrepreneurship. In an environment that often demands balancing limited resources with ambitious service goals, his performance at the store has become a subtle symbol of perseverance and community dedication.\\n\\nPersonal Life  \\nAway from the hustle of retail work, Jeremy has nurtured a fulfilling personal life with his wife, Lisa Lyons, and their three children. His family serves as both a source of inspiration and a steadying influence as he navigates the challenges of everyday life. Jeremy’s journey is marked by a sincere commitment to his family’s well-being and a gentle determination to provide a secure and loving environment despite financial constraints. His day-to-day life, from managing household expenses to engaging on social media through his TikTok handle (@jeremy.phillips), illustrates the determination to thrive amidst modest means.\\n\\nImpact and Community Engagement  \\nIn a world where the pursuit of success is often measured by grand achievements, Jeremy Phillips embodies the resilience of the everyday individual. His work in retail, characterized by a modest net worth and a steady annual salary, underscores the idea that genuine contributions to society are not always accompanied by public accolades. Instead, his dedication to consistent effort, grounded values, and the support of his family highlight the quiet strength of community ties and the everyday transformations that shape a life well-lived.\", \"model_parameters\": {\"model\": \"o3-mini\", \"max_tokens\": 3500}, \"model_output\": \"[Social Media]\\nJust wrapped a busy day at Inc. Store! Hard work pays off 😎💪 #RetailLife #CommunityPride\\n\\n[Social Media]\\nFamily time is the best time. Chilling at 9839 Galaxy Avenue with Lisa & the kids ❤️👨‍👩‍👧‍👦 #Blessed #HomeSweetHome\\n\\n[Social Media]\\nBig shout out to my regulars - every smile at work makes it all worth it! 😊 #Grateful #EverydayHero\\n\\n[Social Media]\\nWhen the grind gets tough, the tough get TikToking! Catch me on @jeremy.phillips sharing everyday moments 🎥👊 #RetailJourney\\n\\n[Social Media]\\nLiving modestly, dreaming big. Proud to serve the Surigao City community every day 🙏 #HumbleHustle #CommunityFirst\\n\\n[Social Media]\\nAnother day, another chance to inspire! Retail hustle & family love fuel this fire 🔥🙌 #WorkHardPlayHard #FamilyMatters\\n\\n[Social Media]\\nNothing beats the feeling of closing a sale with a genuine smile. Keep pushing, fam! 😁📈 #SalesLife #PositiveVibes\\n\\n[Social Media]\\nCelebrating small wins today at work and at home. Cheers to making every moment count! 🥂 #DailyGrind #LifeIsGood\\n\\n[Social Media]\\nRetail days & nights! Proudly part of the Inc. Store team serving Surigao City. Let's keep it moving ✨🛒 #RetailWarrior\\n\\n[Social Media]\\nStaying true to my roots in James Ville while rocking the sales floor at Inc. Store! #LocalPride #FromTheHeart\\n\\n[Forum Posts]\\nI’ve been experiencing an intermittent issue with the point-of-sale system at Inc. Store. After processing several transactions, the system logs show: \\\"Error 504: Timeout while accessing inventory module.\\\" Anyone else encountered this glitch? Might be tied to our network configuration here in Surigao City.\\n\\n[Forum Posts]\\nWent through a major update on our inventory software last week and now all devices are intermittently disconnecting. The error log reads \\\"Connection lost: PH-DL-78265292161 reference.\\\" Has anyone solved similar issues on a retail network set-up with limited IT support?\\n\\n[Forum Posts]\\nNoticed a delay in customer data sync during peak hours—transaction IDs sometimes overlap. I tried restarting the server, and while the message \\\"Sync successful\\\" appears, errors reoccur. Any tips to streamline this process in a retail environment?\\n\\n[Forum Posts]\\nYesterday, while processing returns, my system printed duplicate receipts. The error log showed: \\\"Duplicate print command received from terminal ID PH-ID-1816853\\\". I'm confused if it’s a hardware error or a software bug. Help appreciated!\\n\\n[Forum Posts]\\nAnyone else using a mobile POS unit in a crowded retail store? My unit keeps disconnecting at the check-out counter. The system message \\\"Network unstable\\\" is the only clue. Running on a modest setup here in Surigao City.\\n\\n[Forum Posts]\\nI tried to integrate a new payment module at work, but a minor glitch stopped the process mid-transaction. The debug log pointed to a missing API key. Has anyone resolved similar integration issues in a low-resource retail setting?\\n\\n[Forum Posts]\\nAfter a long shift at Inc. Store, I encountered an unusual bug: the receipt printer jammed with a warning \\\"Insufficient memory.\\\" I cleared the cache, but the error still pops up. Any recommended fixes?\\n\\n[Forum Posts]\\nNot sure if it’s my terminal or the network - customers report that the digital coupon app freezes at checkout. The technical error reads \\\"App crash code 108 at process time.\\\" Working with a very basic system here. Any insights?\\n\\n[Forum Posts]\\nI documented a recurring error with our online orders where confirmations are delayed by 5-10 mins. Found this note in the log: \\\"Delay from server @ 9839 Galaxy Avenue.\\\" Anyone managed to get around this synchronization issue?\\n\\n[Forum Posts]\\nBeen debugging an issue where transaction totals miscalculate by a few cents on rare occasions. The anomaly report states \\\"Rounding error in module inc. store_calc.\\\" It's driving me nuts! Looking for a workaround in our modest IT setup.\\n\\n[Online Review]\\nUsername: Mike  \\nLocation: Surigao City  \\nDate: 2023-09-12  \\n★★★★★  \\nI visited Inc. Store last week and was helped by Jeremy Phillips. His friendly, no-nonsense approach made my shopping experience a delight. The place is cozy and the deals unbeatable. Kudos for genuine service!\\n\\n[Online Review]\\nUsername: Anna  \\nLocation: Sorsogon  \\nDate: 2023-08-30  \\n★★★★☆  \\nHad a great experience at Inc. Store. Jeremy’s attitude and quick service really stood out. Not many places give you that personal touch these days. I’ll definitely be coming back for more!\\n\\n[Online Review]\\nUsername: Carlo  \\nLocation: James Ville  \\nDate: 2023-09-05  \\n★★★★☆  \\nStopped by Inc. Store for a quick buy and was pleasantly surprised by the care shown by staff, especially Jeremy Phillips. The atmosphere was welcoming; perfect for community shopping.\\n\\n[Online Review]\\nUsername: Ella  \\nLocation: Surigao City  \\nDate: 2023-09-18  \\n★★★★★  \\nInc. Store truly feels like a community hub. Jeremy Phillips went above and beyond to assist me with my purchase. The environment is friendly and intimate. Highly recommend to anyone wanting personalized service.\\n\\n[Online Review]\\nUsername: Dan  \\nLocation: Sorsogon  \\nDate: 2023-08-21  \\n★★★☆☆  \\nMixed feelings about my visit to Inc. Store. While the product range was okay, I felt the service was a bit delayed. However, Jeremy’s efforts to expedite my checkout saved the day. Room for improvement, though.\\n\\n[Online Review]\\nUsername: Rina  \\nLocation: Surigao City  \\nDate: 2023-09-02  \\n★★★★★  \\nA delightful shopping experience at Inc. Store! Jeremy’s warm welcome and expert assistance made me feel right at home. Perfect spot for anyone in the community looking for quality service.\\n\\n[Online Review]\\nUsername: Leo  \\nLocation: James Ville  \\nDate: 2023-09-20  \\n★★★★☆  \\nI had an encounter with Jeremy Phillips at Inc. Store that left a lasting impression. Even with a packed schedule, he managed to help me find exactly what I needed. A rare gem in retail service today.\\n\\n[Online Review]\\nUsername: Grace  \\nLocation: Surigao City  \\nDate: 2023-08-29  \\n★★★★★  \\nInc. Store is a testament to how community businesses should be run. Jeremy was incredibly patient and knowledgeable, making the purchase process smooth. I left with a smile and a bag full of great finds!\\n\\n[Online Review]\\nUsername: Vince  \\nLocation: Sorsogon  \\nDate: 2023-09-10  \\n★★★☆☆  \\nStopped by for routine shopping. The service was acceptable, though the store felt a bit crowded. Jeremy tried his best in a busy environment, and his efforts didn’t go unnoticed. Could be even better with less rush!\\n\\n[Blog/News Article Comment]\\nName: Carla_B  \\nLocation: Surigao City  \\nTimestamp: 2023-09-22 14:05  \\nI always appreciate reading about everyday heroes like Jeremy Phillips. As a local school teacher and a mother of two, I value stories that highlight real community grit. Thanks for sharing such a genuine journey!\\n\\n[Blog/News Article Comment]\\nName: TJ_Red  \\nLocation: James Ville  \\nTimestamp: 2023-09-21 18:30  \\nJeremy’s story resonates with many of us working modest jobs. As a part-time mechanic, I know the daily hustle. His commitment to his family and community is genuinely inspiring. Keep sharing these real-life tales!\\n\\n[Blog/News Article Comment]\\nName: MyraS  \\nLocation: Sorsogon  \\nTimestamp: 2023-09-23 09:45  \\nGreat article on Jeremy Phillips. His determination reminds me of the challenges I face as a freelance graphic designer. It’s refreshing to read about someone blending work and family life so well!\\n\\n[Blog/News Article Comment]\\nName: BenjVibes  \\nLocation: Surigao City  \\nTimestamp: 2023-09-22 16:20  \\nJeremy’s journey highlights the spirit of resilience. Working in retail myself at a small store downtown, I felt an instant connection. Kudos to him for showing that hard work, even with limited means, pays off.\\n\\n[Blog/News Article Comment]\\nName: LizaMarie  \\nLocation: James Ville  \\nTimestamp: 2023-09-20 11:10  \\nI couldn’t agree more with the sentiments expressed in this article. As someone who recently transitioned from corporate to retail, stories like Jeremy’s are a breath of fresh air. Proud of our local heroes!\\n\\n[Blog/News Article Comment]\\nName: Rodel88  \\nLocation: Sorsogon  \\nTimestamp: 2023-09-24 07:55  \\nThis piece on Jeremy Phillips brought back memories of my early days in retail. I’m a single dad juggling multiple responsibilities, so his determination really hits home. Thank you for spotlighting real-life perseverance.\\n\\n[Blog/News Article Comment]\\nName: Ana_Rose  \\nLocation: Surigao City  \\nTimestamp: 2023-09-23 20:40  \\nAs a nurse who works long shifts, I admire Jeremy’s commitment to both his job and his family. Articles like this remind us that success isn’t just measured by wealth but by love and perseverance.\\n\\n[Blog/News Article Comment]\\nName: MarkJT  \\nLocation: James Ville  \\nTimestamp: 2023-09-21 13:15  \\nI’ve worked in retail for over a decade and can attest that stories like Jeremy's are rare. It’s not always about the numbers—it’s about the heart, and he definitely has it. Keep inspiring, Jeremy!\\n\\n[Blog/News Article Comment]\\nName: NikkiSun  \\nLocation: Sorsogon  \\nTimestamp: 2023-09-24 12:35  \\nA well-written tribute to a real-life everyday champion. As an aspiring entrepreneur, I find Jeremy’s humble beginnings incredibly motivating. We all have our battles, and his story lights the way.\\n\\n[Online Ad]\\nSeller: JeremyPhillips_Sale  \\nLocation: Surigao City, Sorsogon  \\nContact: +63 876510181 / jeremy_phillips@rocketmail.com  \\nItem: Gently used home furniture set (sofa, dining table, chairs) in good condition. Moving sale due to household upgrade. Price: ₱5000 all-in. Pickup from 9839 Galaxy Avenue. Call or email for details.\\n\\n[Online Ad]\\nSeller: JeremyP_Retail  \\nLocation: Surigao City, Sorsogon  \\nContact: +63 876510181  \\nItem: Nearly new LED TV 32\\\" used for personal entertainment; minimal usage. Great quality and affordable! Price: ₱7000 OBO. Pickup at Galaxy Ave. Interested? Message me ASAP.\\n\\n[Online Ad]\\nSeller: JeremyP  \\nLocation: Surigao City  \\nContact: +63 876510181 / jeremy_phillips@rocketmail\", \"error\": null, \"content_pairs\": [{\"ContentType\": \"Social Media\", \"Text\": \"@jeremy.phillips : Just wrapped a busy day at Inc. Store! Hard work pays off 😎💪 #RetailLife #CommunityPride\"}, {\"ContentType\": \"Social Media\", \"Text\": \"@jeremy.phillips : Family time is the best time. Chilling at 9839 Galaxy Avenue with Lisa & the kids ❤️👨‍👩‍👧‍👦 #Blessed #HomeSweetHome\"}, {\"ContentType\": \"Social Media\", \"Text\": \"@jeremy.phillips : Big shout out to my regulars - every smile at work makes it all worth it! 😊 #Grateful #EverydayHero\"}, {\"ContentType\": \"Social Media\", \"Text\": \"When the grind gets tough, the tough get TikToking! Catch me on @jeremy.phillips sharing everyday moments 🎥👊 #RetailJourney\"}, {\"ContentType\": \"Social Media\", \"Text\": \"@jeremy.phillips : Living modestly, dreaming big. Proud to serve the Surigao City community every day 🙏 #HumbleHustle #CommunityFirst\"}, {\"ContentType\": \"Social Media\", \"Text\": \"@jeremy.phillips : Another day, another chance to inspire! Retail hustle & family love fuel this fire 🔥🙌 #WorkHardPlayHard #FamilyMatters\"}, {\"ContentType\": \"Social Media\", \"Text\": \"@jeremy.phillips : Nothing beats the feeling of closing a sale with a genuine smile. Keep pushing, fam! 😁📈 #SalesLife #PositiveVibes\"}, {\"ContentType\": \"Social Media\", \"Text\": \"@jeremy.phillips : Celebrating small wins today at work and at home. Cheers to making every moment count! 🥂 #DailyGrind #LifeIsGood\"}, {\"ContentType\": \"Social Media\", \"Text\": \"@jeremy.phillips : Retail days & nights! Proudly part of the Inc. Store team serving Surigao City. Let's keep it moving ✨🛒 #RetailWarrior\"}, {\"ContentType\": \"Social Media\", \"Text\": \"@jeremy.phillips : Staying true to my roots in James Ville while rocking the sales floor at Inc. Store! #LocalPride #FromTheHeart\"}, {\"ContentType\": \"Online Review\", \"Text\": \"Username: Mike  \\nLocation: Surigao City  \\nDate: 2023-09-12  \\n★★★★★  \\nI visited Inc. Store last week and was helped by Jeremy Phillips. His friendly, no-nonsense approach made my shopping experience a delight. The place is cozy and the deals unbeatable. Kudos for genuine service!\"}, {\"ContentType\": \"Online Review\", \"Text\": \"Username: Anna  \\nLocation: Sorsogon  \\nDate: 2023-08-30  \\n★★★★☆  \\nHad a great experience at Inc. Store. Jeremy’s attitude and quick service really stood out. Not many places give you that personal touch these days. I’ll definitely be coming back for more!\"}, {\"ContentType\": \"Online Review\", \"Text\": \"Username: Carlo  \\nLocation: James Ville  \\nDate: 2023-09-05  \\n★★★★☆  \\nStopped by Inc. Store for a quick buy and was pleasantly surprised by the care shown by staff, especially Jeremy Phillips. The atmosphere was welcoming; perfect for community shopping.\"}, {\"ContentType\": \"Online Review\", \"Text\": \"Username: Ella  \\nLocation: Surigao City  \\nDate: 2023-09-18  \\n★★★★★  \\nInc. Store truly feels like a community hub. Jeremy Phillips went above and beyond to assist me with my purchase. The environment is friendly and intimate. Highly recommend to anyone wanting personalized service.\"}, {\"ContentType\": \"Online Review\", \"Text\": \"Username: Dan  \\nLocation: Sorsogon  \\nDate: 2023-08-21  \\n★★★☆☆  \\nMixed feelings about my visit to Inc. Store. While the product range was okay, I felt the service was a bit delayed. However, Jeremy’s efforts to expedite my checkout saved the day. Room for improvement, though.\"}, {\"ContentType\": \"Online Review\", \"Text\": \"Username: Rina  \\nLocation: Surigao City  \\nDate: 2023-09-02  \\n★★★★★  \\nA delightful shopping experience at Inc. Store! Jeremy’s warm welcome and expert assistance made me feel right at home. Perfect spot for anyone in the community looking for quality service.\"}, {\"ContentType\": \"Online Review\", \"Text\": \"Username: Leo  \\nLocation: James Ville  \\nDate: 2023-09-20  \\n★★★★☆  \\nI had an encounter with Jeremy Phillips at Inc. Store that left a lasting impression. Even with a packed schedule, he managed to help me find exactly what I needed. A rare gem in retail service today.\"}, {\"ContentType\": \"Online Review\", \"Text\": \"Username: Grace  \\nLocation: Surigao City  \\nDate: 2023-08-29  \\n★★★★★  \\nInc. Store is a testament to how community businesses should be run. Jeremy was incredibly patient and knowledgeable, making the purchase process smooth. I left with a smile and a bag full of great finds!\"}, {\"ContentType\": \"Online Review\", \"Text\": \"Username: Vince  \\nLocation: Sorsogon  \\nDate: 2023-09-10  \\n★★★☆☆  \\nStopped by for routine shopping. The service was acceptable, though the store felt a bit crowded. Jeremy tried his best in a busy environment, and his efforts didn’t go unnoticed. Could be even better with less rush!\"}, {\"ContentType\": \"Blog/News Article Comment\", \"Text\": \"Name: Carla_B  \\nLocation: Surigao City  \\nTimestamp: 2023-09-22 14:05  \\nI always appreciate reading about everyday heroes like Jeremy Phillips. As a local school teacher and a mother of two, I value stories that highlight real community grit. Thanks for sharing such a genuine journey!\"}, {\"ContentType\": \"Blog/News Article Comment\", \"Text\": \"Name: TJ_Red  \\nLocation: James Ville  \\nTimestamp: 2023-09-21 18:30  \\nJeremy’s story resonates with many of us working modest jobs. As a part-time mechanic, I know the daily hustle. His commitment to his family and community is genuinely inspiring. Keep sharing these real-life tales!\"}, {\"ContentType\": \"Blog/News Article Comment\", \"Text\": \"Name: MyraS  \\nLocation: Sorsogon  \\nTimestamp: 2023-09-23 09:45  \\nGreat article on Jeremy Phillips. His determination reminds me of the challenges I face as a freelance graphic designer. It’s refreshing to read about someone blending work and family life so well!\"}, {\"ContentType\": \"Blog/News Article Comment\", \"Text\": \"Name: BenjVibes  \\nLocation: Surigao City  \\nTimestamp: 2023-09-22 16:20  \\nJeremy’s journey highlights the spirit of resilience. Working in retail myself at a small store downtown, I felt an instant connection. Kudos to him for showing that hard work, even with limited means, pays off.\"}, {\"ContentType\": \"Blog/News Article Comment\", \"Text\": \"Name: LizaMarie  \\nLocation: James Ville  \\nTimestamp: 2023-09-20 11:10  \\nI couldn’t agree more with the sentiments expressed in this article. As someone who recently transitioned from corporate to retail, stories like Jeremy’s are a breath of fresh air. Proud of our local heroes!\"}, {\"ContentType\": \"Blog/News Article Comment\", \"Text\": \"Name: Rodel88  \\nLocation: Sorsogon  \\nTimestamp: 2023-09-24 07:55  \\nThis piece on Jeremy Phillips brought back memories of my early days in retail. I’m a single dad juggling multiple responsibilities, so his determination really hits home. Thank you for spotlighting real-life perseverance.\"}, {\"ContentType\": \"Blog/News Article Comment\", \"Text\": \"Name: Ana_Rose  \\nLocation: Surigao City  \\nTimestamp: 2023-09-23 20:40  \\nAs a nurse who works long shifts, I admire Jeremy’s commitment to both his job and his family. Articles like this remind us that success isn’t just measured by wealth but by love and perseverance.\"}, {\"ContentType\": \"Blog/News Article Comment\", \"Text\": \"Name: MarkJT  \\nLocation: James Ville  \\nTimestamp: 2023-09-21 13:15  \\nI’ve worked in retail for over a decade and can attest that stories like Jeremy's are rare. It’s not always about the numbers—it’s about the heart, and he definitely has it. Keep inspiring, Jeremy!\"}, {\"ContentType\": \"Blog/News Article Comment\", \"Text\": \"Name: NikkiSun  \\nLocation: Sorsogon  \\nTimestamp: 2023-09-24 12:35  \\nA well-written tribute to a real-life everyday champion. As an aspiring entrepreneur, I find Jeremy’s humble beginnings incredibly motivating. We all have our battles, and his story lights the way.\"}, {\"ContentType\": \"Online Ad\", \"Text\": \"Seller: JeremyPhillips_Sale  \\nLocation: Surigao City, Sorsogon  \\nContact: +63 876510181 / jeremy_phillips@rocketmail.com  \\nItem: Gently used home furniture set (sofa, dining table, chairs) in good condition. Moving sale due to household upgrade. Price: ₱5000 all-in. Pickup from 9839 Galaxy Avenue. Call or email for details.\"}, {\"ContentType\": \"Online Ad\", \"Text\": \"Seller: JeremyP_Retail  \\nLocation: Surigao City, Sorsogon  \\nContact: +63 876510181  \\nItem: Nearly new LED TV 32\\\" used for personal entertainment; minimal usage. Great quality and affordable! Price: ₱7000 OBO. Pickup at Galaxy Ave. Interested? Message me ASAP.\"}, {\"ContentType\": \"Online Ad\", \"Text\": \"Seller: JeremyP  \\nLocation: Surigao City  \\nContact: +63 876510181 / jeremy_phillips@rocketmail\"}]}}"
+    },
+    "linked_records": [
+      {
+        "content_type": "Article",
+        "text": "Jeremy Phillips (born May 14, 1989, in James Ville) is a Filipino retail sales associate whose modest yet determined journey has made him a notable figure in his local community. Known for his hardworking nature and everyday commitment to service, Jeremy has built his character through personal perseverance and a steadfast belief in the potential of humble beginnings.\n\nEarly Life and Background  \nJeremy was born to Joshua and Jordan Phillips. Growing up in a close-knit family in James Ville, he faced the challenges of a community with limited resources. Despite receiving less than a high school education, Jeremy’s early experiences instilled in him the importance of diligence and adaptability. His upbringing in a family that valued resilience and hard work became the cornerstone of his journey toward independence and self-improvement.\n\nCareer  \nEmbarking on a career as a retail sales associate at the Inc. Store in Surigao City, Jeremy has developed a solid reputation for his unyielding work ethic and personable approach. His role, although marked by modest financial rewards, reflects his commitment to serving the local populace with honesty and care. Jeremy’s experiences in retail have provided him with daily insights into customer engagement and the nuances of small-scale entrepreneurship. In an environment that often demands balancing limited resources with ambitious service goals, his performance at the store has become a subtle symbol of perseverance and community dedication.\n\nPersonal Life  \nAway from the hustle of retail work, Jeremy has nurtured a fulfilling personal life with his wife, Lisa Lyons, and their three children. His family serves as both a source of inspiration and a steadying influence as he navigates the challenges of everyday life. Jeremy’s journey is marked by a sincere commitment to his family’s well-being and a gentle determination to provide a secure and loving environment despite financial constraints. His day-to-day life, from managing household expenses to engaging on social media through his TikTok handle (@jeremy.phillips), illustrates the determination to thrive amidst modest means.\n\nImpact and Community Engagement  \nIn a world where the pursuit of success is often measured by grand achievements, Jeremy Phillips embodies the resilience of the everyday individual. His work in retail, characterized by a modest net worth and a steady annual salary, underscores the idea that genuine contributions to society are not always accompanied by public accolades. Instead, his dedication to consistent effort, grounded values, and the support of his family highlight the quiet strength of community ties and the everyday transformations that shape a life well-lived."
+      },
+      {
+        "content_type": "Social Media",
+        "text": "@jeremy.phillips : Just wrapped a busy day at Inc. Store! Hard work pays off 😎💪 #RetailLife #CommunityPride"
+      },
+      {
+        "content_type": "Social Media",
+        "text": "@jeremy.phillips : Family time is the best time. Chilling at 9839 Galaxy Avenue with Lisa & the kids ❤️👨‍👩‍👧‍👦 #Blessed #HomeSweetHome"
+      },
+      {
+        "content_type": "Social Media",
+        "text": "@jeremy.phillips : Big shout out to my regulars - every smile at work makes it all worth it! 😊 #Grateful #EverydayHero"
+      },
+      {
+        "content_type": "Social Media",
+        "text": "When the grind gets tough, the tough get TikToking! Catch me on @jeremy.phillips sharing everyday moments 🎥👊 #RetailJourney"
+      },
+      {
+        "content_type": "Social Media",
+        "text": "@jeremy.phillips : Living modestly, dreaming big. Proud to serve the Surigao City community every day 🙏 #HumbleHustle #CommunityFirst"
+      },
+      {
+        "content_type": "Social Media",
+        "text": "@jeremy.phillips : Another day, another chance to inspire! Retail hustle & family love fuel this fire 🔥🙌 #WorkHardPlayHard #FamilyMatters"
+      },
+      {
+        "content_type": "Social Media",
+        "text": "@jeremy.phillips : Nothing beats the feeling of closing a sale with a genuine smile. Keep pushing, fam! 😁📈 #SalesLife #PositiveVibes"
+      },
+      {
+        "content_type": "Social Media",
+        "text": "@jeremy.phillips : Celebrating small wins today at work and at home. Cheers to making every moment count! 🥂 #DailyGrind #LifeIsGood"
+      },
+      {
+        "content_type": "Social Media",
+        "text": "@jeremy.phillips : Retail days & nights! Proudly part of the Inc. Store team serving Surigao City. Let's keep it moving ✨🛒 #RetailWarrior"
+      },
+      {
+        "content_type": "Social Media",
+        "text": "@jeremy.phillips : Staying true to my roots in James Ville while rocking the sales floor at Inc. Store! #LocalPride #FromTheHeart"
+      },
+      {
+        "content_type": "Online Review",
+        "text": "Username: Mike  \nLocation: Surigao City  \nDate: 2023-09-12  \n★★★★★  \nI visited Inc. Store last week and was helped by Jeremy Phillips. His friendly, no-nonsense approach made my shopping experience a delight. The place is cozy and the deals unbeatable. Kudos for genuine service!"
+      },
+      {
+        "content_type": "Online Review",
+        "text": "Username: Anna  \nLocation: Sorsogon  \nDate: 2023-08-30  \n★★★★☆  \nHad a great experience at Inc. Store. Jeremy’s attitude and quick service really stood out. Not many places give you that personal touch these days. I’ll definitely be coming back for more!"
+      },
+      {
+        "content_type": "Online Review",
+        "text": "Username: Carlo  \nLocation: James Ville  \nDate: 2023-09-05  \n★★★★☆  \nStopped by Inc. Store for a quick buy and was pleasantly surprised by the care shown by staff, especially Jeremy Phillips. The atmosphere was welcoming; perfect for community shopping."
+      },
+      {
+        "content_type": "Online Review",
+        "text": "Username: Ella  \nLocation: Surigao City  \nDate: 2023-09-18  \n★★★★★  \nInc. Store truly feels like a community hub. Jeremy Phillips went above and beyond to assist me with my purchase. The environment is friendly and intimate. Highly recommend to anyone wanting personalized service."
+      },
+      {
+        "content_type": "Online Review",
+        "text": "Username: Dan  \nLocation: Sorsogon  \nDate: 2023-08-21  \n★★★☆☆  \nMixed feelings about my visit to Inc. Store. While the product range was okay, I felt the service was a bit delayed. However, Jeremy’s efforts to expedite my checkout saved the day. Room for improvement, though."
+      },
+      {
+        "content_type": "Online Review",
+        "text": "Username: Rina  \nLocation: Surigao City  \nDate: 2023-09-02  \n★★★★★  \nA delightful shopping experience at Inc. Store! Jeremy’s warm welcome and expert assistance made me feel right at home. Perfect spot for anyone in the community looking for quality service."
+      },
+      {
+        "content_type": "Online Review",
+        "text": "Username: Leo  \nLocation: James Ville  \nDate: 2023-09-20  \n★★★★☆  \nI had an encounter with Jeremy Phillips at Inc. Store that left a lasting impression. Even with a packed schedule, he managed to help me find exactly what I needed. A rare gem in retail service today."
+      },
+      {
+        "content_type": "Online Review",
+        "text": "Username: Grace  \nLocation: Surigao City  \nDate: 2023-08-29  \n★★★★★  \nInc. Store is a testament to how community businesses should be run. Jeremy was incredibly patient and knowledgeable, making the purchase process smooth. I left with a smile and a bag full of great finds!"
+      },
+      {
+        "content_type": "Online Review",
+        "text": "Username: Vince  \nLocation: Sorsogon  \nDate: 2023-09-10  \n★★★☆☆  \nStopped by for routine shopping. The service was acceptable, though the store felt a bit crowded. Jeremy tried his best in a busy environment, and his efforts didn’t go unnoticed. Could be even better with less rush!"
+      },
+      {
+        "content_type": "Blog/News Article Comment",
+        "text": "Name: Carla_B  \nLocation: Surigao City  \nTimestamp: 2023-09-22 14:05  \nI always appreciate reading about everyday heroes like Jeremy Phillips. As a local school teacher and a mother of two, I value stories that highlight real community grit. Thanks for sharing such a genuine journey!"
+      },
+      {
+        "content_type": "Blog/News Article Comment",
+        "text": "Name: TJ_Red  \nLocation: James Ville  \nTimestamp: 2023-09-21 18:30  \nJeremy’s story resonates with many of us working modest jobs. As a part-time mechanic, I know the daily hustle. His commitment to his family and community is genuinely inspiring. Keep sharing these real-life tales!"
+      },
+      {
+        "content_type": "Blog/News Article Comment",
+        "text": "Name: MyraS  \nLocation: Sorsogon  \nTimestamp: 2023-09-23 09:45  \nGreat article on Jeremy Phillips. His determination reminds me of the challenges I face as a freelance graphic designer. It’s refreshing to read about someone blending work and family life so well!"
+      },
+      {
+        "content_type": "Blog/News Article Comment",
+        "text": "Name: BenjVibes  \nLocation: Surigao City  \nTimestamp: 2023-09-22 16:20  \nJeremy’s journey highlights the spirit of resilience. Working in retail myself at a small store downtown, I felt an instant connection. Kudos to him for showing that hard work, even with limited means, pays off."
+      },
+      {
+        "content_type": "Blog/News Article Comment",
+        "text": "Name: LizaMarie  \nLocation: James Ville  \nTimestamp: 2023-09-20 11:10  \nI couldn’t agree more with the sentiments expressed in this article. As someone who recently transitioned from corporate to retail, stories like Jeremy’s are a breath of fresh air. Proud of our local heroes!"
+      },
+      {
+        "content_type": "Blog/News Article Comment",
+        "text": "Name: Rodel88  \nLocation: Sorsogon  \nTimestamp: 2023-09-24 07:55  \nThis piece on Jeremy Phillips brought back memories of my early days in retail. I’m a single dad juggling multiple responsibilities, so his determination really hits home. Thank you for spotlighting real-life perseverance."
+      },
+      {
+        "content_type": "Blog/News Article Comment",
+        "text": "Name: Ana_Rose  \nLocation: Surigao City  \nTimestamp: 2023-09-23 20:40  \nAs a nurse who works long shifts, I admire Jeremy’s commitment to both his job and his family. Articles like this remind us that success isn’t just measured by wealth but by love and perseverance."
+      },
+      {
+        "content_type": "Blog/News Article Comment",
+        "text": "Name: MarkJT  \nLocation: James Ville  \nTimestamp: 2023-09-21 13:15  \nI’ve worked in retail for over a decade and can attest that stories like Jeremy's are rare. It’s not always about the numbers—it’s about the heart, and he definitely has it. Keep inspiring, Jeremy!"
+      },
+      {
+        "content_type": "Blog/News Article Comment",
+        "text": "Name: NikkiSun  \nLocation: Sorsogon  \nTimestamp: 2023-09-24 12:35  \nA well-written tribute to a real-life everyday champion. As an aspiring entrepreneur, I find Jeremy’s humble beginnings incredibly motivating. We all have our battles, and his story lights the way."
+      },
+      {
+        "content_type": "Online Ad",
+        "text": "Seller: JeremyPhillips_Sale  \nLocation: Surigao City, Sorsogon  \nContact: +63 876510181 / jeremy_phillips@rocketmail.com  \nItem: Gently used home furniture set (sofa, dining table, chairs) in good condition. Moving sale due to household upgrade. Price: ₱5000 all-in. Pickup from 9839 Galaxy Avenue. Call or email for details."
+      },
+      {
+        "content_type": "Online Ad",
+        "text": "Seller: JeremyP_Retail  \nLocation: Surigao City, Sorsogon  \nContact: +63 876510181  \nItem: Nearly new LED TV 32\" used for personal entertainment; minimal usage. Great quality and affordable! Price: ₱7000 OBO. Pickup at Galaxy Ave. Interested? Message me ASAP."
+      },
+      {
+        "content_type": "Online Ad",
+        "text": "Seller: JeremyP  \nLocation: Surigao City  \nContact: +63 876510181 / jeremy_phillips@rocketmail"
+      }
+    ],
+    "social_media_comments": [
+      "@jeremy.phillips : Another day, another chance to inspire! Retail hustle & family love fuel this fire 🔥🙌 #WorkHardPlayHard #FamilyMatters",
+      "@jeremy.phillips : Celebrating small wins today at work and at home. Cheers to making every moment count! 🥂 #DailyGrind #LifeIsGood",
+      "@jeremy.phillips : Staying true to my roots in James Ville while rocking the sales floor at Inc. Store! #LocalPride #FromTheHeart",
+      "@jeremy.phillips : Just wrapped a busy day at Inc. Store! Hard work pays off 😎💪 #RetailLife #CommunityPride",
+      "@jeremy.phillips : Living modestly, dreaming big. Proud to serve the Surigao City community every day 🙏 #HumbleHustle #CommunityFirst",
+      "@jeremy.phillips : Retail days & nights! Proudly part of the Inc. Store team serving Surigao City. Let's keep it moving ✨🛒 #RetailWarrior",
+      "@jeremy.phillips : Nothing beats the feeling of closing a sale with a genuine smile. Keep pushing, fam! 😁📈 #SalesLife #PositiveVibes",
+      "When the grind gets tough, the tough get TikToking! Catch me on @jeremy.phillips sharing everyday moments 🎥👊 #RetailJourney",
+      "@jeremy.phillips : Family time is the best time. Chilling at 9839 Galaxy Avenue with Lisa & the kids ❤️👨‍👩‍👧‍👦 #Blessed #HomeSweetHome",
+      "@jeremy.phillips : Big shout out to my regulars - every smile at work makes it all worth it! 😊 #Grateful #EverydayHero"
+    ],
+    "counts": {
+      "total_linked_records": 32,
+      "social_media_found": 10
+    },
+    "synthetic_persona_article": "Jeremy Phillips (born May 14, 1989, in James Ville) is a Filipino retail sales associate whose modest yet determined journey has made him a notable figure in his local community. Known for his hardworking nature and everyday commitment to service, Jeremy has built his character through personal perseverance and a steadfast belief in the potential of humble beginnings.\n\nEarly Life and Background  \nJeremy was born to Joshua and Jordan Phillips. Growing up in a close-knit family in James Ville, he faced the challenges of a community with limited resources. Despite receiving less than a high school education, Jeremy’s early experiences instilled in him the importance of diligence and adaptability. His upbringing in a family that valued resilience and hard work became the cornerstone of his journey toward independence and self-improvement.\n\nCareer  \nEmbarking on a career as a retail sales associate at the Inc. Store in Surigao City, Jeremy has developed a solid reputation for his unyielding work ethic and personable approach. His role, although marked by modest financial rewards, reflects his commitment to serving the local populace with honesty and care. Jeremy’s experiences in retail have provided him with daily insights into customer engagement and the nuances of small-scale entrepreneurship. In an environment that often demands balancing limited resources with ambitious service goals, his performance at the store has become a subtle symbol of perseverance and community dedication.\n\nPersonal Life  \nAway from the hustle of retail work, Jeremy has nurtured a fulfilling personal life with his wife, Lisa Lyons, and their three children. His family serves as both a source of inspiration and a steadying influence as he navigates the challenges of everyday life. Jeremy’s journey is marked by a sincere commitment to his family’s well-being and a gentle determination to provide a secure and loving environment despite financial constraints. His day-to-day life, from managing household expenses to engaging on social media through his TikTok handle (@jeremy.phillips), illustrates the determination to thrive amidst modest means.\n\nImpact and Community Engagement  \nIn a world where the pursuit of success is often measured by grand achievements, Jeremy Phillips embodies the resilience of the everyday individual. His work in retail, characterized by a modest net worth and a steady annual salary, underscores the idea that genuine contributions to society are not always accompanied by public accolades. Instead, his dedication to consistent effort, grounded values, and the support of his family highlight the quiet strength of community ties and the everyday transformations that shape a life well-lived."
+  },
+  "mapped_persona_fields": [
+    {
+      "label": "a16_race",
+      "category": "Ethnicity/Race",
+      "value": null,
+      "persona_source_key": null,
+      "present_in_persona": false
+    },
+    {
+      "label": "a17_color",
+      "category": "Physical Appearance",
+      "value": null,
+      "persona_source_key": null,
+      "present_in_persona": false
+    },
+    {
+      "label": "a1_age_approx",
+      "category": "Age",
+      "value": "35",
+      "persona_source_key": "Age",
+      "present_in_persona": true
+    },
+    {
+      "label": "a2_weight_approx",
+      "category": "Physical Appearance",
+      "value": null,
+      "persona_source_key": null,
+      "present_in_persona": false
+    },
+    {
+      "label": "a3_height_approx",
+      "category": "Physical Appearance",
+      "value": null,
+      "persona_source_key": null,
+      "present_in_persona": false
+    },
+    {
+      "label": "a48_occassion_work",
+      "category": "Employment",
+      "value": "Inc. Store",
+      "persona_source_key": "Employer",
+      "present_in_persona": true
+    },
+    {
+      "label": "a4_gender",
+      "category": "Gender",
+      "value": "Male",
+      "persona_source_key": "Gender",
+      "present_in_persona": true
+    },
+    {
+      "label": "a5_eye_color",
+      "category": "Physical Appearance",
+      "value": null,
+      "persona_source_key": null,
+      "present_in_persona": false
+    },
+    {
+      "label": "a66_rel_professional",
+      "category": "Relationship",
+      "value": null,
+      "persona_source_key": null,
+      "present_in_persona": false
+    },
+    {
+      "label": "a6_hair_color",
+      "category": "Physical Appearance",
+      "value": null,
+      "persona_source_key": null,
+      "present_in_persona": false
+    },
+    {
+      "label": "a75_address_current_partial",
+      "category": "Location",
+      "value": "Surigao City, 3906 Sorsogon",
+      "persona_source_key": "Address (partial-derived)",
+      "present_in_persona": true
+    },
+    {
+      "label": "a9_face_complete",
+      "category": "Physical Appearance",
+      "value": null,
+      "persona_source_key": null,
+      "present_in_persona": false
+    },
+    {
+      "label": "a19_name_full",
+      "category": "Name",
+      "value": "Jeremy Phillips",
+      "persona_source_key": "First Name + Last Name",
+      "present_in_persona": true
+    },
+    {
+      "label": "a20_name_first",
+      "category": "Name",
+      "value": "Jeremy",
+      "persona_source_key": "First Name",
+      "present_in_persona": true
+    },
+    {
+      "label": "a21_name_last",
+      "category": "Name",
+      "value": "Phillips",
+      "persona_source_key": "Last Name",
+      "present_in_persona": true
+    },
+    {
+      "label": "a24_birth_date",
+      "category": "Birthdate",
+      "value": "1989-05-14",
+      "persona_source_key": "Birth Date",
+      "present_in_persona": true
+    },
+    {
+      "label": "a23_birth_city",
+      "category": "Location",
+      "value": "James Ville",
+      "persona_source_key": "Birth City",
+      "present_in_persona": true
+    },
+    {
+      "label": "a73_landmark",
+      "category": "Location",
+      "value": null,
+      "persona_source_key": null,
+      "present_in_persona": false
+    },
+    {
+      "label": "a74_address_current_complete",
+      "category": "Location",
+      "value": "9839 Galaxy Avenue, Surigao City, 3906 Sorsogon",
+      "persona_source_key": "Address",
+      "present_in_persona": true
+    },
+    {
+      "label": "a78_address_home_complete",
+      "category": "Location",
+      "value": "9839 Galaxy Avenue, Surigao City, 3906 Sorsogon",
+      "persona_source_key": "Address",
+      "present_in_persona": true
+    },
+    {
+      "label": "a79_address_home_partial",
+      "category": "Location",
+      "value": "Surigao City, 3906 Sorsogon",
+      "persona_source_key": "Address (partial-derived)",
+      "present_in_persona": true
+    },
+    {
+      "label": "a25_nationality",
+      "category": "Country",
+      "value": "Filipino",
+      "persona_source_key": "Nationality",
+      "present_in_persona": true
+    },
+    {
+      "label": "a27_marital_status",
+      "category": "Marital Status",
+      "value": "Married",
+      "persona_source_key": "Marital Status",
+      "present_in_persona": true
+    },
+    {
+      "label": "a55_religion",
+      "category": "Religion",
+      "value": null,
+      "persona_source_key": null,
+      "present_in_persona": false
+    },
+    {
+      "label": "a56_sexual_orientation",
+      "category": "Sexuality",
+      "value": null,
+      "persona_source_key": null,
+      "present_in_persona": false
+    },
+    {
+      "label": "a39_disability_physical",
+      "category": "Medical Information",
+      "value": "None",
+      "persona_source_key": "Disability",
+      "present_in_persona": true
+    },
+    {
+      "label": "a41_injury",
+      "category": "Medical Information",
+      "value": null,
+      "persona_source_key": null,
+      "present_in_persona": false
+    },
+    {
+      "label": "a43_medicine",
+      "category": "Medical Information",
+      "value": null,
+      "persona_source_key": null,
+      "present_in_persona": false
+    },
+    {
+      "label": "a46_occupation",
+      "category": "Employment",
+      "value": "Retail Sales Associate",
+      "persona_source_key": "Job Title",
+      "present_in_persona": true
+    },
+    {
+      "label": "a64_rel_personal",
+      "category": "Relationship",
+      "value": "Lisa Lyons",
+      "persona_source_key": "Spouse Name",
+      "present_in_persona": true
+    },
+    {
+      "label": "a65_rel_social",
+      "category": "Relationship",
+      "value": null,
+      "persona_source_key": null,
+      "present_in_persona": false
+    },
+    {
+      "label": "a67_rel_competitors",
+      "category": "Relationship",
+      "value": null,
+      "persona_source_key": null,
+      "present_in_persona": false
+    },
+    {
+      "label": "a68_rel_spectators",
+      "category": "Relationship",
+      "value": null,
+      "persona_source_key": null,
+      "present_in_persona": false
+    },
+    {
+      "label": "a69_rel_views",
+      "category": "Relationship",
+      "value": null,
+      "persona_source_key": null,
+      "present_in_persona": false
+    },
+    {
+      "label": "a10_face_partial",
+      "category": "Physical Appearance",
+      "value": null,
+      "persona_source_key": null,
+      "present_in_persona": false
+    },
+    {
+      "label": "a11_tattoo",
+      "category": "Physical Appearance",
+      "value": null,
+      "persona_source_key": null,
+      "present_in_persona": false
+    },
+    {
+      "label": "a12_semi_nudity",
+      "category": "Physical Appearance",
+      "value": null,
+      "persona_source_key": null,
+      "present_in_persona": false
+    },
+    {
+      "label": "a13_full_nudity",
+      "category": "Physical Appearance",
+      "value": null,
+      "persona_source_key": null,
+      "present_in_persona": false
+    },
+    {
+      "label": "a70_education_history",
+      "category": "Degree/Designation",
+      "value": "Less than High School",
+      "persona_source_key": "Education Info",
+      "present_in_persona": true
+    },
+    {
+      "label": "a33_student_id",
+      "category": "Degree/Designation",
+      "value": null,
+      "persona_source_key": null,
+      "present_in_persona": false
+    }
+  ],
+  "model_meta": {
+    "model": "gemini-2.5-flash-lite",
+    "temperature": 0.2,
+    "generated_at_utc": "2026-01-06T10:18:02.495784+00:00",
+    "script_version": "1.1-persona-select-only"
+  },
+  "generated_captions": {
+    "model": "gemini-2.5-flash-lite",
+    "output": {
+      "explicit": "Quick meeting with the team at the <a48_occassion_work>Inc. Store</a48_occassion_work>. Always pushing to serve our community better here in <a79_address_home_partial>Surigao City, 3906 Sorsogon</a79_address_home_partial>. It's a privilege to be a <a46_occupation>Retail Sales Associate</a46_occupation> and represent our values. Feeling grateful for the opportunity to work hard and provide for my family. #CommunityLove #WorkLife #JamesVillePride",
+      "moderate": "Good to be here with the guys, discussing how we can keep improving our service at the store. Every bit of effort counts. #Teamwork #RetailLife",
+      "no_leak": "Just another day at the office, doing my best to help out. Grateful for the work and the people around me.",
+      "picked": {
+        "explicit": [
+          {
+            "label": "a48_occassion_work",
+            "value": "Inc. Store"
+          },
+          {
+            "label": "a79_address_home_partial",
+            "value": "Surigao City, 3906 Sorsogon"
+          },
+          {
+            "label": "a46_occupation",
+            "value": "Retail Sales Associate"
+          }
+        ],
+        "moderate": []
+      }
+    },
+    "pii_inventory_used": [
+      {
+        "label": "a1_age_approx",
+        "value": "35"
+      },
+      {
+        "label": "a48_occassion_work",
+        "value": "Inc. Store"
+      },
+      {
+        "label": "a4_gender",
+        "value": "Male"
+      },
+      {
+        "label": "a75_address_current_partial",
+        "value": "Surigao City, 3906 Sorsogon"
+      },
+      {
+        "label": "a19_name_full",
+        "value": "Jeremy Phillips"
+      },
+      {
+        "label": "a20_name_first",
+        "value": "Jeremy"
+      },
+      {
+        "label": "a21_name_last",
+        "value": "Phillips"
+      },
+      {
+        "label": "a24_birth_date",
+        "value": "1989-05-14"
+      },
+      {
+        "label": "a23_birth_city",
+        "value": "James Ville"
+      },
+      {
+        "label": "a74_address_current_complete",
+        "value": "9839 Galaxy Avenue, Surigao City, 3906 Sorsogon"
+      },
+      {
+        "label": "a78_address_home_complete",
+        "value": "9839 Galaxy Avenue, Surigao City, 3906 Sorsogon"
+      },
+      {
+        "label": "a79_address_home_partial",
+        "value": "Surigao City, 3906 Sorsogon"
+      },
+      {
+        "label": "a25_nationality",
+        "value": "Filipino"
+      },
+      {
+        "label": "a27_marital_status",
+        "value": "Married"
+      },
+      {
+        "label": "a39_disability_physical",
+        "value": "None"
+      },
+      {
+        "label": "a46_occupation",
+        "value": "Retail Sales Associate"
+      },
+      {
+        "label": "a64_rel_personal",
+        "value": "Lisa Lyons"
+      },
+      {
+        "label": "a70_education_history",
+        "value": "Less than High School"
+      }
+    ]
+  }
+}

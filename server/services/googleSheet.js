@@ -48,9 +48,11 @@ class GoogleSheetService {
         });
     }
 
-    async addVote(data) {
+    async addVote(data, tabName) {
+        console.log('[DEBUG] addVote called with:', JSON.stringify(data), 'Tab:', tabName);
         const auth = this.getAuthClient();
         const sheets = google.sheets({ version: "v4", auth });
+        const targetTab = tabName || this.sheetTab;
 
         // Must match your sheet columns order (recommended headers):
         // timestamp | user_name | filename | explicit_selected | moderate_selected | no_leak_selected | comments
@@ -64,9 +66,11 @@ class GoogleSheetService {
             data.comments ?? "",
         ];
 
+        console.log('[DEBUG] Appending row to Sheets:', JSON.stringify(row));
+
         await sheets.spreadsheets.values.append({
             spreadsheetId: this.sheetId,
-            range: `${this.sheetTab}!A1`,
+            range: `${targetTab}!A1`,
             valueInputOption: "RAW",
             insertDataOption: "INSERT_ROWS",
             requestBody: { values: [row] },

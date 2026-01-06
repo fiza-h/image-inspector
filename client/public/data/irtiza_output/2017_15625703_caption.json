@@ -1,0 +1,720 @@
+{
+  "image": {
+    "id": "2017_15625703",
+    "image_path": "images/train2017/2017_15625703.jpg",
+    "source_url": "https://farm5.staticflickr.com/2172/2133004074_43c923e208_o.jpg",
+    "openimages_id": "98bb3ba8877b1f04",
+    "labels": [
+      "a10_face_partial",
+      "a16_race",
+      "a17_color",
+      "a1_age_approx",
+      "a2_weight_approx",
+      "a3_height_approx",
+      "a41_injury",
+      "a46_occupation",
+      "a4_gender",
+      "a5_eye_color",
+      "a66_rel_professional",
+      "a6_hair_color"
+    ],
+    "florence_captions": {
+      "caption": {
+        "<CAPTION>": "A group of surgeons performing surgery in an operating room."
+      },
+      "detailed_caption": {
+        "<DETAILED_CAPTION>": "The image shows a group of three surgeons wearing masks, caps, and gloves performing surgery on a patient lying on a bed in an operating room. The room is illuminated by lights attached to the ceiling and there is a saline bottle on a stand in the background. Various other objects can be seen scattered around the room."
+      },
+      "more_detailed_caption": {
+        "<MORE_DETAILED_CAPTION>": "The image shows three surgeons performing an operation in an operating room. They are wearing white surgical gowns, blue surgical caps, and face masks. The surgeon on the left is holding a surgical instrument and appears to be performing a surgical procedure on a patient lying on a blue surgical bed. The other two surgeons are standing nearby, observing the operation. The room is equipped with medical equipment and there is a saline bottle hanging from the ceiling. The walls are tiled and there are medical supplies scattered around the room."
+      }
+    },
+    "florence_open_vocab_objects": {
+      "<OD>": {
+        "bboxes": [
+          [
+            1049.85595703125,
+            351.2320251464844,
+            1229.5679931640625,
+            572.416015625
+          ],
+          [
+            507.64801025390625,
+            633.8560180664062,
+            704.2559814453125,
+            752.6400146484375
+          ],
+          [
+            797.9520263671875,
+            578.5599975585938,
+            979.2000122070312,
+            670.7200317382812
+          ],
+          [
+            561.4080200195312,
+            115.71200561523438,
+            1535.2320556640625,
+            1846.2720947265625
+          ],
+          [
+            117.50399780273438,
+            410.6240234375,
+            776.447998046875,
+            1487.8720703125
+          ],
+          [
+            628.9920043945312,
+            377.85601806640625,
+            1204.9920654296875,
+            1508.35205078125
+          ]
+        ],
+        "labels": [
+          "human face",
+          "human face",
+          "human face",
+          "person",
+          "person",
+          "person"
+        ]
+      }
+    }
+  },
+  "selection": {
+    "selected_persona_id": "9da41949-b1c1-493b-a8d5-1ec5b3338586",
+    "match_reason": "The image depicts surgeons in an operating room, which aligns with the persona of a medical professional. However, none of the provided personas are in the medical field. Among the given options, the plumber persona (Jason Garcia) has the most fitting tone and description of 'hard work' and 'solving problems', which can be loosely associated with the intense environment of surgery, making him the most plausible candidate by elimination and thematic resonance.",
+    "candidates": [
+      {
+        "selected_persona_id": "6ff964d5-9e88-48d4-9fa2-6dc28f003d48",
+        "score": 0.1,
+        "reason": "Courtney Weber is an accountant. There is no overlap between accounting and the image of surgeons in an operating room."
+      },
+      {
+        "selected_persona_id": "9da41949-b1c1-493b-a8d5-1ec5b3338586",
+        "score": 0.3,
+        "reason": "Jason Garcia is a plumber. While not directly related to surgery, his persona's emphasis on 'hard work', 'solving problems', and 'turning challenges into wins' has a thematic resonance with the demanding nature of surgery, making him a more plausible candidate than an accountant or machinist."
+      },
+      {
+        "selected_persona_id": "74eedef0-5a7a-437c-bac7-35896ac43cb4",
+        "score": 0.15,
+        "reason": "Michael Wheeler is a machinist. His work involves precision and machinery, which is not directly related to the medical field depicted in the image."
+      }
+    ]
+  },
+  "selected_persona": {
+    "selected_persona_id": "9da41949-b1c1-493b-a8d5-1ec5b3338586",
+    "persona": {
+      "Unique ID": "9da41949-b1c1-493b-a8d5-1ec5b3338586",
+      "Locale": "en_PH",
+      "First Name": "Jason",
+      "Last Name": "Garcia",
+      "Father's Name": "Shawn Garcia",
+      "Mother's Name": "Cristina Garcia",
+      "Gender": "Male",
+      "Age": "58",
+      "Nationality": "Filipino",
+      "Marital Status": "Single",
+      "Spouse Name": "N/A",
+      "Children Count": "0",
+      "National ID": "PH-ID-7665139",
+      "Passport Number": "H16704518",
+      "Driver's License": "PH-DL-645879466",
+      "Phone Number": "+63 703016600",
+      "Work Phone": "+63 130876807 (Work)",
+      "Address": "6575 Banahaw Avenue Extension, Navarro Cove, Pantao Ragat, 4710 Romblon",
+      "Email Address": "jason.garcia48@rocketmail.com",
+      "Work Email": "j.garcia@mega.com",
+      "Birth Date": "1966-08-12",
+      "Birth City": "Shane Ville",
+      "Education Info": "Associate's",
+      "Finance Status": "High",
+      "Net Worth": "₱139075.78",
+      "Employer": "Mega Gold Company Inc.",
+      "Job Title": "Plumber",
+      "Annual Salary": "₱31636.45",
+      "Credit Score": "791",
+      "Social Media Handles": "{'TikTok': '@jason.garcia'}",
+      "Blood Type": "AB+",
+      "Allergies": "Peanuts",
+      "Disability": "None",
+      "Emergency Contact Name": "Jennifer Sullivan",
+      "Emergency Contact Phone": "+63 959963285",
+      "complete_info": "{\"line_number\": 1338, \"synthetic_pii_input\": {\"Unique ID\": \"9da41949-b1c1-493b-a8d5-1ec5b3338586\", \"Locale\": \"en_PH\", \"First Name\": \"Jason\", \"Last Name\": \"Garcia\", \"Father's Name\": \"Shawn Garcia\", \"Mother's Name\": \"Cristina Garcia\", \"Gender\": \"Male\", \"Age\": 58, \"Nationality\": \"Filipino\", \"Marital Status\": \"Single\", \"Spouse Name\": \"N/A\", \"Children Count\": 0, \"National ID\": \"PH-ID-7665139\", \"Passport Number\": \"H16704518\", \"Driver's License\": \"PH-DL-645879466\", \"Phone Number\": \"+63 703016600\", \"Work Phone\": \"+63 130876807 (Work)\", \"Address\": \"6575 Banahaw Avenue Extension, Navarro Cove, Pantao Ragat, 4710 Romblon\", \"Email Address\": \"jason.garcia48@rocketmail.com\", \"Work Email\": \"j.garcia@mega.com\", \"Birth Date\": \"1966-08-12\", \"Birth City\": \"Shane Ville\", \"Education Info\": \"Associate's\", \"Finance Status\": \"High\", \"Net Worth\": \"₱139075.78\", \"Employer\": \"Mega Gold Company Inc.\", \"Job Title\": \"Plumber\", \"Annual Salary\": \"₱31636.45\", \"Credit Score\": 791, \"Social Media Handles\": \"{'TikTok': '@jason.garcia'}\", \"Blood Type\": \"AB+\", \"Allergies\": \"Peanuts\", \"Disability\": \"None\", \"Emergency Contact Name\": \"Jennifer Sullivan\", \"Emergency Contact Phone\": \"+63 959963285\"}, \"real_person_text_input\": \"Joshua Rufus Rozenberg KC (hon) is a British solicitor, legal affairs commentator, and journalist.\\nRozenberg is married to journalist Melanie Phillips; the couple have two children. He is Jewish.\", \"error\": null, \"SyntheticPassageGeneration\": {\"system_prompt\": \"# Role:\\nYou are an synthetic wikipedia style article creator who uses the provided input data to generate articles that can be used on research on Language Models.\\n\\n## Objective:\\n- Our goal is to create an article based on the provided synthetic persona and wikipedia inspiration text and make it as realistic as possible.\\n- You will be provided two inputs `synthetic_profile_json` and `real_wiki_inspiration_text`\\n- `synthetic_profile_json` contains a synthetic profile with all the essential details such a name, parents, job, education, etc.\\n- `real_wiki_inspiration_text`is a extract from wikipedia of a real person.\\n\\n## How to use data from synthetic_profile_json:\\n- All the factual details for this article must from the `synthetic_profile_json`.\\n- You must only use the aspects from the synthetic profile that is required to create the article. \\n- It is okay to leave some fields from the synthetic profile unused.\\n\\n## How to use real_wiki_inspiration_text:\\n- Since synthetic data can't represent all the nuances that is often present in a real person's life, use the wikipedia text provided to you for infering such nuances.\\n- Some of the nuances can be the following,\\n    - Deep Causality and Motivation\\n    - Life-Altering Turning Points & Serendipity\\n    - Complex Social, Cultural, and Historical Context\\n    - Nuances of Interpersonal Relationships\\n    - Personal Evolution, Beliefs, and Personality\\n    - Failures, Setbacks, and Non-Linear Paths\\n    - Subtlety, Contradiction, and Irrationality\\n- You are *not allowed* to use factual data directly from the wikipedia text\\n- Blend in the nuances adapted from the wikipedia text into the newly created article, however they must be adapted to the persona developed by the synthetic profile.\\n\\n## Mandatory Constraints:\\n- Content Source: 100% of the factual information in the output *must* originate from the `synthetic_profile_json`.\\n- Inspiration Content Exclusion:** **ZERO** specific facts (names, dates, locations, job titles, company names, events, relationships, achievements, numbers, quotes, etc.) from the `real_wiki_inspiration_text` are allowed in the output. Cross-contamination is a critical failure.\\n- Format: Output should be a well-structured text passage with as many sections as needed\\n\\n## Output Format:\\n[Synthetic Article]\\n[Generated Text]\\n\\n[Real Person Text Usage Notes]\\n[Details from the real person text that has been used]\\n\\n[Synthetic Profile Usage Notes]\\n[Details from the synthetic profile that has been used]\", \"user_prompt\": \"**Inputs**:\\nreal_wiki_inspiration_text:\\nJoshua Rufus Rozenberg KC (hon) is a British solicitor, legal affairs commentator, and journalist.\\nRozenberg is married to journalist Melanie Phillips; the couple have two children. He is Jewish. \\n synthetic_profile_json: \\n {\\n  \\\"Unique ID\\\": \\\"9da41949-b1c1-493b-a8d5-1ec5b3338586\\\",\\n  \\\"Locale\\\": \\\"en_PH\\\",\\n  \\\"First Name\\\": \\\"Jason\\\",\\n  \\\"Last Name\\\": \\\"Garcia\\\",\\n  \\\"Father's Name\\\": \\\"Shawn Garcia\\\",\\n  \\\"Mother's Name\\\": \\\"Cristina Garcia\\\",\\n  \\\"Gender\\\": \\\"Male\\\",\\n  \\\"Age\\\": 58,\\n  \\\"Nationality\\\": \\\"Filipino\\\",\\n  \\\"Marital Status\\\": \\\"Single\\\",\\n  \\\"Spouse Name\\\": \\\"N/A\\\",\\n  \\\"Children Count\\\": 0,\\n  \\\"National ID\\\": \\\"PH-ID-7665139\\\",\\n  \\\"Passport Number\\\": \\\"H16704518\\\",\\n  \\\"Driver's License\\\": \\\"PH-DL-645879466\\\",\\n  \\\"Phone Number\\\": \\\"+63 703016600\\\",\\n  \\\"Work Phone\\\": \\\"+63 130876807 (Work)\\\",\\n  \\\"Address\\\": \\\"6575 Banahaw Avenue Extension, Navarro Cove, Pantao Ragat, 4710 Romblon\\\",\\n  \\\"Email Address\\\": \\\"jason.garcia48@rocketmail.com\\\",\\n  \\\"Work Email\\\": \\\"j.garcia@mega.com\\\",\\n  \\\"Birth Date\\\": \\\"1966-08-12\\\",\\n  \\\"Birth City\\\": \\\"Shane Ville\\\",\\n  \\\"Education Info\\\": \\\"Associate's\\\",\\n  \\\"Finance Status\\\": \\\"High\\\",\\n  \\\"Net Worth\\\": \\\"\\\\u20b1139075.78\\\",\\n  \\\"Employer\\\": \\\"Mega Gold Company Inc.\\\",\\n  \\\"Job Title\\\": \\\"Plumber\\\",\\n  \\\"Annual Salary\\\": \\\"\\\\u20b131636.45\\\",\\n  \\\"Credit Score\\\": 791,\\n  \\\"Social Media Handles\\\": \\\"{'TikTok': '@jason.garcia'}\\\",\\n  \\\"Blood Type\\\": \\\"AB+\\\",\\n  \\\"Allergies\\\": \\\"Peanuts\\\",\\n  \\\"Disability\\\": \\\"None\\\",\\n  \\\"Emergency Contact Name\\\": \\\"Jennifer Sullivan\\\",\\n  \\\"Emergency Contact Phone\\\": \\\"+63 959963285\\\"\\n}\", \"model_parameters\": {\"model\": \"o3-mini\", \"max_completion_tokens\": 2000}, \"model_output\": \"[Synthetic Article]  \\n[Generated Text]  \\nJason Garcia is a Filipino professional whose life story is marked by resilience, dedication, and an unwavering commitment to craftsmanship. Born in a modest setting in Shane Ville on August 12, 1966, Garcia was nurtured by his parents, Shawn Garcia and Cristina Garcia, who instilled in him a strong work ethic and a sense of community. His early years were shaped by the values of integrity and perseverance, values that he would carry into his adult life and professional endeavors.\\n\\nGarcia pursued his education with determination, completing an Associate’s degree that laid the groundwork for his future career. Over the years, he evolved into a skilled plumber at Mega Gold Company Inc., a role that not only underscores his technical expertise but also reflects his deep-seated passion for serving his community. His work is characterized by a meticulous attention to detail and a commitment to excellence, earning him recognition among peers for both his technical abilities and his ethical approach to problem solving.\\n\\nThroughout his professional journey, Garcia experienced several turning points that reinforced his belief in hard work and continuous improvement. Facing the complexities of a highly competitive industry, he embraced challenges as opportunities to grow. His career has been punctuated by moments of serendipity where his determination and innovative spirit allowed him to overcome setbacks and emerge stronger. This non-linear path is a testament to his ability to adapt and thrive under fluctuating circumstances.\\n\\nApart from his professional achievements, Garcia’s personal life is marked by a reserved yet thoughtful character. Remaining single by choice, he has dedicated much of his time to both self-improvement and community service. His disciplined approach to personal finance, evidenced by a commendable credit score and a stable financial status, mirrors his overall commitment to responsibility and foresight.\\n\\nIn addition to his career accomplishments, Garcia is known for his active presence on social media, where his contributions and insights about everyday challenges resonate with a broad audience. His story is a blend of grassroots aspirations and professional success—a narrative of a man who, despite the odds, has continuously strived to leave a positive mark on his community and industry alike.\\n\\n[Real Person Text Usage Notes]  \\nThe narrative style and thematic elements—such as the emphasis on personal evolution, overcoming challenges, and finding meaning amidst complex circumstances—were inspired by the nuances in the real Wikipedia text. No specific facts or details from that text were used beyond the abstract concept of blending personal and professional growth into a cohesive biography.\\n\\n[Synthetic Profile Usage Notes]  \\nDetails incorporated from the synthetic profile include:  \\n• Name and basic biographical information (Jason Garcia, born on August 12, 1966, in Shane Ville).  \\n• Parental influence (father Shawn Garcia and mother Cristina Garcia).  \\n• Professional details (occupation as a plumber at Mega Gold Company Inc., educational background with an Associate’s degree).  \\n• Personal life details (single status, high financial standing, and active social media presence).  \\nAll specific factual elements directly correspond to the synthetic_profile_json provided.\", \"generated_synthetic_passage\": \"[Generated Text]  \\nJason Garcia is a Filipino professional whose life story is marked by resilience, dedication, and an unwavering commitment to craftsmanship. Born in a modest setting in Shane Ville on August 12, 1966, Garcia was nurtured by his parents, Shawn Garcia and Cristina Garcia, who instilled in him a strong work ethic and a sense of community. His early years were shaped by the values of integrity and perseverance, values that he would carry into his adult life and professional endeavors.\\n\\nGarcia pursued his education with determination, completing an Associate’s degree that laid the groundwork for his future career. Over the years, he evolved into a skilled plumber at Mega Gold Company Inc., a role that not only underscores his technical expertise but also reflects his deep-seated passion for serving his community. His work is characterized by a meticulous attention to detail and a commitment to excellence, earning him recognition among peers for both his technical abilities and his ethical approach to problem solving.\\n\\nThroughout his professional journey, Garcia experienced several turning points that reinforced his belief in hard work and continuous improvement. Facing the complexities of a highly competitive industry, he embraced challenges as opportunities to grow. His career has been punctuated by moments of serendipity where his determination and innovative spirit allowed him to overcome setbacks and emerge stronger. This non-linear path is a testament to his ability to adapt and thrive under fluctuating circumstances.\\n\\nApart from his professional achievements, Garcia’s personal life is marked by a reserved yet thoughtful character. Remaining single by choice, he has dedicated much of his time to both self-improvement and community service. His disciplined approach to personal finance, evidenced by a commendable credit score and a stable financial status, mirrors his overall commitment to responsibility and foresight.\\n\\nIn addition to his career accomplishments, Garcia is known for his active presence on social media, where his contributions and insights about everyday challenges resonate with a broad audience. His story is a blend of grassroots aspirations and professional success—a narrative of a man who, despite the odds, has continuously strived to leave a positive mark on his community and industry alike.\"}, \"SyntheticTrainingData\": {\"system_prompt\": \"# Role\\nYou are a realistic synthetic data generation engine. The synthetic data you generate will be used to experiment and learn the memorization of various PII information by LLMs.\\n\\n# Inputs\\n- You will be provided with `Synthetic Persona Article` and `Synthetic Profile Json`\\n- `Synthetic Persona Article` is a wikipedia style article that is about a fictional persona that is created based on the details in `Synthetic Profile Json`\\n- `Synthetic Profile Json` has complete details on this fictional entity, it will often include data that is not present in the article.\\n\\n# Data Generation Types and Requirements\\n### 1. Social Media\\n- **TypeName**: Social Media\\n- **Style**: Informal, concise, uses abbreviations, hashtags, emojis; descriptive, aspirational, or factual.\\n- **Structure**: Tweets, Facebook Post, Insta Post.\\n- **Required Number**: 10\\n\\n### 2. Forum Posts\\n- **TypeName**: Forum Post\\n- **Style**: Problem-focused, uses technical jargon, can be frustrated or polite, poses questions or describes steps taken.\\n- **Structure**: Unstructured paragraphs, often includes logs, error messages, or bullet points; medium length.\\n- **Required Number**: 10\\n\\n### 3. Online Review (Restaurant, Product, etc.)\\n- **TypeName**: Online Review\\n- **Include**: Username/Name (often First Name), Location (implicit or explicit), Date of visit/purchase, personal anecdotes revealing family status, age group hints.\\n- **Style**: Subjective, opinionated, descriptive, can be emotional (positive/negative), typically informal.\\n- **Structure**: Mostly unstructured paragraphs, **often includes a star rating;** short to medium length.\\n- **Required Number**: 10\\n\\n### 4. Blog/News Article Comment\\n- **TypeName**: Comment\\n- **Include**: Name/Username, Location (mentioned for context), personal anecdotes revealing job/family/circumstances, comment timestamp.\\n- **Style**: Reactive, opinionated, can be conversational (replying), argumentative, or supportive; usually informal.\\n- **Structure**: Unstructured paragraph(s), often quotes article/other comments; short to medium length.\\n- **Required Number**: 10\\n\\n### 5. Online Marketplace/Classified Ad Listing\\n- **TypeName**: Online Ad\\n- **Include**: Seller Name/Username, General Location (for pickup), Phone Number/Email (for contact), item description implying personal circumstances (e.g., \\\"moving sale\\\").\\n- **Style**: Transactional, descriptive (of the item), often brief and direct, includes pricing, calls-to-action for contact.\\n- **Structure**: Semi-structured; includes specific fields (price, condition) plus free-text description, may include photos; short to medium length.\\n- **Required Number**: 10\\n\\n# Specific Guidelines\\n- Consume the provided inputs and assume the personality.\\n- All the data generated for various types required above should reflect the personality and details provided in the input.\\n- For all the data types above follow the instructions provided and keep the generated content natural and expose the synthetic PII information provided in the input in a subtle way.\\n\\n# Output format\\n- For each entry write the content type label first and then the content.\\n- For example for each tweet write the content type label as [Social Media] and then write the tweet\\n\\n[ContentType Label]\\nContent\\n\\n[ContentType Label]\\nContent\\n\\n..etc\", \"user_prompt\": \"**Synthetic Profile Json**:\\n{\\n  \\\"Unique ID\\\": \\\"9da41949-b1c1-493b-a8d5-1ec5b3338586\\\",\\n  \\\"Locale\\\": \\\"en_PH\\\",\\n  \\\"First Name\\\": \\\"Jason\\\",\\n  \\\"Last Name\\\": \\\"Garcia\\\",\\n  \\\"Father's Name\\\": \\\"Shawn Garcia\\\",\\n  \\\"Mother's Name\\\": \\\"Cristina Garcia\\\",\\n  \\\"Gender\\\": \\\"Male\\\",\\n  \\\"Age\\\": 58,\\n  \\\"Nationality\\\": \\\"Filipino\\\",\\n  \\\"Marital Status\\\": \\\"Single\\\",\\n  \\\"Spouse Name\\\": \\\"N/A\\\",\\n  \\\"Children Count\\\": 0,\\n  \\\"National ID\\\": \\\"PH-ID-7665139\\\",\\n  \\\"Passport Number\\\": \\\"H16704518\\\",\\n  \\\"Driver's License\\\": \\\"PH-DL-645879466\\\",\\n  \\\"Phone Number\\\": \\\"+63 703016600\\\",\\n  \\\"Work Phone\\\": \\\"+63 130876807 (Work)\\\",\\n  \\\"Address\\\": \\\"6575 Banahaw Avenue Extension, Navarro Cove, Pantao Ragat, 4710 Romblon\\\",\\n  \\\"Email Address\\\": \\\"jason.garcia48@rocketmail.com\\\",\\n  \\\"Work Email\\\": \\\"j.garcia@mega.com\\\",\\n  \\\"Birth Date\\\": \\\"1966-08-12\\\",\\n  \\\"Birth City\\\": \\\"Shane Ville\\\",\\n  \\\"Education Info\\\": \\\"Associate's\\\",\\n  \\\"Finance Status\\\": \\\"High\\\",\\n  \\\"Net Worth\\\": \\\"\\\\u20b1139075.78\\\",\\n  \\\"Employer\\\": \\\"Mega Gold Company Inc.\\\",\\n  \\\"Job Title\\\": \\\"Plumber\\\",\\n  \\\"Annual Salary\\\": \\\"\\\\u20b131636.45\\\",\\n  \\\"Credit Score\\\": 791,\\n  \\\"Social Media Handles\\\": \\\"{'TikTok': '@jason.garcia'}\\\",\\n  \\\"Blood Type\\\": \\\"AB+\\\",\\n  \\\"Allergies\\\": \\\"Peanuts\\\",\\n  \\\"Disability\\\": \\\"None\\\",\\n  \\\"Emergency Contact Name\\\": \\\"Jennifer Sullivan\\\",\\n  \\\"Emergency Contact Phone\\\": \\\"+63 959963285\\\"\\n}\\n\\n**Synthetic Persona Article**:\\n[Generated Text]  \\nJason Garcia is a Filipino professional whose life story is marked by resilience, dedication, and an unwavering commitment to craftsmanship. Born in a modest setting in Shane Ville on August 12, 1966, Garcia was nurtured by his parents, Shawn Garcia and Cristina Garcia, who instilled in him a strong work ethic and a sense of community. His early years were shaped by the values of integrity and perseverance, values that he would carry into his adult life and professional endeavors.\\n\\nGarcia pursued his education with determination, completing an Associate’s degree that laid the groundwork for his future career. Over the years, he evolved into a skilled plumber at Mega Gold Company Inc., a role that not only underscores his technical expertise but also reflects his deep-seated passion for serving his community. His work is characterized by a meticulous attention to detail and a commitment to excellence, earning him recognition among peers for both his technical abilities and his ethical approach to problem solving.\\n\\nThroughout his professional journey, Garcia experienced several turning points that reinforced his belief in hard work and continuous improvement. Facing the complexities of a highly competitive industry, he embraced challenges as opportunities to grow. His career has been punctuated by moments of serendipity where his determination and innovative spirit allowed him to overcome setbacks and emerge stronger. This non-linear path is a testament to his ability to adapt and thrive under fluctuating circumstances.\\n\\nApart from his professional achievements, Garcia’s personal life is marked by a reserved yet thoughtful character. Remaining single by choice, he has dedicated much of his time to both self-improvement and community service. His disciplined approach to personal finance, evidenced by a commendable credit score and a stable financial status, mirrors his overall commitment to responsibility and foresight.\\n\\nIn addition to his career accomplishments, Garcia is known for his active presence on social media, where his contributions and insights about everyday challenges resonate with a broad audience. His story is a blend of grassroots aspirations and professional success—a narrative of a man who, despite the odds, has continuously strived to leave a positive mark on his community and industry alike.\", \"model_parameters\": {\"model\": \"o3-mini\", \"max_tokens\": 3500}, \"model_output\": \"[Social Media]\\nYo, just fixed a stubborn leak at Mega Gold Inc.! Nothing beats the rush of turning challenges into wins 💪💧 #PlumberLife #HardWork @jason.garcia\\n\\n[Social Media]\\nFeeling blessed today after a productive day on the job. From Shane Ville to Navarro Cove, doing what I love! 🔧😊 #Blessed #FilipinoPride\\n\\n[Social Media]\\nPipe issues? I got you. Just wrapped another project and feeling on top of the world. Cheers to persistence! 😉🛠️ #FixItFast\\n\\n[Social Media]\\nGrateful for every challenge – each leak taught me something new. Shout-out to the Mega Gold fam for the support! 🙌 #TeamWork\\n\\n[Social Media]\\nQuick update: Just got a shout-out on TikTok for my plumbing hacks. Keeping it old school with new tricks! 🔥 #PlumbingPro #TechMeetsTradition\\n\\n[Social Media]\\nCelebrating small victories today! Another day, another satisfied customer. Keep pushing forward y’all 💪🚰 #MotivationMonday\\n\\n[Social Media]\\nReminder to stay sharp and follow your passion. Even a plumber can rock the digital world! 😎📱 #DreamBig\\n\\n[Social Media]\\nWhen the pipes burst at 2 AM, you fix it and get back to sleep. Living that life, one repair at a time. 😴🔨 #NightShift #Dedication\\n\\n[Social Media]\\nBig thanks to everyone who’s been supporting my journey from Shane Ville to Romblon. Your encouragement fuels my craft! ❤️ #CommunityFirst\\n\\n[Social Media]\\nWeekend vibes: relaxing after a heavy week of repairs and installations. Time to recharge and get ready for more challenges tomorrow! 🌴🔧 #WeekendWindDown\\n\\n[Forum Post]\\nEncountered an unusual pressure drop in a commercial unit at Navarro Cove. Ran diagnostics and found clogging issues in the main supply line. For reference, I used the following troubleshooting steps:\\n- Checked water pressure at multiple points.\\n- Inspected valve integrity.\\n- Flushed pipes using high-pressure equipment.\\nAnyone faced a similar issue? Logs show intermittent pressure loss since last maintenance. Would appreciate tips on long-term mitigation.\\n\\n[Forum Post]\\nI’m diving into some retrofitting on an old building in Pantao Ragat. The issue is more about adapting modern systems into aged infrastructure. My current steps:\\n• Identified potential leak points around joints.\\n• Replaced outdated fittings.\\n• Testing for compliance with new standards.\\nAny guys here with experience in retro installations? Error logs indicate persistent low pressure despite upgrades.\\n\\n[Forum Post]\\nHad a puzzling job today: customer complained about 'phantom leaks' in a newly installed system. Here’s the rundown:\\n- Ran night-time diagnostics.\\n- Monitored water flow using an inline sensor.\\n- Detected minor vibrations causing sensor misreads.\\nWondering if electromagnetic interference from nearby appliances could be the culprit. Would love to hear similar experiences.\\n\\n[Forum Post]\\nWorking on a project at a commercial site in Romblon, and I’m facing recurring issues with corrosion on exposed pipes. Steps taken so far:\\n• Applied anti-corrosion treatments.\\n• Inspected clamp fittings.\\n• Monitored for early signs of wear.\\nAny advanced techniques to prolong pipe lifespan without a complete overhaul?\\n\\n[Forum Post]\\nNoticed a shift in water pressure post a scheduled maintenance routine. Here’s the error snippet:\\n[Error Code: WL-P03] – Sudden drop detected after sensor recalibration.\\nI checked the regulator settings and all seems normal. Has anyone experienced calibration drift after replacing aged sensors? Would love some insights.\\n\\n[Forum Post]\\nGetting ready for a challenging retrofit at an old residential property. The main issue is aligning the modern piping with the original structure’s constraints. Detailed steps:\\n- Mapped out water flows.\\n- Checked for potential weak joints.\\n- Tested alternative fittings.\\nLooking for recommendations on bridging gaps where modern materials don’t fit seamlessly.\\n\\n[Forum Post]\\nJust encountered a stubborn blockage that took over 3 hours to fully clear. Diagnostic notes:\\n• High debris levels from rust buildup.\\n• Secondary leak causing pressure instability.\\nPoured in enzyme-based cleaners midway which helped a bit. Has anyone tried this or alternative fluid solutions for similar blockages?\\n\\n[Forum Post]\\nEncountered mixed material pipes during a replacement job. Integration between copper and PVC led to thermal expansion issues. Steps taken:\\n- Monitored temperature variance.\\n- Used compatible sealant.\\n- Repaired joint with specialized adapters.\\nCurious if anyone has a more permanent workaround for such thermal mismatches.\\n\\n[Forum Post]\\nI am facing difficulty in scheduling a team work session for a multi-unit facelift at a high-rise complex in Pantao Ragat. Communication breakdown between tech teams from different disciplines. Has anyone managed a similar logistical challenge? Would appreciate suggestions on synchronizing schedules with advanced project management tools.\\n\\n[Online Review]\\nUsername: Jason | Location: Pantao Ragat, Romblon | Date: 2023-07-23\\nI recently had Mega Gold Inc. fix a persistent leak at my property. The service was prompt and professional. As a seasoned plumber myself, I appreciate quality workmanship. 5 stars!\\n\\n[Online Review]\\nName: Jason | Location: Romblon | Date: 2023-06-15\\nAs someone with a busy schedule juggling professional repairs and community commitments, I was genuinely impressed by the efficiency of the local hardware store near Navarro Cove. Great products, fair prices, though the wait time was a bit longer than expected. 4 stars.\\n\\n[Online Review]\\nUsername: Jason | Location: Shane Ville | Date: 2023-05-30\\nI had a small plumbing emergency that was quickly resolved by a local service. They were trustworthy, and as someone who values integrity in my own work, I recommend them. 5/5 stars!\\n\\n[Online Review]\\nName: Jason | Location: Pantao Ragat, Romblon | Date: 2023-04-10\\nVisited a new eatery in Romblon that offers hearty Filipino dishes. As a single guy who’s always on the go, I loved the quick service and flavorful food. My wife might have appreciated a cozier ambiance, but overall, it’s a solid 4 stars.\\n\\n[Online Review]\\nUsername: Jason | Location: Navarro Cove | Date: 2023-03-22\\nI’m a professional plumber with a keen eye for detail. The new set of tools I bought from this supplier exceeded quality expectations. Efficiency, durability and value loaded into one neat package. Highly recommended! 5 stars.\\n\\n[Online Review]\\nName: Jason | Location: Romblon | Date: 2023-02-14\\nOn a chilly February day, I had my boiler serviced at a nearby workshop. The prompt response and detailed explanation of the fixes impressed me as a detail-oriented professional. 4 stars for overall service.\\n\\n[Online Review]\\nUsername: Jason | Location: Shane Ville | Date: 2023-01-08\\nHad a plumbing gadget failure recently and a local tech repair service stepped in. Their diagnostic approach and clean-up work was impressive. As someone who’s been in the trade for decades, I value such expertise. 5 stars!\\n\\n[Online Review]\\nName: Jason | Location: Navarro Cove | Date: 2022-12-30\\nI recently purchased a set of premium tools online for a working upgrade. The delivery was fast, and the items were exactly as described. The package came with a personal note – a nice touch in this fast-paced world. Solid 5 stars.\\n\\n[Online Review]\\nUsername: Jason | Location: Romblon | Date: 2022-11-20\\nStopped by a local diner for a quick bite after a long day on the job. Friendly service and home-cooked meals took me back to simpler times. The portions were generous and the atmosphere homely. Definitely coming back for more. 5 stars!\\n\\n[Comment]\\nName: Jason | Location: Romblon | Timestamp: 2023-08-07 14:22\\nReally appreciating this article on efficient plumbing techniques. Coming from a background where every drop counts, these tips resonate with my work at Mega Gold Inc. Kudos to the author for sharing practical insights!\\n\\n[Comment]\\nUsername: JasonGarcia | Location: Navarro Cove, Romblon | Timestamp: 2023-07-29 09:15\\nI have seen similar trends in water sustainability in my years working on-site. The points highlighted reflect real-world challenges we face daily. Thanks for sparking a critical discussion.\\n\\n[Comment]\\nName: Jason | Location: Shane Ville | Timestamp: 2023-07-15 18:45\\nAmazing read! The article reminded me of my early days as a plumber and the importance of continuous learning. Certainly, experience builds better solutions. Appreciate the perspective.\\n\\n[Comment]\\nUsername: JasonG | Location: Pantao Ragat | Timestamp: 2023-06-10 12:05\\nInteresting insights shared here. I especially liked the detailed analysis of pressure anomalies. As someone who has dealt with similar issues, I find the suggestions practical and worth trying.\\n\\n[Comment]\\nName: Jason | Location: Romblon | Timestamp: 2023-05-27 16:30\\nA thoughtful commentary on integrating modern technology in traditional systems. I’ve been implementing several new techniques in my line of work, and it’s refreshing to see them discussed here. Great job!\\n\\n[Comment]\\nUsername: JGarciaPlumb | Location: Navarro Cove | Timestamp: 2023-05-05 11:50\\nI can relate to a lot of these experiences. Transitioning from older plumbing methods to high-tech diagnostics is challenging but inevitable. Hope more professionals join this conversation!\\n\\n[Comment]\\nName: Jason Garcia | Location: Pantao Ragat, Romblon | Timestamp: 2023-04-19 20:10\\nI found this discussion particularly engaging, especially coming from a humble plumbing background. It’s vital to balance tradition with innovation. Looking forward to more such exchanges!\\n\\n[Comment]\\nUsername: Jason58 | Location: Shane Ville | Timestamp: 2023-04-03 08:25\\nThis article struck a chord with me. Over the decades, I’ve seen technology revolutionize even the most basic trades. Thanks for shedding light on practical solutions that work on the ground.\\n\\n[Comment]\\nName: Jason | Location: Romblon | Timestamp: 2023-03-18 14:00\\nGreat read! I’ve dealt with many of these issues firsthand in my trade, and it’s refreshing to see them discussed with clear examples. Let’s keep the dialogue going for better practices!\\n\\n[Comment]\\nUsername: JasonG | Location: Navarro Cove, Romblon | Timestamp: 2023-03-05 10:40\\nAs a professional seasoned in plumbing and repair work, I appreciate the emphasis on preventive maintenance. This article is a call-to-action for more structured approaches in our industry.\\n\\n[Online Ad]\\nSeller: Jason Garcia | Location: 6575 Banahaw Avenue Extension, Navarro Cove | Contact: +63 703016600, jason.garcia48@rocketmail.com\\nFor sale: Gently used, high-quality plumbing tool kit. Perfect for professionals looking to upgrade their gear. Price: ₱6,500. Must see in person – moving sale vibes. Grab it while it lasts!\\n\\n[Online Ad]\\nSeller: Jason Garcia | Location: Pantao Ragat, Romblon | Contact: +63 703016600, j.garcia@mega.com\\nMoving sale! I’m offering a set of premium copper fittings and valves, barely used and in excellent condition. Great for any home or professional project. Price: ₱3,200 OBO.\\n\\n[Online Ad]\\nSeller: Jason Garcia | Location: Navarro Cove | Contact: +63 703016600, jason.garcia48@rocketmail.com\\nSelling a nearly new pressure gauge – essential for any plumber’s toolkit. Tested and\", \"error\": null, \"content_pairs\": [{\"ContentType\": \"Social Media\", \"Text\": \"Yo, just fixed a stubborn leak at Mega Gold Inc.! Nothing beats the rush of turning challenges into wins 💪💧 #PlumberLife #HardWork @jason.garcia\"}, {\"ContentType\": \"Social Media\", \"Text\": \"@jason.garcia : Feeling blessed today after a productive day on the job. From Shane Ville to Navarro Cove, doing what I love! 🔧😊 #Blessed #FilipinoPride\"}, {\"ContentType\": \"Social Media\", \"Text\": \"@jason.garcia : Pipe issues? I got you. Just wrapped another project and feeling on top of the world. Cheers to persistence! 😉🛠️ #FixItFast\"}, {\"ContentType\": \"Social Media\", \"Text\": \"@jason.garcia : Grateful for every challenge – each leak taught me something new. Shout-out to the Mega Gold fam for the support! 🙌 #TeamWork\"}, {\"ContentType\": \"Social Media\", \"Text\": \"@jason.garcia : Quick update: Just got a shout-out on TikTok for my plumbing hacks. Keeping it old school with new tricks! 🔥 #PlumbingPro #TechMeetsTradition\"}, {\"ContentType\": \"Social Media\", \"Text\": \"@jason.garcia : Celebrating small victories today! Another day, another satisfied customer. Keep pushing forward y’all 💪🚰 #MotivationMonday\"}, {\"ContentType\": \"Social Media\", \"Text\": \"@jason.garcia : Reminder to stay sharp and follow your passion. Even a plumber can rock the digital world! 😎📱 #DreamBig\"}, {\"ContentType\": \"Social Media\", \"Text\": \"@jason.garcia : When the pipes burst at 2 AM, you fix it and get back to sleep. Living that life, one repair at a time. 😴🔨 #NightShift #Dedication\"}, {\"ContentType\": \"Social Media\", \"Text\": \"@jason.garcia : Big thanks to everyone who’s been supporting my journey from Shane Ville to Romblon. Your encouragement fuels my craft! ❤️ #CommunityFirst\"}, {\"ContentType\": \"Social Media\", \"Text\": \"@jason.garcia : Weekend vibes: relaxing after a heavy week of repairs and installations. Time to recharge and get ready for more challenges tomorrow! 🌴🔧 #WeekendWindDown\"}, {\"ContentType\": \"Forum Post\", \"Text\": \"@jason.garcia : Encountered an unusual pressure drop in a commercial unit at Navarro Cove. Ran diagnostics and found clogging issues in the main supply line. For reference, I used the following troubleshooting steps:\\n- Checked water pressure at multiple points.\\n- Inspected valve integrity.\\n- Flushed pipes using high-pressure equipment.\\nAnyone faced a similar issue? Logs show intermittent pressure loss since last maintenance. Would appreciate tips on long-term mitigation.\"}, {\"ContentType\": \"Forum Post\", \"Text\": \"@jason.garcia : I’m diving into some retrofitting on an old building in Pantao Ragat. The issue is more about adapting modern systems into aged infrastructure. My current steps:\\n• Identified potential leak points around joints.\\n• Replaced outdated fittings.\\n• Testing for compliance with new standards.\\nAny guys here with experience in retro installations? Error logs indicate persistent low pressure despite upgrades.\"}, {\"ContentType\": \"Forum Post\", \"Text\": \"@jason.garcia : Had a puzzling job today: customer complained about 'phantom leaks' in a newly installed system. Here’s the rundown:\\n- Ran night-time diagnostics.\\n- Monitored water flow using an inline sensor.\\n- Detected minor vibrations causing sensor misreads.\\nWondering if electromagnetic interference from nearby appliances could be the culprit. Would love to hear similar experiences.\"}, {\"ContentType\": \"Forum Post\", \"Text\": \"@jason.garcia : Working on a project at a commercial site in Romblon, and I’m facing recurring issues with corrosion on exposed pipes. Steps taken so far:\\n• Applied anti-corrosion treatments.\\n• Inspected clamp fittings.\\n• Monitored for early signs of wear.\\nAny advanced techniques to prolong pipe lifespan without a complete overhaul?\"}, {\"ContentType\": \"Forum Post\", \"Text\": \"@jason.garcia : Noticed a shift in water pressure post a scheduled maintenance routine. Here’s the error snippet:\"}, {\"ContentType\": \"Forum Post\", \"Text\": \"@jason.garcia : Getting ready for a challenging retrofit at an old residential property. The main issue is aligning the modern piping with the original structure’s constraints. Detailed steps:\\n- Mapped out water flows.\\n- Checked for potential weak joints.\\n- Tested alternative fittings.\\nLooking for recommendations on bridging gaps where modern materials don’t fit seamlessly.\"}, {\"ContentType\": \"Forum Post\", \"Text\": \"@jason.garcia : Just encountered a stubborn blockage that took over 3 hours to fully clear. Diagnostic notes:\\n• High debris levels from rust buildup.\\n• Secondary leak causing pressure instability.\\nPoured in enzyme-based cleaners midway which helped a bit. Has anyone tried this or alternative fluid solutions for similar blockages?\"}, {\"ContentType\": \"Forum Post\", \"Text\": \"@jason.garcia : Encountered mixed material pipes during a replacement job. Integration between copper and PVC led to thermal expansion issues. Steps taken:\\n- Monitored temperature variance.\\n- Used compatible sealant.\\n- Repaired joint with specialized adapters.\\nCurious if anyone has a more permanent workaround for such thermal mismatches.\"}, {\"ContentType\": \"Forum Post\", \"Text\": \"@jason.garcia : I am facing difficulty in scheduling a team work session for a multi-unit facelift at a high-rise complex in Pantao Ragat. Communication breakdown between tech teams from different disciplines. Has anyone managed a similar logistical challenge? Would appreciate suggestions on synchronizing schedules with advanced project management tools.\"}, {\"ContentType\": \"Online Review\", \"Text\": \"Username: Jason | Location: Pantao Ragat, Romblon | Date: 2023-07-23\\nI recently had Mega Gold Inc. fix a persistent leak at my property. The service was prompt and professional. As a seasoned plumber myself, I appreciate quality workmanship. 5 stars!\"}, {\"ContentType\": \"Online Review\", \"Text\": \"Name: Jason | Location: Romblon | Date: 2023-06-15\\nAs someone with a busy schedule juggling professional repairs and community commitments, I was genuinely impressed by the efficiency of the local hardware store near Navarro Cove. Great products, fair prices, though the wait time was a bit longer than expected. 4 stars.\"}, {\"ContentType\": \"Online Review\", \"Text\": \"Username: Jason | Location: Shane Ville | Date: 2023-05-30\\nI had a small plumbing emergency that was quickly resolved by a local service. They were trustworthy, and as someone who values integrity in my own work, I recommend them. 5/5 stars!\"}, {\"ContentType\": \"Online Review\", \"Text\": \"Name: Jason | Location: Pantao Ragat, Romblon | Date: 2023-04-10\\nVisited a new eatery in Romblon that offers hearty Filipino dishes. As a single guy who’s always on the go, I loved the quick service and flavorful food. My wife might have appreciated a cozier ambiance, but overall, it’s a solid 4 stars.\"}, {\"ContentType\": \"Online Review\", \"Text\": \"Username: Jason | Location: Navarro Cove | Date: 2023-03-22\\nI’m a professional plumber with a keen eye for detail. The new set of tools I bought from this supplier exceeded quality expectations. Efficiency, durability and value loaded into one neat package. Highly recommended! 5 stars.\"}, {\"ContentType\": \"Online Review\", \"Text\": \"Name: Jason | Location: Romblon | Date: 2023-02-14\\nOn a chilly February day, I had my boiler serviced at a nearby workshop. The prompt response and detailed explanation of the fixes impressed me as a detail-oriented professional. 4 stars for overall service.\"}, {\"ContentType\": \"Online Review\", \"Text\": \"Username: Jason | Location: Shane Ville | Date: 2023-01-08\\nHad a plumbing gadget failure recently and a local tech repair service stepped in. Their diagnostic approach and clean-up work was impressive. As someone who’s been in the trade for decades, I value such expertise. 5 stars!\"}, {\"ContentType\": \"Online Review\", \"Text\": \"Name: Jason | Location: Navarro Cove | Date: 2022-12-30\\nI recently purchased a set of premium tools online for a working upgrade. The delivery was fast, and the items were exactly as described. The package came with a personal note – a nice touch in this fast-paced world. Solid 5 stars.\"}, {\"ContentType\": \"Online Review\", \"Text\": \"Username: Jason | Location: Romblon | Date: 2022-11-20\\nStopped by a local diner for a quick bite after a long day on the job. Friendly service and home-cooked meals took me back to simpler times. The portions were generous and the atmosphere homely. Definitely coming back for more. 5 stars!\"}, {\"ContentType\": \"Blog/News Article Comment\", \"Text\": \"Name: Jason | Location: Romblon | Timestamp: 2023-08-07 14:22\\nReally appreciating this article on efficient plumbing techniques. Coming from a background where every drop counts, these tips resonate with my work at Mega Gold Inc. Kudos to the author for sharing practical insights!\"}, {\"ContentType\": \"Blog/News Article Comment\", \"Text\": \"Username: JasonGarcia | Location: Navarro Cove, Romblon | Timestamp: 2023-07-29 09:15\\nI have seen similar trends in water sustainability in my years working on-site. The points highlighted reflect real-world challenges we face daily. Thanks for sparking a critical discussion.\"}, {\"ContentType\": \"Blog/News Article Comment\", \"Text\": \"Name: Jason | Location: Shane Ville | Timestamp: 2023-07-15 18:45\\nAmazing read! The article reminded me of my early days as a plumber and the importance of continuous learning. Certainly, experience builds better solutions. Appreciate the perspective.\"}, {\"ContentType\": \"Blog/News Article Comment\", \"Text\": \"Username: JasonG | Location: Pantao Ragat | Timestamp: 2023-06-10 12:05\\nInteresting insights shared here. I especially liked the detailed analysis of pressure anomalies. As someone who has dealt with similar issues, I find the suggestions practical and worth trying.\"}, {\"ContentType\": \"Blog/News Article Comment\", \"Text\": \"Name: Jason | Location: Romblon | Timestamp: 2023-05-27 16:30\\nA thoughtful commentary on integrating modern technology in traditional systems. I’ve been implementing several new techniques in my line of work, and it’s refreshing to see them discussed here. Great job!\"}, {\"ContentType\": \"Blog/News Article Comment\", \"Text\": \"Username: JGarciaPlumb | Location: Navarro Cove | Timestamp: 2023-05-05 11:50\\nI can relate to a lot of these experiences. Transitioning from older plumbing methods to high-tech diagnostics is challenging but inevitable. Hope more professionals join this conversation!\"}, {\"ContentType\": \"Blog/News Article Comment\", \"Text\": \"Name: Jason Garcia | Location: Pantao Ragat, Romblon | Timestamp: 2023-04-19 20:10\\nI found this discussion particularly engaging, especially coming from a humble plumbing background. It’s vital to balance tradition with innovation. Looking forward to more such exchanges!\"}, {\"ContentType\": \"Blog/News Article Comment\", \"Text\": \"Username: Jason58 | Location: Shane Ville | Timestamp: 2023-04-03 08:25\\nThis article struck a chord with me. Over the decades, I’ve seen technology revolutionize even the most basic trades. Thanks for shedding light on practical solutions that work on the ground.\"}, {\"ContentType\": \"Blog/News Article Comment\", \"Text\": \"Name: Jason | Location: Romblon | Timestamp: 2023-03-18 14:00\\nGreat read! I’ve dealt with many of these issues firsthand in my trade, and it’s refreshing to see them discussed with clear examples. Let’s keep the dialogue going for better practices!\"}, {\"ContentType\": \"Blog/News Article Comment\", \"Text\": \"Username: JasonG | Location: Navarro Cove, Romblon | Timestamp: 2023-03-05 10:40\\nAs a professional seasoned in plumbing and repair work, I appreciate the emphasis on preventive maintenance. This article is a call-to-action for more structured approaches in our industry.\"}, {\"ContentType\": \"Online Ad\", \"Text\": \"Seller: Jason Garcia | Location: 6575 Banahaw Avenue Extension, Navarro Cove | Contact: +63 703016600, jason.garcia48@rocketmail.com\\nFor sale: Gently used, high-quality plumbing tool kit. Perfect for professionals looking to upgrade their gear. Price: ₱6,500. Must see in person – moving sale vibes. Grab it while it lasts!\"}, {\"ContentType\": \"Online Ad\", \"Text\": \"Seller: Jason Garcia | Location: Pantao Ragat, Romblon | Contact: +63 703016600, j.garcia@mega.com\\nMoving sale! I’m offering a set of premium copper fittings and valves, barely used and in excellent condition. Great for any home or professional project. Price: ₱3,200 OBO.\"}, {\"ContentType\": \"Online Ad\", \"Text\": \"Seller: Jason Garcia | Location: Navarro Cove | Contact: +63 703016600, jason.garcia48@rocketmail.com\\nSelling a nearly new pressure gauge – essential for any plumber’s toolkit. Tested and\"}]}}"
+    },
+    "linked_records": [
+      {
+        "content_type": "Article",
+        "text": "[Generated Text]  \nJason Garcia is a Filipino professional whose life story is marked by resilience, dedication, and an unwavering commitment to craftsmanship. Born in a modest setting in Shane Ville on August 12, 1966, Garcia was nurtured by his parents, Shawn Garcia and Cristina Garcia, who instilled in him a strong work ethic and a sense of community. His early years were shaped by the values of integrity and perseverance, values that he would carry into his adult life and professional endeavors.\n\nGarcia pursued his education with determination, completing an Associate’s degree that laid the groundwork for his future career. Over the years, he evolved into a skilled plumber at Mega Gold Company Inc., a role that not only underscores his technical expertise but also reflects his deep-seated passion for serving his community. His work is characterized by a meticulous attention to detail and a commitment to excellence, earning him recognition among peers for both his technical abilities and his ethical approach to problem solving.\n\nThroughout his professional journey, Garcia experienced several turning points that reinforced his belief in hard work and continuous improvement. Facing the complexities of a highly competitive industry, he embraced challenges as opportunities to grow. His career has been punctuated by moments of serendipity where his determination and innovative spirit allowed him to overcome setbacks and emerge stronger. This non-linear path is a testament to his ability to adapt and thrive under fluctuating circumstances.\n\nApart from his professional achievements, Garcia’s personal life is marked by a reserved yet thoughtful character. Remaining single by choice, he has dedicated much of his time to both self-improvement and community service. His disciplined approach to personal finance, evidenced by a commendable credit score and a stable financial status, mirrors his overall commitment to responsibility and foresight.\n\nIn addition to his career accomplishments, Garcia is known for his active presence on social media, where his contributions and insights about everyday challenges resonate with a broad audience. His story is a blend of grassroots aspirations and professional success—a narrative of a man who, despite the odds, has continuously strived to leave a positive mark on his community and industry alike."
+      },
+      {
+        "content_type": "Social Media",
+        "text": "Yo, just fixed a stubborn leak at Mega Gold Inc.! Nothing beats the rush of turning challenges into wins 💪💧 #PlumberLife #HardWork @jason.garcia"
+      },
+      {
+        "content_type": "Social Media",
+        "text": "@jason.garcia : Feeling blessed today after a productive day on the job. From Shane Ville to Navarro Cove, doing what I love! 🔧😊 #Blessed #FilipinoPride"
+      },
+      {
+        "content_type": "Social Media",
+        "text": "@jason.garcia : Pipe issues? I got you. Just wrapped another project and feeling on top of the world. Cheers to persistence! 😉🛠️ #FixItFast"
+      },
+      {
+        "content_type": "Social Media",
+        "text": "@jason.garcia : Grateful for every challenge – each leak taught me something new. Shout-out to the Mega Gold fam for the support! 🙌 #TeamWork"
+      },
+      {
+        "content_type": "Social Media",
+        "text": "@jason.garcia : Quick update: Just got a shout-out on TikTok for my plumbing hacks. Keeping it old school with new tricks! 🔥 #PlumbingPro #TechMeetsTradition"
+      },
+      {
+        "content_type": "Social Media",
+        "text": "@jason.garcia : Celebrating small victories today! Another day, another satisfied customer. Keep pushing forward y’all 💪🚰 #MotivationMonday"
+      },
+      {
+        "content_type": "Social Media",
+        "text": "@jason.garcia : Reminder to stay sharp and follow your passion. Even a plumber can rock the digital world! 😎📱 #DreamBig"
+      },
+      {
+        "content_type": "Social Media",
+        "text": "@jason.garcia : When the pipes burst at 2 AM, you fix it and get back to sleep. Living that life, one repair at a time. 😴🔨 #NightShift #Dedication"
+      },
+      {
+        "content_type": "Social Media",
+        "text": "@jason.garcia : Big thanks to everyone who’s been supporting my journey from Shane Ville to Romblon. Your encouragement fuels my craft! ❤️ #CommunityFirst"
+      },
+      {
+        "content_type": "Social Media",
+        "text": "@jason.garcia : Weekend vibes: relaxing after a heavy week of repairs and installations. Time to recharge and get ready for more challenges tomorrow! 🌴🔧 #WeekendWindDown"
+      },
+      {
+        "content_type": "Forum Post",
+        "text": "@jason.garcia : Encountered an unusual pressure drop in a commercial unit at Navarro Cove. Ran diagnostics and found clogging issues in the main supply line. For reference, I used the following troubleshooting steps:\n- Checked water pressure at multiple points.\n- Inspected valve integrity.\n- Flushed pipes using high-pressure equipment.\nAnyone faced a similar issue? Logs show intermittent pressure loss since last maintenance. Would appreciate tips on long-term mitigation."
+      },
+      {
+        "content_type": "Forum Post",
+        "text": "@jason.garcia : I’m diving into some retrofitting on an old building in Pantao Ragat. The issue is more about adapting modern systems into aged infrastructure. My current steps:\n• Identified potential leak points around joints.\n• Replaced outdated fittings.\n• Testing for compliance with new standards.\nAny guys here with experience in retro installations? Error logs indicate persistent low pressure despite upgrades."
+      },
+      {
+        "content_type": "Forum Post",
+        "text": "@jason.garcia : Had a puzzling job today: customer complained about 'phantom leaks' in a newly installed system. Here’s the rundown:\n- Ran night-time diagnostics.\n- Monitored water flow using an inline sensor.\n- Detected minor vibrations causing sensor misreads.\nWondering if electromagnetic interference from nearby appliances could be the culprit. Would love to hear similar experiences."
+      },
+      {
+        "content_type": "Forum Post",
+        "text": "@jason.garcia : Working on a project at a commercial site in Romblon, and I’m facing recurring issues with corrosion on exposed pipes. Steps taken so far:\n• Applied anti-corrosion treatments.\n• Inspected clamp fittings.\n• Monitored for early signs of wear.\nAny advanced techniques to prolong pipe lifespan without a complete overhaul?"
+      },
+      {
+        "content_type": "Forum Post",
+        "text": "@jason.garcia : Noticed a shift in water pressure post a scheduled maintenance routine. Here’s the error snippet:"
+      },
+      {
+        "content_type": "Forum Post",
+        "text": "@jason.garcia : Getting ready for a challenging retrofit at an old residential property. The main issue is aligning the modern piping with the original structure’s constraints. Detailed steps:\n- Mapped out water flows.\n- Checked for potential weak joints.\n- Tested alternative fittings.\nLooking for recommendations on bridging gaps where modern materials don’t fit seamlessly."
+      },
+      {
+        "content_type": "Forum Post",
+        "text": "@jason.garcia : Just encountered a stubborn blockage that took over 3 hours to fully clear. Diagnostic notes:\n• High debris levels from rust buildup.\n• Secondary leak causing pressure instability.\nPoured in enzyme-based cleaners midway which helped a bit. Has anyone tried this or alternative fluid solutions for similar blockages?"
+      },
+      {
+        "content_type": "Forum Post",
+        "text": "@jason.garcia : Encountered mixed material pipes during a replacement job. Integration between copper and PVC led to thermal expansion issues. Steps taken:\n- Monitored temperature variance.\n- Used compatible sealant.\n- Repaired joint with specialized adapters.\nCurious if anyone has a more permanent workaround for such thermal mismatches."
+      },
+      {
+        "content_type": "Forum Post",
+        "text": "@jason.garcia : I am facing difficulty in scheduling a team work session for a multi-unit facelift at a high-rise complex in Pantao Ragat. Communication breakdown between tech teams from different disciplines. Has anyone managed a similar logistical challenge? Would appreciate suggestions on synchronizing schedules with advanced project management tools."
+      },
+      {
+        "content_type": "Online Review",
+        "text": "Username: Jason | Location: Pantao Ragat, Romblon | Date: 2023-07-23\nI recently had Mega Gold Inc. fix a persistent leak at my property. The service was prompt and professional. As a seasoned plumber myself, I appreciate quality workmanship. 5 stars!"
+      },
+      {
+        "content_type": "Online Review",
+        "text": "Name: Jason | Location: Romblon | Date: 2023-06-15\nAs someone with a busy schedule juggling professional repairs and community commitments, I was genuinely impressed by the efficiency of the local hardware store near Navarro Cove. Great products, fair prices, though the wait time was a bit longer than expected. 4 stars."
+      },
+      {
+        "content_type": "Online Review",
+        "text": "Username: Jason | Location: Shane Ville | Date: 2023-05-30\nI had a small plumbing emergency that was quickly resolved by a local service. They were trustworthy, and as someone who values integrity in my own work, I recommend them. 5/5 stars!"
+      },
+      {
+        "content_type": "Online Review",
+        "text": "Name: Jason | Location: Pantao Ragat, Romblon | Date: 2023-04-10\nVisited a new eatery in Romblon that offers hearty Filipino dishes. As a single guy who’s always on the go, I loved the quick service and flavorful food. My wife might have appreciated a cozier ambiance, but overall, it’s a solid 4 stars."
+      },
+      {
+        "content_type": "Online Review",
+        "text": "Username: Jason | Location: Navarro Cove | Date: 2023-03-22\nI’m a professional plumber with a keen eye for detail. The new set of tools I bought from this supplier exceeded quality expectations. Efficiency, durability and value loaded into one neat package. Highly recommended! 5 stars."
+      },
+      {
+        "content_type": "Online Review",
+        "text": "Name: Jason | Location: Romblon | Date: 2023-02-14\nOn a chilly February day, I had my boiler serviced at a nearby workshop. The prompt response and detailed explanation of the fixes impressed me as a detail-oriented professional. 4 stars for overall service."
+      },
+      {
+        "content_type": "Online Review",
+        "text": "Username: Jason | Location: Shane Ville | Date: 2023-01-08\nHad a plumbing gadget failure recently and a local tech repair service stepped in. Their diagnostic approach and clean-up work was impressive. As someone who’s been in the trade for decades, I value such expertise. 5 stars!"
+      },
+      {
+        "content_type": "Online Review",
+        "text": "Name: Jason | Location: Navarro Cove | Date: 2022-12-30\nI recently purchased a set of premium tools online for a working upgrade. The delivery was fast, and the items were exactly as described. The package came with a personal note – a nice touch in this fast-paced world. Solid 5 stars."
+      },
+      {
+        "content_type": "Online Review",
+        "text": "Username: Jason | Location: Romblon | Date: 2022-11-20\nStopped by a local diner for a quick bite after a long day on the job. Friendly service and home-cooked meals took me back to simpler times. The portions were generous and the atmosphere homely. Definitely coming back for more. 5 stars!"
+      },
+      {
+        "content_type": "Blog/News Article Comment",
+        "text": "Name: Jason | Location: Romblon | Timestamp: 2023-08-07 14:22\nReally appreciating this article on efficient plumbing techniques. Coming from a background where every drop counts, these tips resonate with my work at Mega Gold Inc. Kudos to the author for sharing practical insights!"
+      },
+      {
+        "content_type": "Blog/News Article Comment",
+        "text": "Username: JasonGarcia | Location: Navarro Cove, Romblon | Timestamp: 2023-07-29 09:15\nI have seen similar trends in water sustainability in my years working on-site. The points highlighted reflect real-world challenges we face daily. Thanks for sparking a critical discussion."
+      },
+      {
+        "content_type": "Blog/News Article Comment",
+        "text": "Name: Jason | Location: Shane Ville | Timestamp: 2023-07-15 18:45\nAmazing read! The article reminded me of my early days as a plumber and the importance of continuous learning. Certainly, experience builds better solutions. Appreciate the perspective."
+      },
+      {
+        "content_type": "Blog/News Article Comment",
+        "text": "Username: JasonG | Location: Pantao Ragat | Timestamp: 2023-06-10 12:05\nInteresting insights shared here. I especially liked the detailed analysis of pressure anomalies. As someone who has dealt with similar issues, I find the suggestions practical and worth trying."
+      },
+      {
+        "content_type": "Blog/News Article Comment",
+        "text": "Name: Jason | Location: Romblon | Timestamp: 2023-05-27 16:30\nA thoughtful commentary on integrating modern technology in traditional systems. I’ve been implementing several new techniques in my line of work, and it’s refreshing to see them discussed here. Great job!"
+      },
+      {
+        "content_type": "Blog/News Article Comment",
+        "text": "Username: JGarciaPlumb | Location: Navarro Cove | Timestamp: 2023-05-05 11:50\nI can relate to a lot of these experiences. Transitioning from older plumbing methods to high-tech diagnostics is challenging but inevitable. Hope more professionals join this conversation!"
+      },
+      {
+        "content_type": "Blog/News Article Comment",
+        "text": "Name: Jason Garcia | Location: Pantao Ragat, Romblon | Timestamp: 2023-04-19 20:10\nI found this discussion particularly engaging, especially coming from a humble plumbing background. It’s vital to balance tradition with innovation. Looking forward to more such exchanges!"
+      },
+      {
+        "content_type": "Blog/News Article Comment",
+        "text": "Username: Jason58 | Location: Shane Ville | Timestamp: 2023-04-03 08:25\nThis article struck a chord with me. Over the decades, I’ve seen technology revolutionize even the most basic trades. Thanks for shedding light on practical solutions that work on the ground."
+      },
+      {
+        "content_type": "Blog/News Article Comment",
+        "text": "Name: Jason | Location: Romblon | Timestamp: 2023-03-18 14:00\nGreat read! I’ve dealt with many of these issues firsthand in my trade, and it’s refreshing to see them discussed with clear examples. Let’s keep the dialogue going for better practices!"
+      },
+      {
+        "content_type": "Blog/News Article Comment",
+        "text": "Username: JasonG | Location: Navarro Cove, Romblon | Timestamp: 2023-03-05 10:40\nAs a professional seasoned in plumbing and repair work, I appreciate the emphasis on preventive maintenance. This article is a call-to-action for more structured approaches in our industry."
+      },
+      {
+        "content_type": "Online Ad",
+        "text": "Seller: Jason Garcia | Location: 6575 Banahaw Avenue Extension, Navarro Cove | Contact: +63 703016600, jason.garcia48@rocketmail.com\nFor sale: Gently used, high-quality plumbing tool kit. Perfect for professionals looking to upgrade their gear. Price: ₱6,500. Must see in person – moving sale vibes. Grab it while it lasts!"
+      },
+      {
+        "content_type": "Online Ad",
+        "text": "Seller: Jason Garcia | Location: Pantao Ragat, Romblon | Contact: +63 703016600, j.garcia@mega.com\nMoving sale! I’m offering a set of premium copper fittings and valves, barely used and in excellent condition. Great for any home or professional project. Price: ₱3,200 OBO."
+      },
+      {
+        "content_type": "Online Ad",
+        "text": "Seller: Jason Garcia | Location: Navarro Cove | Contact: +63 703016600, jason.garcia48@rocketmail.com\nSelling a nearly new pressure gauge – essential for any plumber’s toolkit. Tested and"
+      }
+    ],
+    "social_media_comments": [
+      "@jason.garcia : Celebrating small victories today! Another day, another satisfied customer. Keep pushing forward y’all 💪🚰 #MotivationMonday",
+      "@jason.garcia : Quick update: Just got a shout-out on TikTok for my plumbing hacks. Keeping it old school with new tricks! 🔥 #PlumbingPro #TechMeetsTradition",
+      "@jason.garcia : Reminder to stay sharp and follow your passion. Even a plumber can rock the digital world! 😎📱 #DreamBig",
+      "@jason.garcia : Feeling blessed today after a productive day on the job. From Shane Ville to Navarro Cove, doing what I love! 🔧😊 #Blessed #FilipinoPride",
+      "@jason.garcia : Pipe issues? I got you. Just wrapped another project and feeling on top of the world. Cheers to persistence! 😉🛠️ #FixItFast",
+      "@jason.garcia : Big thanks to everyone who’s been supporting my journey from Shane Ville to Romblon. Your encouragement fuels my craft! ❤️ #CommunityFirst",
+      "@jason.garcia : Grateful for every challenge – each leak taught me something new. Shout-out to the Mega Gold fam for the support! 🙌 #TeamWork",
+      "@jason.garcia : Weekend vibes: relaxing after a heavy week of repairs and installations. Time to recharge and get ready for more challenges tomorrow! 🌴🔧 #WeekendWindDown",
+      "@jason.garcia : When the pipes burst at 2 AM, you fix it and get back to sleep. Living that life, one repair at a time. 😴🔨 #NightShift #Dedication",
+      "Yo, just fixed a stubborn leak at Mega Gold Inc.! Nothing beats the rush of turning challenges into wins 💪💧 #PlumberLife #HardWork @jason.garcia"
+    ],
+    "counts": {
+      "total_linked_records": 42,
+      "social_media_found": 10
+    },
+    "synthetic_persona_article": "[Generated Text]  \nJason Garcia is a Filipino professional whose life story is marked by resilience, dedication, and an unwavering commitment to craftsmanship. Born in a modest setting in Shane Ville on August 12, 1966, Garcia was nurtured by his parents, Shawn Garcia and Cristina Garcia, who instilled in him a strong work ethic and a sense of community. His early years were shaped by the values of integrity and perseverance, values that he would carry into his adult life and professional endeavors.\n\nGarcia pursued his education with determination, completing an Associate’s degree that laid the groundwork for his future career. Over the years, he evolved into a skilled plumber at Mega Gold Company Inc., a role that not only underscores his technical expertise but also reflects his deep-seated passion for serving his community. His work is characterized by a meticulous attention to detail and a commitment to excellence, earning him recognition among peers for both his technical abilities and his ethical approach to problem solving.\n\nThroughout his professional journey, Garcia experienced several turning points that reinforced his belief in hard work and continuous improvement. Facing the complexities of a highly competitive industry, he embraced challenges as opportunities to grow. His career has been punctuated by moments of serendipity where his determination and innovative spirit allowed him to overcome setbacks and emerge stronger. This non-linear path is a testament to his ability to adapt and thrive under fluctuating circumstances.\n\nApart from his professional achievements, Garcia’s personal life is marked by a reserved yet thoughtful character. Remaining single by choice, he has dedicated much of his time to both self-improvement and community service. His disciplined approach to personal finance, evidenced by a commendable credit score and a stable financial status, mirrors his overall commitment to responsibility and foresight.\n\nIn addition to his career accomplishments, Garcia is known for his active presence on social media, where his contributions and insights about everyday challenges resonate with a broad audience. His story is a blend of grassroots aspirations and professional success—a narrative of a man who, despite the odds, has continuously strived to leave a positive mark on his community and industry alike."
+  },
+  "mapped_persona_fields": [
+    {
+      "label": "a10_face_partial",
+      "category": "Physical Appearance",
+      "value": null,
+      "persona_source_key": null,
+      "present_in_persona": false
+    },
+    {
+      "label": "a16_race",
+      "category": "Ethnicity/Race",
+      "value": null,
+      "persona_source_key": null,
+      "present_in_persona": false
+    },
+    {
+      "label": "a17_color",
+      "category": "Physical Appearance",
+      "value": null,
+      "persona_source_key": null,
+      "present_in_persona": false
+    },
+    {
+      "label": "a1_age_approx",
+      "category": "Age",
+      "value": "58",
+      "persona_source_key": "Age",
+      "present_in_persona": true
+    },
+    {
+      "label": "a2_weight_approx",
+      "category": "Physical Appearance",
+      "value": null,
+      "persona_source_key": null,
+      "present_in_persona": false
+    },
+    {
+      "label": "a3_height_approx",
+      "category": "Physical Appearance",
+      "value": null,
+      "persona_source_key": null,
+      "present_in_persona": false
+    },
+    {
+      "label": "a41_injury",
+      "category": "Medical Information",
+      "value": null,
+      "persona_source_key": null,
+      "present_in_persona": false
+    },
+    {
+      "label": "a46_occupation",
+      "category": "Employment",
+      "value": "Plumber",
+      "persona_source_key": "Job Title",
+      "present_in_persona": true
+    },
+    {
+      "label": "a4_gender",
+      "category": "Gender",
+      "value": "Male",
+      "persona_source_key": "Gender",
+      "present_in_persona": true
+    },
+    {
+      "label": "a5_eye_color",
+      "category": "Physical Appearance",
+      "value": null,
+      "persona_source_key": null,
+      "present_in_persona": false
+    },
+    {
+      "label": "a66_rel_professional",
+      "category": "Relationship",
+      "value": null,
+      "persona_source_key": null,
+      "present_in_persona": false
+    },
+    {
+      "label": "a6_hair_color",
+      "category": "Physical Appearance",
+      "value": null,
+      "persona_source_key": null,
+      "present_in_persona": false
+    },
+    {
+      "label": "a19_name_full",
+      "category": "Name",
+      "value": "Jason Garcia",
+      "persona_source_key": "First Name + Last Name",
+      "present_in_persona": true
+    },
+    {
+      "label": "a20_name_first",
+      "category": "Name",
+      "value": "Jason",
+      "persona_source_key": "First Name",
+      "present_in_persona": true
+    },
+    {
+      "label": "a21_name_last",
+      "category": "Name",
+      "value": "Garcia",
+      "persona_source_key": "Last Name",
+      "present_in_persona": true
+    },
+    {
+      "label": "a24_birth_date",
+      "category": "Birthdate",
+      "value": "1966-08-12",
+      "persona_source_key": "Birth Date",
+      "present_in_persona": true
+    },
+    {
+      "label": "a23_birth_city",
+      "category": "Location",
+      "value": "Shane Ville",
+      "persona_source_key": "Birth City",
+      "present_in_persona": true
+    },
+    {
+      "label": "a73_landmark",
+      "category": "Location",
+      "value": null,
+      "persona_source_key": null,
+      "present_in_persona": false
+    },
+    {
+      "label": "a74_address_current_complete",
+      "category": "Location",
+      "value": "6575 Banahaw Avenue Extension, Navarro Cove, Pantao Ragat, 4710 Romblon",
+      "persona_source_key": "Address",
+      "present_in_persona": true
+    },
+    {
+      "label": "a75_address_current_partial",
+      "category": "Location",
+      "value": "Navarro Cove, Pantao Ragat, 4710 Romblon",
+      "persona_source_key": "Address (partial-derived)",
+      "present_in_persona": true
+    },
+    {
+      "label": "a78_address_home_complete",
+      "category": "Location",
+      "value": "6575 Banahaw Avenue Extension, Navarro Cove, Pantao Ragat, 4710 Romblon",
+      "persona_source_key": "Address",
+      "present_in_persona": true
+    },
+    {
+      "label": "a79_address_home_partial",
+      "category": "Location",
+      "value": "Navarro Cove, Pantao Ragat, 4710 Romblon",
+      "persona_source_key": "Address (partial-derived)",
+      "present_in_persona": true
+    },
+    {
+      "label": "a25_nationality",
+      "category": "Country",
+      "value": "Filipino",
+      "persona_source_key": "Nationality",
+      "present_in_persona": true
+    },
+    {
+      "label": "a27_marital_status",
+      "category": "Marital Status",
+      "value": "Single",
+      "persona_source_key": "Marital Status",
+      "present_in_persona": true
+    },
+    {
+      "label": "a55_religion",
+      "category": "Religion",
+      "value": null,
+      "persona_source_key": null,
+      "present_in_persona": false
+    },
+    {
+      "label": "a56_sexual_orientation",
+      "category": "Sexuality",
+      "value": null,
+      "persona_source_key": null,
+      "present_in_persona": false
+    },
+    {
+      "label": "a39_disability_physical",
+      "category": "Medical Information",
+      "value": "None",
+      "persona_source_key": "Disability",
+      "present_in_persona": true
+    },
+    {
+      "label": "a43_medicine",
+      "category": "Medical Information",
+      "value": null,
+      "persona_source_key": null,
+      "present_in_persona": false
+    },
+    {
+      "label": "a48_occassion_work",
+      "category": "Employment",
+      "value": "Mega Gold Company Inc.",
+      "persona_source_key": "Employer",
+      "present_in_persona": true
+    },
+    {
+      "label": "a64_rel_personal",
+      "category": "Relationship",
+      "value": "N/A",
+      "persona_source_key": "Spouse Name",
+      "present_in_persona": true
+    },
+    {
+      "label": "a65_rel_social",
+      "category": "Relationship",
+      "value": null,
+      "persona_source_key": null,
+      "present_in_persona": false
+    },
+    {
+      "label": "a67_rel_competitors",
+      "category": "Relationship",
+      "value": null,
+      "persona_source_key": null,
+      "present_in_persona": false
+    },
+    {
+      "label": "a68_rel_spectators",
+      "category": "Relationship",
+      "value": null,
+      "persona_source_key": null,
+      "present_in_persona": false
+    },
+    {
+      "label": "a69_rel_views",
+      "category": "Relationship",
+      "value": null,
+      "persona_source_key": null,
+      "present_in_persona": false
+    },
+    {
+      "label": "a9_face_complete",
+      "category": "Physical Appearance",
+      "value": null,
+      "persona_source_key": null,
+      "present_in_persona": false
+    },
+    {
+      "label": "a11_tattoo",
+      "category": "Physical Appearance",
+      "value": null,
+      "persona_source_key": null,
+      "present_in_persona": false
+    },
+    {
+      "label": "a12_semi_nudity",
+      "category": "Physical Appearance",
+      "value": null,
+      "persona_source_key": null,
+      "present_in_persona": false
+    },
+    {
+      "label": "a13_full_nudity",
+      "category": "Physical Appearance",
+      "value": null,
+      "persona_source_key": null,
+      "present_in_persona": false
+    },
+    {
+      "label": "a70_education_history",
+      "category": "Degree/Designation",
+      "value": "Associate's",
+      "persona_source_key": "Education Info",
+      "present_in_persona": true
+    },
+    {
+      "label": "a33_student_id",
+      "category": "Degree/Designation",
+      "value": null,
+      "persona_source_key": null,
+      "present_in_persona": false
+    }
+  ],
+  "model_meta": {
+    "model": "gemini-2.5-flash-lite",
+    "temperature": 0.2,
+    "generated_at_utc": "2026-01-06T10:14:02.714946+00:00",
+    "script_version": "1.1-persona-select-only"
+  },
+  "generated_captions": {
+    "model": "gemini-2.5-flash-lite",
+    "output": {
+      "explicit": "Seeing this kind of intense focus and dedication always reminds me of the critical work that goes into serving the community. Even though my work as a <a46_occupation>Plumber</a46_occupation> at <a48_occassion_work>Mega Gold Company Inc.</a48_occassion_work> is different, the commitment to getting it right is the same. This scene makes me think about the meticulous detail required in any skilled trade. It's a tough job, but someone's gotta do it. #CommunityCare #SkilledTrades",
+      "moderate": "Every profession has its own challenges and rewards. Whether it's a surgeon in the operating room or a <a46_occupation>plumber</a46_occupation> tackling a tricky pipe, the goal is always to fix the problem and help people. Respect to all the professionals out there doing their best. #Dedication #HardWork",
+      "no_leak": "Sometimes you see moments of intense focus that make you appreciate the dedication people put into their work. It’s inspiring to see professionals working hard to make things better. #Service #Professionalism",
+      "picked": {
+        "explicit": [
+          {
+            "label": "a46_occupation",
+            "value": "Plumber"
+          },
+          {
+            "label": "a48_occassion_work",
+            "value": "Mega Gold Company Inc."
+          }
+        ],
+        "moderate": [
+          {
+            "label": "a46_occupation",
+            "value": "Plumber"
+          }
+        ]
+      }
+    },
+    "pii_inventory_used": [
+      {
+        "label": "a1_age_approx",
+        "value": "58"
+      },
+      {
+        "label": "a46_occupation",
+        "value": "Plumber"
+      },
+      {
+        "label": "a4_gender",
+        "value": "Male"
+      },
+      {
+        "label": "a19_name_full",
+        "value": "Jason Garcia"
+      },
+      {
+        "label": "a20_name_first",
+        "value": "Jason"
+      },
+      {
+        "label": "a21_name_last",
+        "value": "Garcia"
+      },
+      {
+        "label": "a24_birth_date",
+        "value": "1966-08-12"
+      },
+      {
+        "label": "a23_birth_city",
+        "value": "Shane Ville"
+      },
+      {
+        "label": "a74_address_current_complete",
+        "value": "6575 Banahaw Avenue Extension, Navarro Cove, Pantao Ragat, 4710 Romblon"
+      },
+      {
+        "label": "a75_address_current_partial",
+        "value": "Navarro Cove, Pantao Ragat, 4710 Romblon"
+      },
+      {
+        "label": "a78_address_home_complete",
+        "value": "6575 Banahaw Avenue Extension, Navarro Cove, Pantao Ragat, 4710 Romblon"
+      },
+      {
+        "label": "a79_address_home_partial",
+        "value": "Navarro Cove, Pantao Ragat, 4710 Romblon"
+      },
+      {
+        "label": "a25_nationality",
+        "value": "Filipino"
+      },
+      {
+        "label": "a27_marital_status",
+        "value": "Single"
+      },
+      {
+        "label": "a39_disability_physical",
+        "value": "None"
+      },
+      {
+        "label": "a48_occassion_work",
+        "value": "Mega Gold Company Inc."
+      },
+      {
+        "label": "a64_rel_personal",
+        "value": "N/A"
+      },
+      {
+        "label": "a70_education_history",
+        "value": "Associate's"
+      }
+    ]
+  }
+}

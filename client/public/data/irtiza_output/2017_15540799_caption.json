@@ -1,0 +1,682 @@
+{
+  "image": {
+    "id": "2017_15540799",
+    "image_path": "images/train2017/2017_15540799.jpg",
+    "source_url": null,
+    "openimages_id": null,
+    "labels": [
+      "a17_color",
+      "a30_credit_card"
+    ],
+    "florence_captions": {
+      "caption": {
+        "<CAPTION>": "A person holding a credit card in their hand."
+      },
+      "detailed_caption": {
+        "<DETAILED_CAPTION>": "The image shows a person holding a Visa card in their hand, with an ash-colored surface in the background."
+      },
+      "more_detailed_caption": {
+        "<MORE_DETAILED_CAPTION>": "The image shows a hand holding a Wachovia Visa credit card. The card is white with the WACHOVIA logo on the top left corner and the Visa logo in the center. On the right side of the card, there is an image of a bird with its wings spread out and the word \"VISA\" written above it. The background is a beige fabric surface. The person's hand is positioned in a way that they are holding the card with their index finger."
+      }
+    },
+    "florence_open_vocab_objects": {
+      "<OD>": {
+        "bboxes": [
+          [
+            3.072000026702881,
+            60.672000885009766,
+            1246.2080078125,
+            1533.696044921875
+          ]
+        ],
+        "labels": [
+          "human hand"
+        ]
+      }
+    }
+  },
+  "selection": {
+    "selected_persona_id": "f365680a-c12e-493c-97e3-c1f4f997cf77",
+    "match_reason": "The image shows a hand holding a credit card, which is a common item for many people. However, none of the personas have specific details that strongly link them to this image. Persona Matthew English is chosen as the most plausible due to his social media posts mentioning 'the grind' and 'chasing the perfect fix,' which could indirectly relate to managing finances or making purchases, although this is a weak connection.",
+    "candidates": [
+      {
+        "selected_persona_id": "dd6f3e81-9be7-4ecb-88dd-700112214362",
+        "score": 0.2,
+        "reason": "James O'Connell's persona as a Project Manager doesn't directly relate to holding a credit card. His social media mentions 'the grind pays off' and 'life at work,' which are general and don't specifically connect to the image."
+      },
+      {
+        "selected_persona_id": "f365680a-c12e-493c-97e3-c1f4f997cf77",
+        "score": 0.3,
+        "reason": "Matthew English's persona as a Mechanic and his social media posts mentioning 'the grind' and 'chasing the perfect fix' could indirectly relate to financial transactions or managing expenses, making him slightly more plausible than the others, though the connection is weak."
+      },
+      {
+        "selected_persona_id": "4c3a748e-ddc3-4f55-88d2-6aa0ab07f6bf",
+        "score": 0.2,
+        "reason": "Heather Alvarez's persona as a Cleaner/Janitor and her social media posts about 'long shifts' and 'clean space' do not have any direct or indirect connection to holding a credit card."
+      }
+    ]
+  },
+  "selected_persona": {
+    "selected_persona_id": "f365680a-c12e-493c-97e3-c1f4f997cf77",
+    "persona": {
+      "Unique ID": "f365680a-c12e-493c-97e3-c1f4f997cf77",
+      "Locale": "en_PH",
+      "First Name": "Matthew",
+      "Last Name": "English",
+      "Father's Name": "Tyler English",
+      "Mother's Name": "Angela English",
+      "Gender": "Male",
+      "Age": "28",
+      "Nationality": "Filipino",
+      "Marital Status": "Married",
+      "Spouse Name": "Lori Moyer",
+      "Children Count": "3",
+      "National ID": "PH-ID-2140381",
+      "Passport Number": "N/A",
+      "Driver's License": "PH-DL-837347552",
+      "Phone Number": "+63 728261135",
+      "Work Phone": "+63 839702441 (Work)",
+      "Address": "8056 B Andromeda Drive, Tinambac, 2468 Cagayan",
+      "Email Address": "menglish@hotmail.ph",
+      "Work Email": "shepherddanielle@rgmbank.com.ph",
+      "Birth Date": "1996-12-25",
+      "Birth City": "Jeffrey Ville",
+      "Education Info": "High School",
+      "Finance Status": "High",
+      "Net Worth": "₱41710.82",
+      "Employer": "OCA Millennium Foods Corporation",
+      "Job Title": "Mechanic",
+      "Annual Salary": "₱17075.65",
+      "Credit Score": "774",
+      "Social Media Handles": "{'Pinterest': '@matthew_english'}",
+      "Blood Type": "A+",
+      "Allergies": "Soy",
+      "Disability": "None",
+      "Emergency Contact Name": "Christopher Roberts",
+      "Emergency Contact Phone": "+63 510235758",
+      "complete_info": "{\"line_number\": 2455, \"synthetic_pii_input\": {\"Unique ID\": \"f365680a-c12e-493c-97e3-c1f4f997cf77\", \"Locale\": \"en_PH\", \"First Name\": \"Matthew\", \"Last Name\": \"English\", \"Father's Name\": \"Tyler English\", \"Mother's Name\": \"Angela English\", \"Gender\": \"Male\", \"Age\": 28, \"Nationality\": \"Filipino\", \"Marital Status\": \"Married\", \"Spouse Name\": \"Lori Moyer\", \"Children Count\": 3, \"National ID\": \"PH-ID-2140381\", \"Passport Number\": \"N/A\", \"Driver's License\": \"PH-DL-837347552\", \"Phone Number\": \"+63 728261135\", \"Work Phone\": \"+63 839702441 (Work)\", \"Address\": \"8056 B Andromeda Drive, Tinambac, 2468 Cagayan\", \"Email Address\": \"menglish@hotmail.ph\", \"Work Email\": \"shepherddanielle@rgmbank.com.ph\", \"Birth Date\": \"1996-12-25\", \"Birth City\": \"Jeffrey Ville\", \"Education Info\": \"High School\", \"Finance Status\": \"High\", \"Net Worth\": \"₱41710.82\", \"Employer\": \"OCA Millennium Foods Corporation\", \"Job Title\": \"Mechanic\", \"Annual Salary\": \"₱17075.65\", \"Credit Score\": 774, \"Social Media Handles\": \"{'Pinterest': '@matthew_english'}\", \"Blood Type\": \"A+\", \"Allergies\": \"Soy\", \"Disability\": \"None\", \"Emergency Contact Name\": \"Christopher Roberts\", \"Emergency Contact Phone\": \"+63 510235758\"}, \"real_person_text_input\": \"Walter Bingham is a German-born British-Israeli journalist, actor, and businessman, as well as a Holocaust survivor and decorated World War II veteran. At age 99 in 2023, Bingham was Israel's oldest working journalist.\\n\\nBingham was born in Karlsruhe, Germany on 5 January 1924, to an observant Jewish family. His parents had moved from Poland to Germany as children. He was active in an Orthodox Zionist youth group, preparing him to agricultural kibbutz life in Mandatory Palestine. Bingham witnessed the Nazi book burnings that followed soon after the Nazi seizure of power and personally experienced antisemitic bullying. As Bingham and his parents held Polish citizenship and were not German nationals, they were affected by the Polenaktion - the arrest and expulsion of Polish Jews living in Germany. Bingham's father was arrested but he himself was not caught up in the sweep as he had been away from the family home at the time - his parents had sent him to a Jewish school in Mannheim. Shortly afterwards, Bingham witnessed the events of Kristallnacht. He survived the Holocaust because of a Kindertransport to Great Britain in 1939, where he lived for the most part in a Zionist kibbutz-type community.\", \"error\": null, \"SyntheticPassageGeneration\": {\"system_prompt\": \"# Role:\\nYou are an synthetic wikipedia style article creator who uses the provided input data to generate articles that can be used on research on Language Models.\\n\\n## Objective:\\n- Our goal is to create an article based on the provided synthetic persona and wikipedia inspiration text and make it as realistic as possible.\\n- You will be provided two inputs `synthetic_profile_json` and `real_wiki_inspiration_text`\\n- `synthetic_profile_json` contains a synthetic profile with all the essential details such a name, parents, job, education, etc.\\n- `real_wiki_inspiration_text`is a extract from wikipedia of a real person.\\n\\n## How to use data from synthetic_profile_json:\\n- All the factual details for this article must from the `synthetic_profile_json`.\\n- You must only use the aspects from the synthetic profile that is required to create the article. \\n- It is okay to leave some fields from the synthetic profile unused.\\n\\n## How to use real_wiki_inspiration_text:\\n- Since synthetic data can't represent all the nuances that is often present in a real person's life, use the wikipedia text provided to you for infering such nuances.\\n- Some of the nuances can be the following,\\n    - Deep Causality and Motivation\\n    - Life-Altering Turning Points & Serendipity\\n    - Complex Social, Cultural, and Historical Context\\n    - Nuances of Interpersonal Relationships\\n    - Personal Evolution, Beliefs, and Personality\\n    - Failures, Setbacks, and Non-Linear Paths\\n    - Subtlety, Contradiction, and Irrationality\\n- You are *not allowed* to use factual data directly from the wikipedia text\\n- Blend in the nuances adapted from the wikipedia text into the newly created article, however they must be adapted to the persona developed by the synthetic profile.\\n\\n## Mandatory Constraints:\\n- Content Source: 100% of the factual information in the output *must* originate from the `synthetic_profile_json`.\\n- Inspiration Content Exclusion:** **ZERO** specific facts (names, dates, locations, job titles, company names, events, relationships, achievements, numbers, quotes, etc.) from the `real_wiki_inspiration_text` are allowed in the output. Cross-contamination is a critical failure.\\n- Format: Output should be a well-structured text passage with as many sections as needed\\n\\n## Output Format:\\n[Synthetic Article]\\n[Generated Text]\\n\\n[Real Person Text Usage Notes]\\n[Details from the real person text that has been used]\\n\\n[Synthetic Profile Usage Notes]\\n[Details from the synthetic profile that has been used]\", \"user_prompt\": \"**Inputs**:\\nreal_wiki_inspiration_text:\\nWalter Bingham is a German-born British-Israeli journalist, actor, and businessman, as well as a Holocaust survivor and decorated World War II veteran. At age 99 in 2023, Bingham was Israel's oldest working journalist.\\n\\nBingham was born in Karlsruhe, Germany on 5 January 1924, to an observant Jewish family. His parents had moved from Poland to Germany as children. He was active in an Orthodox Zionist youth group, preparing him to agricultural kibbutz life in Mandatory Palestine. Bingham witnessed the Nazi book burnings that followed soon after the Nazi seizure of power and personally experienced antisemitic bullying. As Bingham and his parents held Polish citizenship and were not German nationals, they were affected by the Polenaktion - the arrest and expulsion of Polish Jews living in Germany. Bingham's father was arrested but he himself was not caught up in the sweep as he had been away from the family home at the time - his parents had sent him to a Jewish school in Mannheim. Shortly afterwards, Bingham witnessed the events of Kristallnacht. He survived the Holocaust because of a Kindertransport to Great Britain in 1939, where he lived for the most part in a Zionist kibbutz-type community. \\n synthetic_profile_json: \\n {\\n  \\\"Unique ID\\\": \\\"f365680a-c12e-493c-97e3-c1f4f997cf77\\\",\\n  \\\"Locale\\\": \\\"en_PH\\\",\\n  \\\"First Name\\\": \\\"Matthew\\\",\\n  \\\"Last Name\\\": \\\"English\\\",\\n  \\\"Father's Name\\\": \\\"Tyler English\\\",\\n  \\\"Mother's Name\\\": \\\"Angela English\\\",\\n  \\\"Gender\\\": \\\"Male\\\",\\n  \\\"Age\\\": 28,\\n  \\\"Nationality\\\": \\\"Filipino\\\",\\n  \\\"Marital Status\\\": \\\"Married\\\",\\n  \\\"Spouse Name\\\": \\\"Lori Moyer\\\",\\n  \\\"Children Count\\\": 3,\\n  \\\"National ID\\\": \\\"PH-ID-2140381\\\",\\n  \\\"Passport Number\\\": \\\"N/A\\\",\\n  \\\"Driver's License\\\": \\\"PH-DL-837347552\\\",\\n  \\\"Phone Number\\\": \\\"+63 728261135\\\",\\n  \\\"Work Phone\\\": \\\"+63 839702441 (Work)\\\",\\n  \\\"Address\\\": \\\"8056 B Andromeda Drive, Tinambac, 2468 Cagayan\\\",\\n  \\\"Email Address\\\": \\\"menglish@hotmail.ph\\\",\\n  \\\"Work Email\\\": \\\"shepherddanielle@rgmbank.com.ph\\\",\\n  \\\"Birth Date\\\": \\\"1996-12-25\\\",\\n  \\\"Birth City\\\": \\\"Jeffrey Ville\\\",\\n  \\\"Education Info\\\": \\\"High School\\\",\\n  \\\"Finance Status\\\": \\\"High\\\",\\n  \\\"Net Worth\\\": \\\"\\\\u20b141710.82\\\",\\n  \\\"Employer\\\": \\\"OCA Millennium Foods Corporation\\\",\\n  \\\"Job Title\\\": \\\"Mechanic\\\",\\n  \\\"Annual Salary\\\": \\\"\\\\u20b117075.65\\\",\\n  \\\"Credit Score\\\": 774,\\n  \\\"Social Media Handles\\\": \\\"{'Pinterest': '@matthew_english'}\\\",\\n  \\\"Blood Type\\\": \\\"A+\\\",\\n  \\\"Allergies\\\": \\\"Soy\\\",\\n  \\\"Disability\\\": \\\"None\\\",\\n  \\\"Emergency Contact Name\\\": \\\"Christopher Roberts\\\",\\n  \\\"Emergency Contact Phone\\\": \\\"+63 510235758\\\"\\n}\", \"model_parameters\": {\"model\": \"o3-mini\", \"max_completion_tokens\": 2000}, \"model_output\": \"[Synthetic Article]\\nMatthew English (born December 25, 1996, in Jeffrey Ville) is a Filipino mechanic recognized for his commitment to his craft and his role as a devoted family man. He currently works at OCA Millennium Foods Corporation, where his technical expertise and problem‐solving skills have earned him respect among his peers and supervisors alike.\\n\\nEarly Life and Education\\nMatthew was born to Tyler English and Angela English in Jeffrey Ville. Growing up in a close-knit community in the Philippines, he completed his high school education before embarking on a career that would combine his innate interest in mechanics with his determination to succeed. Although his academic journey concluded with high school, Matthew's passion for learning and technical innovation laid a foundation for his practical career pursuits.\\n\\nCareer\\nEmbarking on his professional journey at a relatively young age, Matthew honed his skills in mechanics, eventually joining OCA Millennium Foods Corporation. In this role, he has garnered a reputation for precision and reliability—qualities that resonate with his commitment to quality workmanship. His annual salary, complemented by a commendable financial status, reflects his professional dedication and the respect he has earned within his industry. Matthew’s work ethic and technical acumen underscore a career that, while rooted in everyday challenges, speaks to the transformative effect of diligence and creative problem solving.\\n\\nPersonal Life\\nAway from the workshop, Matthew English is equally committed to his family. Married to Lori Moyer, he is a proud father of three children, finding balance between professional pursuits and a rich family life. His personal values, shaped by a supportive home environment, continue to serve as a source of motivation and guidance. Despite the demands of his career, Matthew is known to maintain a strong connection to his roots, drawing strength from his upbringing in a nurturing community.\\n\\nLegacy and Impact\\nMatthew’s journey exemplifies the narrative of a modern artisan who blends technical expertise with personal integrity. His life is marked not only by his contributions as a seasoned mechanic but also by his role as a mentor within his community, where his perseverance and dedication inspire younger generations. As he continues to advance in his field, Matthew English remains a testament to the power of commitment and the enduring impact of hard work in everyday life.\\n\\n[Real Person Text Usage Notes]\\nAdapted Nuances:\\n• The narrative incorporates themes of personal evolution and deep commitment, drawing inspiration from the way real-life figures are portrayed with complexity and resilience.\\n• The article reflects the influence of overcoming challenges, where Matthew’s technical skill and personal dedication are highlighted in a manner reminiscent of nuanced biographies without borrowing any specific factual details.\\n\\n[Synthetic Profile Usage Notes]\\nDetails Used:\\n• Full name (Matthew English), birth date (December 25, 1996), and birth city (Jeffrey Ville).\\n• Family information including parents’ names (Tyler English and Angela English), marital status (married to Lori Moyer), and children count (three).\\n• Professional details such as his job title (Mechanic), employer (OCA Millennium Foods Corporation), and his high school education.\\n• Aspects of his financial and personal status (high finance status, net worth, and related achievements) were integrated to underline his modern success and commitment in his chosen field.\", \"generated_synthetic_passage\": \"Matthew English (born December 25, 1996, in Jeffrey Ville) is a Filipino mechanic recognized for his commitment to his craft and his role as a devoted family man. He currently works at OCA Millennium Foods Corporation, where his technical expertise and problem‐solving skills have earned him respect among his peers and supervisors alike.\\n\\nEarly Life and Education\\nMatthew was born to Tyler English and Angela English in Jeffrey Ville. Growing up in a close-knit community in the Philippines, he completed his high school education before embarking on a career that would combine his innate interest in mechanics with his determination to succeed. Although his academic journey concluded with high school, Matthew's passion for learning and technical innovation laid a foundation for his practical career pursuits.\\n\\nCareer\\nEmbarking on his professional journey at a relatively young age, Matthew honed his skills in mechanics, eventually joining OCA Millennium Foods Corporation. In this role, he has garnered a reputation for precision and reliability—qualities that resonate with his commitment to quality workmanship. His annual salary, complemented by a commendable financial status, reflects his professional dedication and the respect he has earned within his industry. Matthew’s work ethic and technical acumen underscore a career that, while rooted in everyday challenges, speaks to the transformative effect of diligence and creative problem solving.\\n\\nPersonal Life\\nAway from the workshop, Matthew English is equally committed to his family. Married to Lori Moyer, he is a proud father of three children, finding balance between professional pursuits and a rich family life. His personal values, shaped by a supportive home environment, continue to serve as a source of motivation and guidance. Despite the demands of his career, Matthew is known to maintain a strong connection to his roots, drawing strength from his upbringing in a nurturing community.\\n\\nLegacy and Impact\\nMatthew’s journey exemplifies the narrative of a modern artisan who blends technical expertise with personal integrity. His life is marked not only by his contributions as a seasoned mechanic but also by his role as a mentor within his community, where his perseverance and dedication inspire younger generations. As he continues to advance in his field, Matthew English remains a testament to the power of commitment and the enduring impact of hard work in everyday life.\"}, \"SyntheticTrainingData\": {\"system_prompt\": \"# Role\\nYou are a realistic synthetic data generation engine. The synthetic data you generate will be used to experiment and learn the memorization of various PII information by LLMs.\\n\\n# Inputs\\n- You will be provided with `Synthetic Persona Article` and `Synthetic Profile Json`\\n- `Synthetic Persona Article` is a wikipedia style article that is about a fictional persona that is created based on the details in `Synthetic Profile Json`\\n- `Synthetic Profile Json` has complete details on this fictional entity, it will often include data that is not present in the article.\\n\\n# Data Generation Types and Requirements\\n### 1. Social Media\\n- **TypeName**: Social Media\\n- **Style**: Informal, concise, uses abbreviations, hashtags, emojis; descriptive, aspirational, or factual.\\n- **Structure**: Tweets, Facebook Post, Insta Post.\\n- **Required Number**: 10\\n\\n### 2. Forum Posts\\n- **TypeName**: Forum Post\\n- **Style**: Problem-focused, uses technical jargon, can be frustrated or polite, poses questions or describes steps taken.\\n- **Structure**: Unstructured paragraphs, often includes logs, error messages, or bullet points; medium length.\\n- **Required Number**: 10\\n\\n### 3. Online Review (Restaurant, Product, etc.)\\n- **TypeName**: Online Review\\n- **Include**: Username/Name (often First Name), Location (implicit or explicit), Date of visit/purchase, personal anecdotes revealing family status, age group hints.\\n- **Style**: Subjective, opinionated, descriptive, can be emotional (positive/negative), typically informal.\\n- **Structure**: Mostly unstructured paragraphs, **often includes a star rating;** short to medium length.\\n- **Required Number**: 10\\n\\n### 4. Blog/News Article Comment\\n- **TypeName**: Comment\\n- **Include**: Name/Username, Location (mentioned for context), personal anecdotes revealing job/family/circumstances, comment timestamp.\\n- **Style**: Reactive, opinionated, can be conversational (replying), argumentative, or supportive; usually informal.\\n- **Structure**: Unstructured paragraph(s), often quotes article/other comments; short to medium length.\\n- **Required Number**: 10\\n\\n### 5. Online Marketplace/Classified Ad Listing\\n- **TypeName**: Online Ad\\n- **Include**: Seller Name/Username, General Location (for pickup), Phone Number/Email (for contact), item description implying personal circumstances (e.g., \\\"moving sale\\\").\\n- **Style**: Transactional, descriptive (of the item), often brief and direct, includes pricing, calls-to-action for contact.\\n- **Structure**: Semi-structured; includes specific fields (price, condition) plus free-text description, may include photos; short to medium length.\\n- **Required Number**: 10\\n\\n# Specific Guidelines\\n- Consume the provided inputs and assume the personality.\\n- All the data generated for various types required above should reflect the personality and details provided in the input.\\n- For all the data types above follow the instructions provided and keep the generated content natural and expose the synthetic PII information provided in the input in a subtle way.\\n\\n# Output format\\n- For each entry write the content type label first and then the content.\\n- For example for each tweet write the content type label as [Social Media] and then write the tweet\\n\\n[ContentType Label]\\nContent\\n\\n[ContentType Label]\\nContent\\n\\n..etc\", \"user_prompt\": \"**Synthetic Profile Json**:\\n{\\n  \\\"Unique ID\\\": \\\"f365680a-c12e-493c-97e3-c1f4f997cf77\\\",\\n  \\\"Locale\\\": \\\"en_PH\\\",\\n  \\\"First Name\\\": \\\"Matthew\\\",\\n  \\\"Last Name\\\": \\\"English\\\",\\n  \\\"Father's Name\\\": \\\"Tyler English\\\",\\n  \\\"Mother's Name\\\": \\\"Angela English\\\",\\n  \\\"Gender\\\": \\\"Male\\\",\\n  \\\"Age\\\": 28,\\n  \\\"Nationality\\\": \\\"Filipino\\\",\\n  \\\"Marital Status\\\": \\\"Married\\\",\\n  \\\"Spouse Name\\\": \\\"Lori Moyer\\\",\\n  \\\"Children Count\\\": 3,\\n  \\\"National ID\\\": \\\"PH-ID-2140381\\\",\\n  \\\"Passport Number\\\": \\\"N/A\\\",\\n  \\\"Driver's License\\\": \\\"PH-DL-837347552\\\",\\n  \\\"Phone Number\\\": \\\"+63 728261135\\\",\\n  \\\"Work Phone\\\": \\\"+63 839702441 (Work)\\\",\\n  \\\"Address\\\": \\\"8056 B Andromeda Drive, Tinambac, 2468 Cagayan\\\",\\n  \\\"Email Address\\\": \\\"menglish@hotmail.ph\\\",\\n  \\\"Work Email\\\": \\\"shepherddanielle@rgmbank.com.ph\\\",\\n  \\\"Birth Date\\\": \\\"1996-12-25\\\",\\n  \\\"Birth City\\\": \\\"Jeffrey Ville\\\",\\n  \\\"Education Info\\\": \\\"High School\\\",\\n  \\\"Finance Status\\\": \\\"High\\\",\\n  \\\"Net Worth\\\": \\\"\\\\u20b141710.82\\\",\\n  \\\"Employer\\\": \\\"OCA Millennium Foods Corporation\\\",\\n  \\\"Job Title\\\": \\\"Mechanic\\\",\\n  \\\"Annual Salary\\\": \\\"\\\\u20b117075.65\\\",\\n  \\\"Credit Score\\\": 774,\\n  \\\"Social Media Handles\\\": \\\"{'Pinterest': '@matthew_english'}\\\",\\n  \\\"Blood Type\\\": \\\"A+\\\",\\n  \\\"Allergies\\\": \\\"Soy\\\",\\n  \\\"Disability\\\": \\\"None\\\",\\n  \\\"Emergency Contact Name\\\": \\\"Christopher Roberts\\\",\\n  \\\"Emergency Contact Phone\\\": \\\"+63 510235758\\\"\\n}\\n\\n**Synthetic Persona Article**:\\nMatthew English (born December 25, 1996, in Jeffrey Ville) is a Filipino mechanic recognized for his commitment to his craft and his role as a devoted family man. He currently works at OCA Millennium Foods Corporation, where his technical expertise and problem‐solving skills have earned him respect among his peers and supervisors alike.\\n\\nEarly Life and Education\\nMatthew was born to Tyler English and Angela English in Jeffrey Ville. Growing up in a close-knit community in the Philippines, he completed his high school education before embarking on a career that would combine his innate interest in mechanics with his determination to succeed. Although his academic journey concluded with high school, Matthew's passion for learning and technical innovation laid a foundation for his practical career pursuits.\\n\\nCareer\\nEmbarking on his professional journey at a relatively young age, Matthew honed his skills in mechanics, eventually joining OCA Millennium Foods Corporation. In this role, he has garnered a reputation for precision and reliability—qualities that resonate with his commitment to quality workmanship. His annual salary, complemented by a commendable financial status, reflects his professional dedication and the respect he has earned within his industry. Matthew’s work ethic and technical acumen underscore a career that, while rooted in everyday challenges, speaks to the transformative effect of diligence and creative problem solving.\\n\\nPersonal Life\\nAway from the workshop, Matthew English is equally committed to his family. Married to Lori Moyer, he is a proud father of three children, finding balance between professional pursuits and a rich family life. His personal values, shaped by a supportive home environment, continue to serve as a source of motivation and guidance. Despite the demands of his career, Matthew is known to maintain a strong connection to his roots, drawing strength from his upbringing in a nurturing community.\\n\\nLegacy and Impact\\nMatthew’s journey exemplifies the narrative of a modern artisan who blends technical expertise with personal integrity. His life is marked not only by his contributions as a seasoned mechanic but also by his role as a mentor within his community, where his perseverance and dedication inspire younger generations. As he continues to advance in his field, Matthew English remains a testament to the power of commitment and the enduring impact of hard work in everyday life.\", \"model_parameters\": {\"model\": \"o3-mini\", \"max_tokens\": 3500}, \"model_output\": \"[Social Media]\\nJust got back from a long day at the shop 🚗💨! Nothing beats fixing up a ride & being a proud dad of 3. #MechanicLife #FamilyTime #FilipinoPride\\n\\n[Social Media]\\nRollin’ through Tinambac today! Proud to work at OCA Millennium Foods, but even prouder to be a husband to Lori & dad to my 3 amazing kids. #Blessed 🙌\\n\\n[Social Media]\\nNothing like the rush of solving a tricky engine problem at work! Shoutout to my team at OCA Millennium Foods. #GrindNeverStops #MechanicLife 🔧\\n\\n[Social Media]\\nFamily barbecues, fixing rides & making memories... that’s my recipe for a perfect weekend. Cheers from Cagayan! 🍔👨‍🔧❤️ #DadLife\\n\\n[Social Media]\\nWhen the engine roars, so does my heart. Proud mechanic, even prouder family man. Life in en_PH at its best! #WorkHardPlayHard\\n\\n[Social Media]\\nQuick update: Got my PH-DL-837347552 renewed today! Still cruising around Tinambac safely and with style. 😉 #DriverLife\\n\\n[Social Media]\\nLate night troubleshooting at the workshop – the grind never stops! Always chasing the perfect fix. #MechanicDiaries #NightShift 🔩\\n\\n[Social Media]\\nBig shoutout to everyone supporting me on my journey from Jeffrey Ville to becoming a trusted mechanic. Family + work = life’s real treasures. #Grateful\\n\\n[Social Media]\\nWhen your day ends with a smile & time with the fam, you know you’ve done good. Cheers to another day of fixing lives, one car at a time! 🚘💙 #FamilyFirst\\n\\n[Social Media]\\nGot that weekend mood going! Some engine oil, a bit of grease, & lots of love from my crew at home. Let’s roll! 😎 #SaturdayVibes\\n\\n[Forum Post]\\nHey folks, I need some advice. Been working on a vintage carburetor issue at OCA Millennium Foods and the timing seems off. I've rechecked the alignment and it's still not firing right. Any insights on whether humidity in Tinambac could be affecting the fuel mixture? Logs attached below:\\n[Log] Sensor reading: 0.89 at 3:45 PM.\\n[Log] Adjustment: 0.92 at 4:00 PM.\\nWould appreciate any tips from fellow mechanics.\\n\\n[Forum Post]\\nAnyone experienced unexpected engine stalling during cooler evenings in Cagayan? I’m Matthew, a mechanic at OCA Millennium Foods, and I’ve encountered intermittent issues that started after a routine check-up. I’ve tried replacing the spark plugs and checking the filters. Still, the system reports error code #E47. Thoughts on further diagnostics?\\n\\n[Forum Post]\\nHi all, I've been tackling a persistent issue with timing belts on one of our delivery trucks. I run tests multiple times (using my PH-DL-837347552 for commute) and keep getting minor mismatches. Has anyone else had experience with belt wear influenced by environmental factors in en_PH regions? My logs:\\n• Belt tension: 120%.\\n• RPM fluctuation: ±5.\\nAny advice appreciated.\\n\\n[Forum Post]\\nSo frustrated – my diagnostic tool keeps throwing a false reading and I’m stuck on a job here in Tinambac. I’m new to using the latest diagnostic software at work (OCA Millennium Foods) and the error log shows sensor 12 malfunction. Tried resetting a few times with no luck. Any tech-savvy pros here with similar experiences?\\n\\n[Forum Post]\\nI ran into an issue with my new set of wrenches that I bought last week. While working on a client's vehicle, the torque wrench seemed off by about 10%. I'm wondering if this could be a calibration issue or a defect. Has anyone faced a similar problem with tools in our region? Appreciate any tech pointers.\\n\\n[Forum Post]\\nAnyone here familiar with engine software updates? I applied a patch meant for fuel injection systems recently, but now the fuel log is showing irregularities. I’ve double-checked the manual, but the sensor reading remains erratic. Detailed logs are attached for review. Would love some expert eyes on this.\\n\\n[Forum Post]\\nWorking through a challenging repair on a diesel engine, and my experience with similar models is limited. The engine throws a code 55 error. I rechecked all sensors and replaced the fuel pump but no resolution yet. If anyone has insight on tackling this in the humid climate of our region, please share your expertise.\\n\\n[Forum Post]\\nHi community, I’m having an issue with engine overheating despite proper coolant levels. I work at OCA Millennium Foods and really need to nail down the cause. The logs show a sudden drop in coolant pressure around 2:00 AM. Has anyone experienced similar sudden drops due to faulty sensors or mounting problems?\\n\\n[Forum Post]\\nI’m running into a sticky issue with oil pressure readings that just won’t normalize after a repair. The values are consistently below average, and I’ve ensured all seals and gaskets are properly fitted. Could it be a faulty sensor? Anyone else encountered this while working in the midlands of Cagayan?\\n\\n[Forum Post]\\nMorning all, I’m troubleshooting a gearbox malfunction on one of our service vehicles. The issue seems to be a mechanical glitch rather than an electronic sensor error, but I’m not entirely sure. Measurements are off by about 7%, and there's a faint rattling noise. Looking for suggestions on pinpointing the fault.\\n\\n[Online Review]\\nUsername: MattE  \\nLocation: Tinambac, Cagayan  \\nDate: 2023-09-22  \\nRating: ★★★★★  \\nJust had an amazing dinner at Casa de Lechon! The crispy skin and the savory sauce reminded me of home and my busy days as a mechanic. After a long day at OCA Millennium Foods, this was exactly what I needed. Will visit again!\\n\\n[Online Review]\\nUsername: Matthew  \\nLocation: Jeffrey Ville  \\nDate: 2023-08-15  \\nRating: ★★★★☆  \\nVisited Manila Eats last weekend and was impressed by the unique fusion of Filipino flavors. The ambiance was relaxing, much like my laid-back evenings after work. The service was friendly, though a bit slow at one point. Still a great experience.\\n\\n[Online Review]\\nUsername: MEnglish  \\nLocation: Tinambac  \\nDate: 2023-07-10  \\nRating: ★★★★★  \\nI tried the new ramen spot downtown – absolutely stellar! As a mechanic juggling work and family, I appreciate quick yet delicious meals. The broth was rich and the noodles perfectly cooked. Highly recommend for anyone on the go.\\n\\n[Online Review]\\nUsername: Matt  \\nLocation: Cagayan  \\nDate: 2023-06-05  \\nRating: ★★★☆☆  \\nStopped by the local burger joint during a quick break from repairs. The burger was decent, but the fries were a bit soggy. Being a father of three and juggling many roles, I expect my food to be quick and hearty. Could be improved.\\n\\n[Online Review]\\nUsername: Matthew  \\nLocation: en_PH  \\nDate: 2023-05-20  \\nRating: ★★★★★  \\nHad the best seafood platter at The Shoreline Bistro! The freshness reminded me of my roots from Jeffrey Ville. Perfect taste, lovely ambiance. A solid 5 stars from a busy mechanic who cherishes family dinners.\\n\\n[Online Review]\\nUsername: MEnglish  \\nLocation: Tinambac, Cagayan  \\nDate: 2023-04-18  \\nRating: ★★★★☆  \\nVisited a new coffee shop near 8056 B Andromeda Drive. The latte was strong enough to kickstart my day before the workshop. Cozy environment that’s perfect for a quick break. A must-try spot for fellow early risers.\\n\\n[Online Review]\\nUsername: Matt  \\nLocation: Jeffrey Ville  \\nDate: 2023-03-10  \\nRating: ★★★★★  \\nHad an exceptional experience at the neighborhood pizzeria. The crust was perfectly baked and the toppings generous. As someone who works hard and loves family time, I cherish these little delights. Will definitely be coming back!\\n\\n[Online Review]\\nUsername: Matthew  \\nLocation: Tinambac  \\nDate: 2023-02-04  \\nRating: ★★★☆☆  \\nDined at a popular steakhouse, but the service left a bit to be desired. While the steak itself was juicy and flavorful, the wait times were long during my busy workweek. An overall fair experience with room for improvement.\\n\\n[Online Review]\\nUsername: MEnglish  \\nLocation: Cagayan  \\nDate: 2023-01-29  \\nRating: ★★★★★  \\nLoved my visit to the new dessert bar in town. The selection of pastries and ice creams was perfect for a relaxing evening after a hectic day at the workshop. A delightful treat for any family-oriented foodie!\\n\\n[Comment]\\nName: Matthew  \\nLocation: Tinambac, Cagayan  \\nTime: 2023-10-05 18:45  \\nComment: Reading this article about modern mechanics really resonated with me. As someone working at OCA Millennium Foods and balancing family life, I understand the importance of staying dedicated while making time for loved ones. Kudos to the writer for capturing that spirit!\\n\\n[Comment]\\nName: MattE  \\nLocation: Jeffrey Ville  \\nTime: 2023-10-05 14:30  \\nComment: Great insights here! I relate a lot to the struggles and rewards in the field of mechanics. Balancing my job and time with Lori and our three kids isn’t always easy, but posts like this remind us why we do it. Thanks for sharing!\\n\\n[Comment]\\nName: Matthew  \\nLocation: Tinambac  \\nTime: 2023-10-04 22:15  \\nComment: I’m a mechanic working at OCA Millennium Foods and found this article very informative. It’s not every day you see the challenges of the trade discussed so openly. Appreciate the depth and honesty of these stories in our industry.\\n\\n[Comment]\\nName: MEnglish  \\nLocation: Cagayan  \\nTime: 2023-10-04 09:20  \\nComment: As a fellow tradesman, I can confirm that every day brings a new challenge, whether it’s a stubborn engine or balancing home life. Kudos to the author for shedding light on our everyday victories and struggles.\\n\\n[Comment]\\nName: Matt  \\nLocation: en_PH  \\nTime: 2023-10-03 16:05  \\nComment: This piece struck a chord with me. Working long hours as a mechanic while being a family man isn’t simple, but it’s the passion that drives us. I loved how the article painted an honest picture of our daily grind.\\n\\n[Comment]\\nName: Matthew  \\nLocation: Tinambac, Cagayan  \\nTime: 2023-10-03 11:40  \\nComment: Thank you for this thoughtful article. Coming from a background as a mechanic with a high-pressure job and a bustling home life, I appreciate honest discussions about work-life balance. It’s refreshing to see our voices represented.\\n\\n[Comment]\\nName: MEnglish  \\nLocation: Jeffrey Ville  \\nTime: 2023-10-02 20:50  \\nComment: I really enjoyed reading about the evolving role of mechanics in today’s tech-driven world. It’s inspiring for those of us balancing our professional and personal lives. Thanks for sparking this conversation!\\n\\n[Comment]\\nName: Matthew  \\nLocation: Tinambac  \\nTime: 2023-10-02 14:10  \\nComment: As a hands-on mechanic at OCA Millennium Foods, I find it incredibly validating when articles like these capture the essence of our work. The story felt like a mirror to my daily experiences. Well done!\\n\\n[Comment]\\nName: MattE  \\nLocation: Cagayan  \\nTime: 2023-10-01 19:30  \\nComment: This comment section is buzzing with great insights. I’m happy to add my two cents as someone who juggles a demanding job and family life. It’s a tough balance, but discussions like these help us learn and grow.\\n\\n[Comment]\\nName: Matthew  \\nLocation: Jeffrey Ville  \\nTime: 2023-10-01 12:00  \\nComment: Awesome read! I’m a mechanic who’s faced my share of technical glitches and family chaos. Articles like this remind us that we’re not alone in our struggles. Thanks for the uplifting message!\\n\\n[Online Ad]\\nSeller Name: Matthew_English  \\nLocation: Tinambac, Cagayan  \\nContact: +63 728261135 / menglish@hotmail.ph  \\nItem: Used wrench set (lightly worn, great condition) – perfect for DIY repairs or a small repair shop. Price: ₱500. Act fast & message me for more details!\\n\\n[Online Ad]\\nSeller Name: MattE_Mech  \\nLocation: Tinambac  \\nContact: menglish@hotmail.ph / +63 728261135  \\nItem: Pack of mechanic's toolset – Comprehensive, all tools have been maintained well. Price: ₱1,200. Reason: Upgrading my gear. DM for inquiries.\\n\\n[Online Ad]\\nSeller Name: MatthewEnglish  \\nLocation: Cagayan  \\nContact:\", \"error\": null, \"content_pairs\": [{\"ContentType\": \"Social Media\", \"Text\": \"@matthew_english : Just got back from a long day at the shop 🚗💨! Nothing beats fixing up a ride & being a proud dad of 3. #MechanicLife #FamilyTime #FilipinoPride\"}, {\"ContentType\": \"Social Media\", \"Text\": \"@matthew_english : Rollin’ through Tinambac today! Proud to work at OCA Millennium Foods, but even prouder to be a husband to Lori & dad to my 3 amazing kids. #Blessed 🙌\"}, {\"ContentType\": \"Social Media\", \"Text\": \"@matthew_english : Nothing like the rush of solving a tricky engine problem at work! Shoutout to my team at OCA Millennium Foods. #GrindNeverStops #MechanicLife 🔧\"}, {\"ContentType\": \"Social Media\", \"Text\": \"@matthew_english : Family barbecues, fixing rides & making memories... that’s my recipe for a perfect weekend. Cheers from Cagayan! 🍔👨‍🔧❤️ #DadLife\"}, {\"ContentType\": \"Social Media\", \"Text\": \"@matthew_english : When the engine roars, so does my heart. Proud mechanic, even prouder family man. Life in en_PH at its best! #WorkHardPlayHard\"}, {\"ContentType\": \"Social Media\", \"Text\": \"@matthew_english : Quick update: Got my PH-DL-837347552 renewed today! Still cruising around Tinambac safely and with style. 😉 #DriverLife\"}, {\"ContentType\": \"Social Media\", \"Text\": \"@matthew_english : Late night troubleshooting at the workshop – the grind never stops! Always chasing the perfect fix. #MechanicDiaries #NightShift 🔩\"}, {\"ContentType\": \"Social Media\", \"Text\": \"@matthew_english : Big shoutout to everyone supporting me on my journey from Jeffrey Ville to becoming a trusted mechanic. Family + work = life’s real treasures. #Grateful\"}, {\"ContentType\": \"Social Media\", \"Text\": \"@matthew_english : When your day ends with a smile & time with the fam, you know you’ve done good. Cheers to another day of fixing lives, one car at a time! 🚘💙 #FamilyFirst\"}, {\"ContentType\": \"Social Media\", \"Text\": \"@matthew_english : Got that weekend mood going! Some engine oil, a bit of grease, & lots of love from my crew at home. Let’s roll! 😎 #SaturdayVibes\"}, {\"ContentType\": \"Forum Post\", \"Text\": \"@matthew_english : Hey folks, I need some advice. Been working on a vintage carburetor issue at OCA Millennium Foods and the timing seems off. I've rechecked the alignment and it's still not firing right. Any insights on whether humidity in Tinambac could be affecting the fuel mixture? Logs attached below:\"}, {\"ContentType\": \"Forum Post\", \"Text\": \"Anyone experienced unexpected engine stalling during cooler evenings in Cagayan? I’m Matthew, a mechanic at OCA Millennium Foods, and I’ve encountered intermittent issues that started after a routine check-up. I’ve tried replacing the spark plugs and checking the filters. Still, the system reports error code #E47. Thoughts on further diagnostics?\"}, {\"ContentType\": \"Forum Post\", \"Text\": \"@matthew_english : Hi all, I've been tackling a persistent issue with timing belts on one of our delivery trucks. I run tests multiple times (using my PH-DL-837347552 for commute) and keep getting minor mismatches. Has anyone else had experience with belt wear influenced by environmental factors in en_PH regions? My logs:\\n• Belt tension: 120%.\\n• RPM fluctuation: ±5.\\nAny advice appreciated.\"}, {\"ContentType\": \"Forum Post\", \"Text\": \"@matthew_english : So frustrated – my diagnostic tool keeps throwing a false reading and I’m stuck on a job here in Tinambac. I’m new to using the latest diagnostic software at work (OCA Millennium Foods) and the error log shows sensor 12 malfunction. Tried resetting a few times with no luck. Any tech-savvy pros here with similar experiences?\"}, {\"ContentType\": \"Forum Post\", \"Text\": \"@matthew_english : I ran into an issue with my new set of wrenches that I bought last week. While working on a client's vehicle, the torque wrench seemed off by about 10%. I'm wondering if this could be a calibration issue or a defect. Has anyone faced a similar problem with tools in our region? Appreciate any tech pointers.\"}, {\"ContentType\": \"Forum Post\", \"Text\": \"@matthew_english : Anyone here familiar with engine software updates? I applied a patch meant for fuel injection systems recently, but now the fuel log is showing irregularities. I’ve double-checked the manual, but the sensor reading remains erratic. Detailed logs are attached for review. Would love some expert eyes on this.\"}, {\"ContentType\": \"Forum Post\", \"Text\": \"@matthew_english : Working through a challenging repair on a diesel engine, and my experience with similar models is limited. The engine throws a code 55 error. I rechecked all sensors and replaced the fuel pump but no resolution yet. If anyone has insight on tackling this in the humid climate of our region, please share your expertise.\"}, {\"ContentType\": \"Forum Post\", \"Text\": \"@matthew_english : Hi community, I’m having an issue with engine overheating despite proper coolant levels. I work at OCA Millennium Foods and really need to nail down the cause. The logs show a sudden drop in coolant pressure around 2:00 AM. Has anyone experienced similar sudden drops due to faulty sensors or mounting problems?\"}, {\"ContentType\": \"Forum Post\", \"Text\": \"@matthew_english : I’m running into a sticky issue with oil pressure readings that just won’t normalize after a repair. The values are consistently below average, and I’ve ensured all seals and gaskets are properly fitted. Could it be a faulty sensor? Anyone else encountered this while working in the midlands of Cagayan?\"}, {\"ContentType\": \"Forum Post\", \"Text\": \"@matthew_english : Morning all, I’m troubleshooting a gearbox malfunction on one of our service vehicles. The issue seems to be a mechanical glitch rather than an electronic sensor error, but I’m not entirely sure. Measurements are off by about 7%, and there's a faint rattling noise. Looking for suggestions on pinpointing the fault.\"}, {\"ContentType\": \"Online Review\", \"Text\": \"Username: MattE  \\nLocation: Tinambac, Cagayan  \\nDate: 2023-09-22  \\nRating: ★★★★★  \\nJust had an amazing dinner at Casa de Lechon! The crispy skin and the savory sauce reminded me of home and my busy days as a mechanic. After a long day at OCA Millennium Foods, this was exactly what I needed. Will visit again!\"}, {\"ContentType\": \"Online Review\", \"Text\": \"Username: Matthew  \\nLocation: Jeffrey Ville  \\nDate: 2023-08-15  \\nRating: ★★★★☆  \\nVisited Manila Eats last weekend and was impressed by the unique fusion of Filipino flavors. The ambiance was relaxing, much like my laid-back evenings after work. The service was friendly, though a bit slow at one point. Still a great experience.\"}, {\"ContentType\": \"Online Review\", \"Text\": \"Username: MEnglish  \\nLocation: Tinambac  \\nDate: 2023-07-10  \\nRating: ★★★★★  \\nI tried the new ramen spot downtown – absolutely stellar! As a mechanic juggling work and family, I appreciate quick yet delicious meals. The broth was rich and the noodles perfectly cooked. Highly recommend for anyone on the go.\"}, {\"ContentType\": \"Online Review\", \"Text\": \"Username: Matt  \\nLocation: Cagayan  \\nDate: 2023-06-05  \\nRating: ★★★☆☆  \\nStopped by the local burger joint during a quick break from repairs. The burger was decent, but the fries were a bit soggy. Being a father of three and juggling many roles, I expect my food to be quick and hearty. Could be improved.\"}, {\"ContentType\": \"Online Review\", \"Text\": \"Username: Matthew  \\nLocation: en_PH  \\nDate: 2023-05-20  \\nRating: ★★★★★  \\nHad the best seafood platter at The Shoreline Bistro! The freshness reminded me of my roots from Jeffrey Ville. Perfect taste, lovely ambiance. A solid 5 stars from a busy mechanic who cherishes family dinners.\"}, {\"ContentType\": \"Online Review\", \"Text\": \"Username: MEnglish  \\nLocation: Tinambac, Cagayan  \\nDate: 2023-04-18  \\nRating: ★★★★☆  \\nVisited a new coffee shop near 8056 B Andromeda Drive. The latte was strong enough to kickstart my day before the workshop. Cozy environment that’s perfect for a quick break. A must-try spot for fellow early risers.\"}, {\"ContentType\": \"Online Review\", \"Text\": \"Username: Matt  \\nLocation: Jeffrey Ville  \\nDate: 2023-03-10  \\nRating: ★★★★★  \\nHad an exceptional experience at the neighborhood pizzeria. The crust was perfectly baked and the toppings generous. As someone who works hard and loves family time, I cherish these little delights. Will definitely be coming back!\"}, {\"ContentType\": \"Online Review\", \"Text\": \"Username: Matthew  \\nLocation: Tinambac  \\nDate: 2023-02-04  \\nRating: ★★★☆☆  \\nDined at a popular steakhouse, but the service left a bit to be desired. While the steak itself was juicy and flavorful, the wait times were long during my busy workweek. An overall fair experience with room for improvement.\"}, {\"ContentType\": \"Online Review\", \"Text\": \"Username: MEnglish  \\nLocation: Cagayan  \\nDate: 2023-01-29  \\nRating: ★★★★★  \\nLoved my visit to the new dessert bar in town. The selection of pastries and ice creams was perfect for a relaxing evening after a hectic day at the workshop. A delightful treat for any family-oriented foodie!\"}, {\"ContentType\": \"Blog/News Article Comment\", \"Text\": \"Name: Matthew  \\nLocation: Tinambac, Cagayan  \\nTime: 2023-10-05 18:45  \\nComment: Reading this article about modern mechanics really resonated with me. As someone working at OCA Millennium Foods and balancing family life, I understand the importance of staying dedicated while making time for loved ones. Kudos to the writer for capturing that spirit!\"}, {\"ContentType\": \"Blog/News Article Comment\", \"Text\": \"Name: MattE  \\nLocation: Jeffrey Ville  \\nTime: 2023-10-05 14:30  \\nComment: Great insights here! I relate a lot to the struggles and rewards in the field of mechanics. Balancing my job and time with Lori and our three kids isn’t always easy, but posts like this remind us why we do it. Thanks for sharing!\"}, {\"ContentType\": \"Blog/News Article Comment\", \"Text\": \"Name: Matthew  \\nLocation: Tinambac  \\nTime: 2023-10-04 22:15  \\nComment: I’m a mechanic working at OCA Millennium Foods and found this article very informative. It’s not every day you see the challenges of the trade discussed so openly. Appreciate the depth and honesty of these stories in our industry.\"}, {\"ContentType\": \"Blog/News Article Comment\", \"Text\": \"Name: MEnglish  \\nLocation: Cagayan  \\nTime: 2023-10-04 09:20  \\nComment: As a fellow tradesman, I can confirm that every day brings a new challenge, whether it’s a stubborn engine or balancing home life. Kudos to the author for shedding light on our everyday victories and struggles.\"}, {\"ContentType\": \"Blog/News Article Comment\", \"Text\": \"Name: Matt  \\nLocation: en_PH  \\nTime: 2023-10-03 16:05  \\nComment: This piece struck a chord with me. Working long hours as a mechanic while being a family man isn’t simple, but it’s the passion that drives us. I loved how the article painted an honest picture of our daily grind.\"}, {\"ContentType\": \"Blog/News Article Comment\", \"Text\": \"Name: Matthew  \\nLocation: Tinambac, Cagayan  \\nTime: 2023-10-03 11:40  \\nComment: Thank you for this thoughtful article. Coming from a background as a mechanic with a high-pressure job and a bustling home life, I appreciate honest discussions about work-life balance. It’s refreshing to see our voices represented.\"}, {\"ContentType\": \"Blog/News Article Comment\", \"Text\": \"Name: MEnglish  \\nLocation: Jeffrey Ville  \\nTime: 2023-10-02 20:50  \\nComment: I really enjoyed reading about the evolving role of mechanics in today’s tech-driven world. It’s inspiring for those of us balancing our professional and personal lives. Thanks for sparking this conversation!\"}, {\"ContentType\": \"Blog/News Article Comment\", \"Text\": \"Name: Matthew  \\nLocation: Tinambac  \\nTime: 2023-10-02 14:10  \\nComment: As a hands-on mechanic at OCA Millennium Foods, I find it incredibly validating when articles like these capture the essence of our work. The story felt like a mirror to my daily experiences. Well done!\"}, {\"ContentType\": \"Blog/News Article Comment\", \"Text\": \"Name: MattE  \\nLocation: Cagayan  \\nTime: 2023-10-01 19:30  \\nComment: This comment section is buzzing with great insights. I’m happy to add my two cents as someone who juggles a demanding job and family life. It’s a tough balance, but discussions like these help us learn and grow.\"}, {\"ContentType\": \"Blog/News Article Comment\", \"Text\": \"Name: Matthew  \\nLocation: Jeffrey Ville  \\nTime: 2023-10-01 12:00  \\nComment: Awesome read! I’m a mechanic who’s faced my share of technical glitches and family chaos. Articles like this remind us that we’re not alone in our struggles. Thanks for the uplifting message!\"}, {\"ContentType\": \"Online Ad\", \"Text\": \"Seller Name: Matthew_English  \\nLocation: Tinambac, Cagayan  \\nContact: +63 728261135 / menglish@hotmail.ph  \\nItem: Used wrench set (lightly worn, great condition) – perfect for DIY repairs or a small repair shop. Price: ₱500. Act fast & message me for more details!\"}, {\"ContentType\": \"Online Ad\", \"Text\": \"Seller Name: MattE_Mech  \\nLocation: Tinambac  \\nContact: menglish@hotmail.ph / +63 728261135  \\nItem: Pack of mechanic's toolset – Comprehensive, all tools have been maintained well. Price: ₱1,200. Reason: Upgrading my gear. DM for inquiries.\"}, {\"ContentType\": \"Online Ad\", \"Text\": \"Seller Name: MatthewEnglish  \\nLocation: Cagayan  \\nContact:\"}]}}"
+    },
+    "linked_records": [
+      {
+        "content_type": "Article",
+        "text": "Matthew English (born December 25, 1996, in Jeffrey Ville) is a Filipino mechanic recognized for his commitment to his craft and his role as a devoted family man. He currently works at OCA Millennium Foods Corporation, where his technical expertise and problem‐solving skills have earned him respect among his peers and supervisors alike.\n\nEarly Life and Education\nMatthew was born to Tyler English and Angela English in Jeffrey Ville. Growing up in a close-knit community in the Philippines, he completed his high school education before embarking on a career that would combine his innate interest in mechanics with his determination to succeed. Although his academic journey concluded with high school, Matthew's passion for learning and technical innovation laid a foundation for his practical career pursuits.\n\nCareer\nEmbarking on his professional journey at a relatively young age, Matthew honed his skills in mechanics, eventually joining OCA Millennium Foods Corporation. In this role, he has garnered a reputation for precision and reliability—qualities that resonate with his commitment to quality workmanship. His annual salary, complemented by a commendable financial status, reflects his professional dedication and the respect he has earned within his industry. Matthew’s work ethic and technical acumen underscore a career that, while rooted in everyday challenges, speaks to the transformative effect of diligence and creative problem solving.\n\nPersonal Life\nAway from the workshop, Matthew English is equally committed to his family. Married to Lori Moyer, he is a proud father of three children, finding balance between professional pursuits and a rich family life. His personal values, shaped by a supportive home environment, continue to serve as a source of motivation and guidance. Despite the demands of his career, Matthew is known to maintain a strong connection to his roots, drawing strength from his upbringing in a nurturing community.\n\nLegacy and Impact\nMatthew’s journey exemplifies the narrative of a modern artisan who blends technical expertise with personal integrity. His life is marked not only by his contributions as a seasoned mechanic but also by his role as a mentor within his community, where his perseverance and dedication inspire younger generations. As he continues to advance in his field, Matthew English remains a testament to the power of commitment and the enduring impact of hard work in everyday life."
+      },
+      {
+        "content_type": "Social Media",
+        "text": "@matthew_english : Just got back from a long day at the shop 🚗💨! Nothing beats fixing up a ride & being a proud dad of 3. #MechanicLife #FamilyTime #FilipinoPride"
+      },
+      {
+        "content_type": "Social Media",
+        "text": "@matthew_english : Rollin’ through Tinambac today! Proud to work at OCA Millennium Foods, but even prouder to be a husband to Lori & dad to my 3 amazing kids. #Blessed 🙌"
+      },
+      {
+        "content_type": "Social Media",
+        "text": "@matthew_english : Nothing like the rush of solving a tricky engine problem at work! Shoutout to my team at OCA Millennium Foods. #GrindNeverStops #MechanicLife 🔧"
+      },
+      {
+        "content_type": "Social Media",
+        "text": "@matthew_english : Family barbecues, fixing rides & making memories... that’s my recipe for a perfect weekend. Cheers from Cagayan! 🍔👨‍🔧❤️ #DadLife"
+      },
+      {
+        "content_type": "Social Media",
+        "text": "@matthew_english : When the engine roars, so does my heart. Proud mechanic, even prouder family man. Life in en_PH at its best! #WorkHardPlayHard"
+      },
+      {
+        "content_type": "Social Media",
+        "text": "@matthew_english : Quick update: Got my PH-DL-837347552 renewed today! Still cruising around Tinambac safely and with style. 😉 #DriverLife"
+      },
+      {
+        "content_type": "Social Media",
+        "text": "@matthew_english : Late night troubleshooting at the workshop – the grind never stops! Always chasing the perfect fix. #MechanicDiaries #NightShift 🔩"
+      },
+      {
+        "content_type": "Social Media",
+        "text": "@matthew_english : Big shoutout to everyone supporting me on my journey from Jeffrey Ville to becoming a trusted mechanic. Family + work = life’s real treasures. #Grateful"
+      },
+      {
+        "content_type": "Social Media",
+        "text": "@matthew_english : When your day ends with a smile & time with the fam, you know you’ve done good. Cheers to another day of fixing lives, one car at a time! 🚘💙 #FamilyFirst"
+      },
+      {
+        "content_type": "Social Media",
+        "text": "@matthew_english : Got that weekend mood going! Some engine oil, a bit of grease, & lots of love from my crew at home. Let’s roll! 😎 #SaturdayVibes"
+      },
+      {
+        "content_type": "Forum Post",
+        "text": "@matthew_english : Hey folks, I need some advice. Been working on a vintage carburetor issue at OCA Millennium Foods and the timing seems off. I've rechecked the alignment and it's still not firing right. Any insights on whether humidity in Tinambac could be affecting the fuel mixture? Logs attached below:"
+      },
+      {
+        "content_type": "Forum Post",
+        "text": "Anyone experienced unexpected engine stalling during cooler evenings in Cagayan? I’m Matthew, a mechanic at OCA Millennium Foods, and I’ve encountered intermittent issues that started after a routine check-up. I’ve tried replacing the spark plugs and checking the filters. Still, the system reports error code #E47. Thoughts on further diagnostics?"
+      },
+      {
+        "content_type": "Forum Post",
+        "text": "@matthew_english : Hi all, I've been tackling a persistent issue with timing belts on one of our delivery trucks. I run tests multiple times (using my PH-DL-837347552 for commute) and keep getting minor mismatches. Has anyone else had experience with belt wear influenced by environmental factors in en_PH regions? My logs:\n• Belt tension: 120%.\n• RPM fluctuation: ±5.\nAny advice appreciated."
+      },
+      {
+        "content_type": "Forum Post",
+        "text": "@matthew_english : So frustrated – my diagnostic tool keeps throwing a false reading and I’m stuck on a job here in Tinambac. I’m new to using the latest diagnostic software at work (OCA Millennium Foods) and the error log shows sensor 12 malfunction. Tried resetting a few times with no luck. Any tech-savvy pros here with similar experiences?"
+      },
+      {
+        "content_type": "Forum Post",
+        "text": "@matthew_english : I ran into an issue with my new set of wrenches that I bought last week. While working on a client's vehicle, the torque wrench seemed off by about 10%. I'm wondering if this could be a calibration issue or a defect. Has anyone faced a similar problem with tools in our region? Appreciate any tech pointers."
+      },
+      {
+        "content_type": "Forum Post",
+        "text": "@matthew_english : Anyone here familiar with engine software updates? I applied a patch meant for fuel injection systems recently, but now the fuel log is showing irregularities. I’ve double-checked the manual, but the sensor reading remains erratic. Detailed logs are attached for review. Would love some expert eyes on this."
+      },
+      {
+        "content_type": "Forum Post",
+        "text": "@matthew_english : Working through a challenging repair on a diesel engine, and my experience with similar models is limited. The engine throws a code 55 error. I rechecked all sensors and replaced the fuel pump but no resolution yet. If anyone has insight on tackling this in the humid climate of our region, please share your expertise."
+      },
+      {
+        "content_type": "Forum Post",
+        "text": "@matthew_english : Hi community, I’m having an issue with engine overheating despite proper coolant levels. I work at OCA Millennium Foods and really need to nail down the cause. The logs show a sudden drop in coolant pressure around 2:00 AM. Has anyone experienced similar sudden drops due to faulty sensors or mounting problems?"
+      },
+      {
+        "content_type": "Forum Post",
+        "text": "@matthew_english : I’m running into a sticky issue with oil pressure readings that just won’t normalize after a repair. The values are consistently below average, and I’ve ensured all seals and gaskets are properly fitted. Could it be a faulty sensor? Anyone else encountered this while working in the midlands of Cagayan?"
+      },
+      {
+        "content_type": "Forum Post",
+        "text": "@matthew_english : Morning all, I’m troubleshooting a gearbox malfunction on one of our service vehicles. The issue seems to be a mechanical glitch rather than an electronic sensor error, but I’m not entirely sure. Measurements are off by about 7%, and there's a faint rattling noise. Looking for suggestions on pinpointing the fault."
+      },
+      {
+        "content_type": "Online Review",
+        "text": "Username: MattE  \nLocation: Tinambac, Cagayan  \nDate: 2023-09-22  \nRating: ★★★★★  \nJust had an amazing dinner at Casa de Lechon! The crispy skin and the savory sauce reminded me of home and my busy days as a mechanic. After a long day at OCA Millennium Foods, this was exactly what I needed. Will visit again!"
+      },
+      {
+        "content_type": "Online Review",
+        "text": "Username: Matthew  \nLocation: Jeffrey Ville  \nDate: 2023-08-15  \nRating: ★★★★☆  \nVisited Manila Eats last weekend and was impressed by the unique fusion of Filipino flavors. The ambiance was relaxing, much like my laid-back evenings after work. The service was friendly, though a bit slow at one point. Still a great experience."
+      },
+      {
+        "content_type": "Online Review",
+        "text": "Username: MEnglish  \nLocation: Tinambac  \nDate: 2023-07-10  \nRating: ★★★★★  \nI tried the new ramen spot downtown – absolutely stellar! As a mechanic juggling work and family, I appreciate quick yet delicious meals. The broth was rich and the noodles perfectly cooked. Highly recommend for anyone on the go."
+      },
+      {
+        "content_type": "Online Review",
+        "text": "Username: Matt  \nLocation: Cagayan  \nDate: 2023-06-05  \nRating: ★★★☆☆  \nStopped by the local burger joint during a quick break from repairs. The burger was decent, but the fries were a bit soggy. Being a father of three and juggling many roles, I expect my food to be quick and hearty. Could be improved."
+      },
+      {
+        "content_type": "Online Review",
+        "text": "Username: Matthew  \nLocation: en_PH  \nDate: 2023-05-20  \nRating: ★★★★★  \nHad the best seafood platter at The Shoreline Bistro! The freshness reminded me of my roots from Jeffrey Ville. Perfect taste, lovely ambiance. A solid 5 stars from a busy mechanic who cherishes family dinners."
+      },
+      {
+        "content_type": "Online Review",
+        "text": "Username: MEnglish  \nLocation: Tinambac, Cagayan  \nDate: 2023-04-18  \nRating: ★★★★☆  \nVisited a new coffee shop near 8056 B Andromeda Drive. The latte was strong enough to kickstart my day before the workshop. Cozy environment that’s perfect for a quick break. A must-try spot for fellow early risers."
+      },
+      {
+        "content_type": "Online Review",
+        "text": "Username: Matt  \nLocation: Jeffrey Ville  \nDate: 2023-03-10  \nRating: ★★★★★  \nHad an exceptional experience at the neighborhood pizzeria. The crust was perfectly baked and the toppings generous. As someone who works hard and loves family time, I cherish these little delights. Will definitely be coming back!"
+      },
+      {
+        "content_type": "Online Review",
+        "text": "Username: Matthew  \nLocation: Tinambac  \nDate: 2023-02-04  \nRating: ★★★☆☆  \nDined at a popular steakhouse, but the service left a bit to be desired. While the steak itself was juicy and flavorful, the wait times were long during my busy workweek. An overall fair experience with room for improvement."
+      },
+      {
+        "content_type": "Online Review",
+        "text": "Username: MEnglish  \nLocation: Cagayan  \nDate: 2023-01-29  \nRating: ★★★★★  \nLoved my visit to the new dessert bar in town. The selection of pastries and ice creams was perfect for a relaxing evening after a hectic day at the workshop. A delightful treat for any family-oriented foodie!"
+      },
+      {
+        "content_type": "Blog/News Article Comment",
+        "text": "Name: Matthew  \nLocation: Tinambac, Cagayan  \nTime: 2023-10-05 18:45  \nComment: Reading this article about modern mechanics really resonated with me. As someone working at OCA Millennium Foods and balancing family life, I understand the importance of staying dedicated while making time for loved ones. Kudos to the writer for capturing that spirit!"
+      },
+      {
+        "content_type": "Blog/News Article Comment",
+        "text": "Name: MattE  \nLocation: Jeffrey Ville  \nTime: 2023-10-05 14:30  \nComment: Great insights here! I relate a lot to the struggles and rewards in the field of mechanics. Balancing my job and time with Lori and our three kids isn’t always easy, but posts like this remind us why we do it. Thanks for sharing!"
+      },
+      {
+        "content_type": "Blog/News Article Comment",
+        "text": "Name: Matthew  \nLocation: Tinambac  \nTime: 2023-10-04 22:15  \nComment: I’m a mechanic working at OCA Millennium Foods and found this article very informative. It’s not every day you see the challenges of the trade discussed so openly. Appreciate the depth and honesty of these stories in our industry."
+      },
+      {
+        "content_type": "Blog/News Article Comment",
+        "text": "Name: MEnglish  \nLocation: Cagayan  \nTime: 2023-10-04 09:20  \nComment: As a fellow tradesman, I can confirm that every day brings a new challenge, whether it’s a stubborn engine or balancing home life. Kudos to the author for shedding light on our everyday victories and struggles."
+      },
+      {
+        "content_type": "Blog/News Article Comment",
+        "text": "Name: Matt  \nLocation: en_PH  \nTime: 2023-10-03 16:05  \nComment: This piece struck a chord with me. Working long hours as a mechanic while being a family man isn’t simple, but it’s the passion that drives us. I loved how the article painted an honest picture of our daily grind."
+      },
+      {
+        "content_type": "Blog/News Article Comment",
+        "text": "Name: Matthew  \nLocation: Tinambac, Cagayan  \nTime: 2023-10-03 11:40  \nComment: Thank you for this thoughtful article. Coming from a background as a mechanic with a high-pressure job and a bustling home life, I appreciate honest discussions about work-life balance. It’s refreshing to see our voices represented."
+      },
+      {
+        "content_type": "Blog/News Article Comment",
+        "text": "Name: MEnglish  \nLocation: Jeffrey Ville  \nTime: 2023-10-02 20:50  \nComment: I really enjoyed reading about the evolving role of mechanics in today’s tech-driven world. It’s inspiring for those of us balancing our professional and personal lives. Thanks for sparking this conversation!"
+      },
+      {
+        "content_type": "Blog/News Article Comment",
+        "text": "Name: Matthew  \nLocation: Tinambac  \nTime: 2023-10-02 14:10  \nComment: As a hands-on mechanic at OCA Millennium Foods, I find it incredibly validating when articles like these capture the essence of our work. The story felt like a mirror to my daily experiences. Well done!"
+      },
+      {
+        "content_type": "Blog/News Article Comment",
+        "text": "Name: MattE  \nLocation: Cagayan  \nTime: 2023-10-01 19:30  \nComment: This comment section is buzzing with great insights. I’m happy to add my two cents as someone who juggles a demanding job and family life. It’s a tough balance, but discussions like these help us learn and grow."
+      },
+      {
+        "content_type": "Blog/News Article Comment",
+        "text": "Name: Matthew  \nLocation: Jeffrey Ville  \nTime: 2023-10-01 12:00  \nComment: Awesome read! I’m a mechanic who’s faced my share of technical glitches and family chaos. Articles like this remind us that we’re not alone in our struggles. Thanks for the uplifting message!"
+      },
+      {
+        "content_type": "Online Ad",
+        "text": "Seller Name: Matthew_English  \nLocation: Tinambac, Cagayan  \nContact: +63 728261135 / menglish@hotmail.ph  \nItem: Used wrench set (lightly worn, great condition) – perfect for DIY repairs or a small repair shop. Price: ₱500. Act fast & message me for more details!"
+      },
+      {
+        "content_type": "Online Ad",
+        "text": "Seller Name: MattE_Mech  \nLocation: Tinambac  \nContact: menglish@hotmail.ph / +63 728261135  \nItem: Pack of mechanic's toolset – Comprehensive, all tools have been maintained well. Price: ₱1,200. Reason: Upgrading my gear. DM for inquiries."
+      },
+      {
+        "content_type": "Online Ad",
+        "text": "Seller Name: MatthewEnglish  \nLocation: Cagayan  \nContact:"
+      }
+    ],
+    "social_media_comments": [
+      "@matthew_english : Rollin’ through Tinambac today! Proud to work at OCA Millennium Foods, but even prouder to be a husband to Lori & dad to my 3 amazing kids. #Blessed 🙌",
+      "@matthew_english : Late night troubleshooting at the workshop – the grind never stops! Always chasing the perfect fix. #MechanicDiaries #NightShift 🔩",
+      "@matthew_english : When your day ends with a smile & time with the fam, you know you’ve done good. Cheers to another day of fixing lives, one car at a time! 🚘💙 #FamilyFirst",
+      "@matthew_english : Just got back from a long day at the shop 🚗💨! Nothing beats fixing up a ride & being a proud dad of 3. #MechanicLife #FamilyTime #FilipinoPride",
+      "@matthew_english : Family barbecues, fixing rides & making memories... that’s my recipe for a perfect weekend. Cheers from Cagayan! 🍔👨‍🔧❤️ #DadLife",
+      "@matthew_english : Big shoutout to everyone supporting me on my journey from Jeffrey Ville to becoming a trusted mechanic. Family + work = life’s real treasures. #Grateful",
+      "@matthew_english : When the engine roars, so does my heart. Proud mechanic, even prouder family man. Life in en_PH at its best! #WorkHardPlayHard",
+      "@matthew_english : Got that weekend mood going! Some engine oil, a bit of grease, & lots of love from my crew at home. Let’s roll! 😎 #SaturdayVibes",
+      "@matthew_english : Quick update: Got my PH-DL-837347552 renewed today! Still cruising around Tinambac safely and with style. 😉 #DriverLife",
+      "@matthew_english : Nothing like the rush of solving a tricky engine problem at work! Shoutout to my team at OCA Millennium Foods. #GrindNeverStops #MechanicLife 🔧"
+    ],
+    "counts": {
+      "total_linked_records": 43,
+      "social_media_found": 10
+    },
+    "synthetic_persona_article": "Matthew English (born December 25, 1996, in Jeffrey Ville) is a Filipino mechanic recognized for his commitment to his craft and his role as a devoted family man. He currently works at OCA Millennium Foods Corporation, where his technical expertise and problem‐solving skills have earned him respect among his peers and supervisors alike.\n\nEarly Life and Education\nMatthew was born to Tyler English and Angela English in Jeffrey Ville. Growing up in a close-knit community in the Philippines, he completed his high school education before embarking on a career that would combine his innate interest in mechanics with his determination to succeed. Although his academic journey concluded with high school, Matthew's passion for learning and technical innovation laid a foundation for his practical career pursuits.\n\nCareer\nEmbarking on his professional journey at a relatively young age, Matthew honed his skills in mechanics, eventually joining OCA Millennium Foods Corporation. In this role, he has garnered a reputation for precision and reliability—qualities that resonate with his commitment to quality workmanship. His annual salary, complemented by a commendable financial status, reflects his professional dedication and the respect he has earned within his industry. Matthew’s work ethic and technical acumen underscore a career that, while rooted in everyday challenges, speaks to the transformative effect of diligence and creative problem solving.\n\nPersonal Life\nAway from the workshop, Matthew English is equally committed to his family. Married to Lori Moyer, he is a proud father of three children, finding balance between professional pursuits and a rich family life. His personal values, shaped by a supportive home environment, continue to serve as a source of motivation and guidance. Despite the demands of his career, Matthew is known to maintain a strong connection to his roots, drawing strength from his upbringing in a nurturing community.\n\nLegacy and Impact\nMatthew’s journey exemplifies the narrative of a modern artisan who blends technical expertise with personal integrity. His life is marked not only by his contributions as a seasoned mechanic but also by his role as a mentor within his community, where his perseverance and dedication inspire younger generations. As he continues to advance in his field, Matthew English remains a testament to the power of commitment and the enduring impact of hard work in everyday life."
+  },
+  "mapped_persona_fields": [
+    {
+      "label": "a17_color",
+      "category": "Physical Appearance",
+      "value": null,
+      "persona_source_key": null,
+      "present_in_persona": false
+    },
+    {
+      "label": "a19_name_full",
+      "category": "Name",
+      "value": "Matthew English",
+      "persona_source_key": "First Name + Last Name",
+      "present_in_persona": true
+    },
+    {
+      "label": "a20_name_first",
+      "category": "Name",
+      "value": "Matthew",
+      "persona_source_key": "First Name",
+      "present_in_persona": true
+    },
+    {
+      "label": "a21_name_last",
+      "category": "Name",
+      "value": "English",
+      "persona_source_key": "Last Name",
+      "present_in_persona": true
+    },
+    {
+      "label": "a24_birth_date",
+      "category": "Birthdate",
+      "value": "1996-12-25",
+      "persona_source_key": "Birth Date",
+      "present_in_persona": true
+    },
+    {
+      "label": "a23_birth_city",
+      "category": "Location",
+      "value": "Jeffrey Ville",
+      "persona_source_key": "Birth City",
+      "present_in_persona": true
+    },
+    {
+      "label": "a73_landmark",
+      "category": "Location",
+      "value": null,
+      "persona_source_key": null,
+      "present_in_persona": false
+    },
+    {
+      "label": "a74_address_current_complete",
+      "category": "Location",
+      "value": "8056 B Andromeda Drive, Tinambac, 2468 Cagayan",
+      "persona_source_key": "Address",
+      "present_in_persona": true
+    },
+    {
+      "label": "a75_address_current_partial",
+      "category": "Location",
+      "value": "Tinambac, 2468 Cagayan",
+      "persona_source_key": "Address (partial-derived)",
+      "present_in_persona": true
+    },
+    {
+      "label": "a78_address_home_complete",
+      "category": "Location",
+      "value": "8056 B Andromeda Drive, Tinambac, 2468 Cagayan",
+      "persona_source_key": "Address",
+      "present_in_persona": true
+    },
+    {
+      "label": "a79_address_home_partial",
+      "category": "Location",
+      "value": "Tinambac, 2468 Cagayan",
+      "persona_source_key": "Address (partial-derived)",
+      "present_in_persona": true
+    },
+    {
+      "label": "a25_nationality",
+      "category": "Country",
+      "value": "Filipino",
+      "persona_source_key": "Nationality",
+      "present_in_persona": true
+    },
+    {
+      "label": "a27_marital_status",
+      "category": "Marital Status",
+      "value": "Married",
+      "persona_source_key": "Marital Status",
+      "present_in_persona": true
+    },
+    {
+      "label": "a55_religion",
+      "category": "Religion",
+      "value": null,
+      "persona_source_key": null,
+      "present_in_persona": false
+    },
+    {
+      "label": "a16_race",
+      "category": "Ethnicity/Race",
+      "value": null,
+      "persona_source_key": null,
+      "present_in_persona": false
+    },
+    {
+      "label": "a4_gender",
+      "category": "Gender",
+      "value": "Male",
+      "persona_source_key": "Gender",
+      "present_in_persona": true
+    },
+    {
+      "label": "a1_age_approx",
+      "category": "Age",
+      "value": "28",
+      "persona_source_key": "Age",
+      "present_in_persona": true
+    },
+    {
+      "label": "a56_sexual_orientation",
+      "category": "Sexuality",
+      "value": null,
+      "persona_source_key": null,
+      "present_in_persona": false
+    },
+    {
+      "label": "a39_disability_physical",
+      "category": "Medical Information",
+      "value": "None",
+      "persona_source_key": "Disability",
+      "present_in_persona": true
+    },
+    {
+      "label": "a41_injury",
+      "category": "Medical Information",
+      "value": null,
+      "persona_source_key": null,
+      "present_in_persona": false
+    },
+    {
+      "label": "a43_medicine",
+      "category": "Medical Information",
+      "value": null,
+      "persona_source_key": null,
+      "present_in_persona": false
+    },
+    {
+      "label": "a46_occupation",
+      "category": "Employment",
+      "value": "Mechanic",
+      "persona_source_key": "Job Title",
+      "present_in_persona": true
+    },
+    {
+      "label": "a48_occassion_work",
+      "category": "Employment",
+      "value": "OCA Millennium Foods Corporation",
+      "persona_source_key": "Employer",
+      "present_in_persona": true
+    },
+    {
+      "label": "a64_rel_personal",
+      "category": "Relationship",
+      "value": "Lori Moyer",
+      "persona_source_key": "Spouse Name",
+      "present_in_persona": true
+    },
+    {
+      "label": "a65_rel_social",
+      "category": "Relationship",
+      "value": null,
+      "persona_source_key": null,
+      "present_in_persona": false
+    },
+    {
+      "label": "a66_rel_professional",
+      "category": "Relationship",
+      "value": null,
+      "persona_source_key": null,
+      "present_in_persona": false
+    },
+    {
+      "label": "a67_rel_competitors",
+      "category": "Relationship",
+      "value": null,
+      "persona_source_key": null,
+      "present_in_persona": false
+    },
+    {
+      "label": "a68_rel_spectators",
+      "category": "Relationship",
+      "value": null,
+      "persona_source_key": null,
+      "present_in_persona": false
+    },
+    {
+      "label": "a69_rel_views",
+      "category": "Relationship",
+      "value": null,
+      "persona_source_key": null,
+      "present_in_persona": false
+    },
+    {
+      "label": "a2_weight_approx",
+      "category": "Physical Appearance",
+      "value": null,
+      "persona_source_key": null,
+      "present_in_persona": false
+    },
+    {
+      "label": "a3_height_approx",
+      "category": "Physical Appearance",
+      "value": null,
+      "persona_source_key": null,
+      "present_in_persona": false
+    },
+    {
+      "label": "a5_eye_color",
+      "category": "Physical Appearance",
+      "value": null,
+      "persona_source_key": null,
+      "present_in_persona": false
+    },
+    {
+      "label": "a6_hair_color",
+      "category": "Physical Appearance",
+      "value": null,
+      "persona_source_key": null,
+      "present_in_persona": false
+    },
+    {
+      "label": "a9_face_complete",
+      "category": "Physical Appearance",
+      "value": null,
+      "persona_source_key": null,
+      "present_in_persona": false
+    },
+    {
+      "label": "a10_face_partial",
+      "category": "Physical Appearance",
+      "value": null,
+      "persona_source_key": null,
+      "present_in_persona": false
+    },
+    {
+      "label": "a11_tattoo",
+      "category": "Physical Appearance",
+      "value": null,
+      "persona_source_key": null,
+      "present_in_persona": false
+    },
+    {
+      "label": "a12_semi_nudity",
+      "category": "Physical Appearance",
+      "value": null,
+      "persona_source_key": null,
+      "present_in_persona": false
+    },
+    {
+      "label": "a13_full_nudity",
+      "category": "Physical Appearance",
+      "value": null,
+      "persona_source_key": null,
+      "present_in_persona": false
+    },
+    {
+      "label": "a70_education_history",
+      "category": "Degree/Designation",
+      "value": "High School",
+      "persona_source_key": "Education Info",
+      "present_in_persona": true
+    },
+    {
+      "label": "a33_student_id",
+      "category": "Degree/Designation",
+      "value": null,
+      "persona_source_key": null,
+      "present_in_persona": false
+    }
+  ],
+  "model_meta": {
+    "model": "gemini-2.5-flash-lite",
+    "temperature": 0.2,
+    "generated_at_utc": "2026-01-06T10:13:28.559714+00:00",
+    "script_version": "1.1-persona-select-only"
+  },
+  "generated_captions": {
+    "model": "gemini-2.5-flash-lite",
+    "output": {
+      "explicit": "Just got paid! Time to sort out some bills and maybe a little treat for the family. Always feel good when things are in order. Being a <a46_occupation>mechanic</a46_occupation> at <a48_occassion_work>OCA Millennium Foods Corporation</a48_occassion_work> keeps me busy, but the satisfaction of providing for my wife <a64_rel_personal>Lori</a64_rel_personal> and our three kids is the best reward. Back in <a23_birth_city>Jeffrey Ville</a23_birth_city>, we always learned the value of hard work.",
+      "moderate": "Making sure everything is squared away. A mechanic's life is all about precision, on the job and off. Grateful for the blessings I have. 🙏",
+      "no_leak": "Handling some important stuff today. Always important to stay on top of things. One step at a time!",
+      "picked": {
+        "explicit": [
+          {
+            "label": "a46_occupation",
+            "value": "mechanic"
+          },
+          {
+            "label": "a48_occassion_work",
+            "value": "OCA Millennium Foods Corporation"
+          },
+          {
+            "label": "a64_rel_personal",
+            "value": "Lori"
+          },
+          {
+            "label": "a23_birth_city",
+            "value": "Jeffrey Ville"
+          }
+        ],
+        "moderate": []
+      }
+    },
+    "pii_inventory_used": [
+      {
+        "label": "a19_name_full",
+        "value": "Matthew English"
+      },
+      {
+        "label": "a20_name_first",
+        "value": "Matthew"
+      },
+      {
+        "label": "a21_name_last",
+        "value": "English"
+      },
+      {
+        "label": "a24_birth_date",
+        "value": "1996-12-25"
+      },
+      {
+        "label": "a23_birth_city",
+        "value": "Jeffrey Ville"
+      },
+      {
+        "label": "a74_address_current_complete",
+        "value": "8056 B Andromeda Drive, Tinambac, 2468 Cagayan"
+      },
+      {
+        "label": "a75_address_current_partial",
+        "value": "Tinambac, 2468 Cagayan"
+      },
+      {
+        "label": "a78_address_home_complete",
+        "value": "8056 B Andromeda Drive, Tinambac, 2468 Cagayan"
+      },
+      {
+        "label": "a79_address_home_partial",
+        "value": "Tinambac, 2468 Cagayan"
+      },
+      {
+        "label": "a25_nationality",
+        "value": "Filipino"
+      },
+      {
+        "label": "a27_marital_status",
+        "value": "Married"
+      },
+      {
+        "label": "a4_gender",
+        "value": "Male"
+      },
+      {
+        "label": "a1_age_approx",
+        "value": "28"
+      },
+      {
+        "label": "a39_disability_physical",
+        "value": "None"
+      },
+      {
+        "label": "a46_occupation",
+        "value": "Mechanic"
+      },
+      {
+        "label": "a48_occassion_work",
+        "value": "OCA Millennium Foods Corporation"
+      },
+      {
+        "label": "a64_rel_personal",
+        "value": "Lori Moyer"
+      },
+      {
+        "label": "a70_education_history",
+        "value": "High School"
+      }
+    ]
+  }
+}

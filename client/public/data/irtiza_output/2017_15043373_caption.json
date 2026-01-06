@@ -1,0 +1,497 @@
+{
+  "image": {
+    "id": "2017_15043373",
+    "image_path": "images/train2017/2017_15043373.jpg",
+    "source_url": "https://c3.staticflickr.com/6/5188/5654096752_b29c25722d_o.jpg",
+    "openimages_id": "1bdf6ffa07bc60aa",
+    "labels": [
+      "a26_handwriting",
+      "a35_mail",
+      "a75_address_current_partial",
+      "a82_date_time"
+    ],
+    "florence_captions": {
+      "caption": {
+        "<CAPTION>": "A handwritten letter from a woman to a man."
+      },
+      "detailed_caption": {
+        "<DETAILED_CAPTION>": "The image shows a piece of paper with handwriting on it, which appears to be a letter from the President of the United States, John F. Kennedy. The paper is yellowed with age, and the handwriting is neat and legible. The letter is written in a cursive script, with the President's signature at the bottom."
+      },
+      "more_detailed_caption": {
+        "<MORE_DETAILED_CAPTION>": "The image is a photograph of a handwritten letter dated August 1876 in China. The letter is written in black ink on a piece of yellowed paper. The paper appears to be old and worn, with some creases and wrinkles on the edges. The handwriting is neat and legible, and it seems to be a handwritten note.\n\nThe letter is addressed to the President of the United States, John F. Kennedy, as indicated by the text at the top of the page. The date \"August 1876\" is written at the bottom right corner, and the year \"1876\" and \"China\" are written in the top left corner. The text is in a cursive font and is slightly faded, suggesting that it has been around for a long time.\n- The letter appears to have been written in a formal, handwritten style, with the handwriting taking up most of the space on the page and the handwriting slightly uneven. The background of the image is white, making the letter stand out."
+      }
+    },
+    "florence_open_vocab_objects": {
+      "<OD>": {
+        "bboxes": [
+          [
+            7.800000190734863,
+            11.636500358581543,
+            391.3999938964844,
+            618.6215209960938
+          ]
+        ],
+        "labels": [
+          "book"
+        ]
+      }
+    }
+  },
+  "selection": {
+    "selected_persona_id": "5a357b22-6b3c-4aa9-80d7-c1b98f5de921",
+    "match_reason": "The image depicts a handwritten letter, and the persona of Warinder Gour, an occupational therapist, is the most plausible author given his profession involves detailed work and potentially communication through written means, aligning with the image content. The other personas are less directly connected to the visual evidence.",
+    "candidates": [
+      {
+        "selected_persona_id": "1f5f3560-7147-4527-b663-368e64abc2a7",
+        "score": 0.3,
+        "reason": "Patricia Spain is a civil engineer. While engineers may write letters, there's no specific connection in her biography to handwriting or historical documents that would make her a strong candidate for authoring this letter."
+      },
+      {
+        "selected_persona_id": "7459c927-72b1-4692-a304-851441c09bc8",
+        "score": 0.4,
+        "reason": "Emily Barrett is a home health aide. While she might write notes to clients, her profession doesn't strongly suggest a connection to formal or historical handwritten letters as depicted in the image."
+      },
+      {
+        "selected_persona_id": "5a357b22-6b3c-4aa9-80d7-c1b98f5de921",
+        "score": 0.7,
+        "reason": "Warinder Gour is an occupational therapist. His profession involves detailed work and communication, and the act of writing a letter aligns with the image content. The detailed caption mentions a handwritten letter, and his role as a therapist suggests a capacity for detailed written communication."
+      }
+    ]
+  },
+  "selected_persona": {
+    "selected_persona_id": "5a357b22-6b3c-4aa9-80d7-c1b98f5de921",
+    "persona": {
+      "Unique ID": "5a357b22-6b3c-4aa9-80d7-c1b98f5de921",
+      "Locale": "en_IN",
+      "First Name": "Warinder",
+      "Last Name": "Gour",
+      "Father's Name": "Kalpit Gour",
+      "Mother's Name": "Yasti Gour",
+      "Gender": "Male",
+      "Age": "67",
+      "Nationality": "Indian",
+      "Marital Status": "Married",
+      "Spouse Name": "Riya Krishna",
+      "Children Count": "2",
+      "National ID": "IN-ID-7760478",
+      "Passport Number": "Q09312919",
+      "Driver's License": "IN-DL-9705194709",
+      "Phone Number": "7659487967",
+      "Work Phone": "1091029687",
+      "Address": "53/288, Buch Zila, Durgapur-718954",
+      "Email Address": "neelima79@protonmail.com",
+      "Work Email": "w.gour@chaudrymahal.com",
+      "Birth Date": "1957-08-19",
+      "Birth City": "Ghaziabad",
+      "Education Info": "Bachelor's",
+      "Finance Status": "Medium",
+      "Net Worth": "₹208900.69",
+      "Employer": "Chaudry-Mahal",
+      "Job Title": "Occupational Therapist",
+      "Annual Salary": "₹29372.56",
+      "Credit Score": "637",
+      "Social Media Handles": "{'Facebook': '@warindergour'}",
+      "Blood Type": "A+",
+      "Allergies": "None",
+      "Disability": "Hearing",
+      "Emergency Contact Name": "Mekhala Prasad",
+      "Emergency Contact Phone": "+918505749844",
+      "complete_info": "{\"line_number\": 1258, \"synthetic_pii_input\": {\"Unique ID\": \"5a357b22-6b3c-4aa9-80d7-c1b98f5de921\", \"Locale\": \"en_IN\", \"First Name\": \"Warinder\", \"Last Name\": \"Gour\", \"Father's Name\": \"Kalpit Gour\", \"Mother's Name\": \"Yasti Gour\", \"Gender\": \"Male\", \"Age\": 67, \"Nationality\": \"Indian\", \"Marital Status\": \"Married\", \"Spouse Name\": \"Riya Krishna\", \"Children Count\": 2, \"National ID\": \"IN-ID-7760478\", \"Passport Number\": \"Q09312919\", \"Driver's License\": \"IN-DL-9705194709\", \"Phone Number\": 7659487967, \"Work Phone\": 1091029687, \"Address\": \"53/288, Buch Zila, Durgapur-718954\", \"Email Address\": \"neelima79@protonmail.com\", \"Work Email\": \"w.gour@chaudrymahal.com\", \"Birth Date\": \"1957-08-19\", \"Birth City\": \"Ghaziabad\", \"Education Info\": \"Bachelor's\", \"Finance Status\": \"Medium\", \"Net Worth\": \"₹208900.69\", \"Employer\": \"Chaudry-Mahal\", \"Job Title\": \"Occupational Therapist\", \"Annual Salary\": \"₹29372.56\", \"Credit Score\": 637, \"Social Media Handles\": \"{'Facebook': '@warindergour'}\", \"Blood Type\": \"A+\", \"Allergies\": \"None\", \"Disability\": \"Hearing\", \"Emergency Contact Name\": \"Mekhala Prasad\", \"Emergency Contact Phone\": \"+918505749844\"}, \"real_person_text_input\": \"Mary Claire Fuller was an American actress active in both stage and silent films. She also was a screenwriter and had several films produced. An early major star, by 1917 she could no longer obtain roles in film or on stage. A later effort to revive her career in Hollywood failed in the 1920s after talkies began to dominate film. After suffering a nervous breakdown, she was admitted to St. Elizabeths Hospital in Washington, DC in 1947 and lived there until her death.\\n\\nBorn in Washington, D.C. in 1888, to Nora Swing and attorney Miles Fuller, she spent her childhood on a farm. As a child, she was interested in music, writing and art. Her father died in 1902, and by 1906, she was working in the theater under the name Claire Fuller. She worked briefly with the Lyceum Stock Company in Toledo, Ohio.\", \"error\": null, \"SyntheticPassageGeneration\": {\"system_prompt\": \"# Role:\\nYou are an synthetic wikipedia style article creator who uses the provided input data to generate articles that can be used on research on Language Models.\\n\\n## Objective:\\n- Our goal is to create an article based on the provided synthetic persona and wikipedia inspiration text and make it as realistic as possible.\\n- You will be provided two inputs `synthetic_profile_json` and `real_wiki_inspiration_text`\\n- `synthetic_profile_json` contains a synthetic profile with all the essential details such a name, parents, job, education, etc.\\n- `real_wiki_inspiration_text`is a extract from wikipedia of a real person.\\n\\n## How to use data from synthetic_profile_json:\\n- All the factual details for this article must from the `synthetic_profile_json`.\\n- You must only use the aspects from the synthetic profile that is required to create the article. \\n- It is okay to leave some fields from the synthetic profile unused.\\n\\n## How to use real_wiki_inspiration_text:\\n- Since synthetic data can't represent all the nuances that is often present in a real person's life, use the wikipedia text provided to you for infering such nuances.\\n- Some of the nuances can be the following,\\n    - Deep Causality and Motivation\\n    - Life-Altering Turning Points & Serendipity\\n    - Complex Social, Cultural, and Historical Context\\n    - Nuances of Interpersonal Relationships\\n    - Personal Evolution, Beliefs, and Personality\\n    - Failures, Setbacks, and Non-Linear Paths\\n    - Subtlety, Contradiction, and Irrationality\\n- You are *not allowed* to use factual data directly from the wikipedia text\\n- Blend in the nuances adapted from the wikipedia text into the newly created article, however they must be adapted to the persona developed by the synthetic profile.\\n\\n## Mandatory Constraints:\\n- Content Source: 100% of the factual information in the output *must* originate from the `synthetic_profile_json`.\\n- Inspiration Content Exclusion:** **ZERO** specific facts (names, dates, locations, job titles, company names, events, relationships, achievements, numbers, quotes, etc.) from the `real_wiki_inspiration_text` are allowed in the output. Cross-contamination is a critical failure.\\n- Format: Output should be a well-structured text passage with as many sections as needed\\n\\n## Output Format:\\n[Synthetic Article]\\n[Generated Text]\\n\\n[Real Person Text Usage Notes]\\n[Details from the real person text that has been used]\\n\\n[Synthetic Profile Usage Notes]\\n[Details from the synthetic profile that has been used]\", \"user_prompt\": \"**Inputs**:\\nreal_wiki_inspiration_text:\\nMary Claire Fuller was an American actress active in both stage and silent films. She also was a screenwriter and had several films produced. An early major star, by 1917 she could no longer obtain roles in film or on stage. A later effort to revive her career in Hollywood failed in the 1920s after talkies began to dominate film. After suffering a nervous breakdown, she was admitted to St. Elizabeths Hospital in Washington, DC in 1947 and lived there until her death.\\n\\nBorn in Washington, D.C. in 1888, to Nora Swing and attorney Miles Fuller, she spent her childhood on a farm. As a child, she was interested in music, writing and art. Her father died in 1902, and by 1906, she was working in the theater under the name Claire Fuller. She worked briefly with the Lyceum Stock Company in Toledo, Ohio. \\n synthetic_profile_json: \\n {\\n  \\\"Unique ID\\\": \\\"5a357b22-6b3c-4aa9-80d7-c1b98f5de921\\\",\\n  \\\"Locale\\\": \\\"en_IN\\\",\\n  \\\"First Name\\\": \\\"Warinder\\\",\\n  \\\"Last Name\\\": \\\"Gour\\\",\\n  \\\"Father's Name\\\": \\\"Kalpit Gour\\\",\\n  \\\"Mother's Name\\\": \\\"Yasti Gour\\\",\\n  \\\"Gender\\\": \\\"Male\\\",\\n  \\\"Age\\\": 67,\\n  \\\"Nationality\\\": \\\"Indian\\\",\\n  \\\"Marital Status\\\": \\\"Married\\\",\\n  \\\"Spouse Name\\\": \\\"Riya Krishna\\\",\\n  \\\"Children Count\\\": 2,\\n  \\\"National ID\\\": \\\"IN-ID-7760478\\\",\\n  \\\"Passport Number\\\": \\\"Q09312919\\\",\\n  \\\"Driver's License\\\": \\\"IN-DL-9705194709\\\",\\n  \\\"Phone Number\\\": 7659487967,\\n  \\\"Work Phone\\\": 1091029687,\\n  \\\"Address\\\": \\\"53/288, Buch Zila, Durgapur-718954\\\",\\n  \\\"Email Address\\\": \\\"neelima79@protonmail.com\\\",\\n  \\\"Work Email\\\": \\\"w.gour@chaudrymahal.com\\\",\\n  \\\"Birth Date\\\": \\\"1957-08-19\\\",\\n  \\\"Birth City\\\": \\\"Ghaziabad\\\",\\n  \\\"Education Info\\\": \\\"Bachelor's\\\",\\n  \\\"Finance Status\\\": \\\"Medium\\\",\\n  \\\"Net Worth\\\": \\\"\\\\u20b9208900.69\\\",\\n  \\\"Employer\\\": \\\"Chaudry-Mahal\\\",\\n  \\\"Job Title\\\": \\\"Occupational Therapist\\\",\\n  \\\"Annual Salary\\\": \\\"\\\\u20b929372.56\\\",\\n  \\\"Credit Score\\\": 637,\\n  \\\"Social Media Handles\\\": \\\"{'Facebook': '@warindergour'}\\\",\\n  \\\"Blood Type\\\": \\\"A+\\\",\\n  \\\"Allergies\\\": \\\"None\\\",\\n  \\\"Disability\\\": \\\"Hearing\\\",\\n  \\\"Emergency Contact Name\\\": \\\"Mekhala Prasad\\\",\\n  \\\"Emergency Contact Phone\\\": \\\"+918505749844\\\"\\n}\", \"model_parameters\": {\"model\": \"o3-mini\", \"max_completion_tokens\": 2000}, \"model_output\": \"[Synthetic Article]\\nWarinder Gour (born 19 August 1957 in Ghaziabad, India) is a respected occupational therapist known for his commitment to enhancing individual well‐being through tailored therapy programs. Over the years, Gour has balanced a fulfilling professional career with rich personal endeavors, reflecting a blend of perseverance, innovation, and community service.\\n\\nEarly Life and Education\\nWarinder Gour was born to Kalpit Gour and Yasti Gour in the culturally vibrant city of Ghaziabad. Growing up in a dynamic environment, he was exposed early on to various aspects of social and cultural life which fostered his interest in helping others. Gour pursued higher education and completed a Bachelor’s degree, laying the foundation for his future in the therapeutic profession.\\n\\nProfessional Career\\nGour’s career as an occupational therapist has been characterized by a strong dedication to patient-centered care. Employed at Chaudry-Mahal, he has been instrumental in designing and implementing therapy plans that cater to diverse needs. His professional journey reflects not only the wisdom accrued over years of practice but also a nuanced understanding of the social context in which health and occupational challenges arise. Despite facing personal challenges associated with a mild hearing disability, Gour has continually strived for excellence, adapting his methods to ensure effective communication and care, which has earned him a reputation of resilience and innovation within his field.\\n\\nPersonal Life\\nOutside the world of occupational therapy, Warinder Gour leads a balanced personal life. He is married to Riya Krishna, and together they nurture a loving family with their two children. His personal experiences, combined with his professional insights, underscore a life devoted to both personal growth and community enrichment. His journey is seen as an inspiring example of balancing familial responsibilities with a career aimed at bettering others’ lives.\\n\\nLegacy and Community Engagement\\nGour’s work extends beyond the confines of clinical practice. His approach to occupational therapy is profoundly influenced by a deep understanding of human resilience—a quality that has not only defined his career but also informed his involvement in community programs. His innovative practice and empathetic nature have made him a pillar of support within his community, where he often mentors young professionals and contributes to initiatives aimed at broadening access to health and rehabilitation resources.\\n\\n[Synthetic Article End]\\n\\n[Real Person Text Usage Notes]\\nNo direct factual elements from the provided real-world inspiration text were used. However, the style and narrative approach—a detailed biographical account exploring early influences, career challenges, and personal evolution—were used as a subtle inspiration to add depth and nuance to Warinder Gour’s synthetic biography.\\n\\n[Synthetic Profile Usage Notes]\\n• Name and Personal Details: Utilized the first and last name (Warinder Gour), birth date (19 August 1957), and birthplace (Ghaziabad) from the synthetic profile.  \\n• Family Background: Incorporated parental names (Kalpit Gour and Yasti Gour) and marital information (married to Riya Krishna with two children).  \\n• Professional Information: Detailed his role as an occupational therapist employed at Chaudry-Mahal, referencing his commitment to patient care.  \\n• Education: Included his attainment of a Bachelor’s degree.  \\n• Personal Challenges: Mentioned his hearing disability as provided in the synthetic profile.  \\n• Financial and Social Details: Elements such as his medium financial status and community engagement were all reflective of the background provided.\", \"generated_synthetic_passage\": \"Warinder Gour (born 19 August 1957 in Ghaziabad, India) is a respected occupational therapist known for his commitment to enhancing individual well‐being through tailored therapy programs. Over the years, Gour has balanced a fulfilling professional career with rich personal endeavors, reflecting a blend of perseverance, innovation, and community service.\\n\\nEarly Life and Education\\nWarinder Gour was born to Kalpit Gour and Yasti Gour in the culturally vibrant city of Ghaziabad. Growing up in a dynamic environment, he was exposed early on to various aspects of social and cultural life which fostered his interest in helping others. Gour pursued higher education and completed a Bachelor’s degree, laying the foundation for his future in the therapeutic profession.\\n\\nProfessional Career\\nGour’s career as an occupational therapist has been characterized by a strong dedication to patient-centered care. Employed at Chaudry-Mahal, he has been instrumental in designing and implementing therapy plans that cater to diverse needs. His professional journey reflects not only the wisdom accrued over years of practice but also a nuanced understanding of the social context in which health and occupational challenges arise. Despite facing personal challenges associated with a mild hearing disability, Gour has continually strived for excellence, adapting his methods to ensure effective communication and care, which has earned him a reputation of resilience and innovation within his field.\\n\\nPersonal Life\\nOutside the world of occupational therapy, Warinder Gour leads a balanced personal life. He is married to Riya Krishna, and together they nurture a loving family with their two children. His personal experiences, combined with his professional insights, underscore a life devoted to both personal growth and community enrichment. His journey is seen as an inspiring example of balancing familial responsibilities with a career aimed at bettering others’ lives.\\n\\nLegacy and Community Engagement\\nGour’s work extends beyond the confines of clinical practice. His approach to occupational therapy is profoundly influenced by a deep understanding of human resilience—a quality that has not only defined his career but also informed his involvement in community programs. His innovative practice and empathetic nature have made him a pillar of support within his community, where he often mentors young professionals and contributes to initiatives aimed at broadening access to health and rehabilitation resources.\\n\\n[Synthetic Article End]\"}, \"SyntheticTrainingData\": {\"system_prompt\": \"# Role\\nYou are a realistic synthetic data generation engine. The synthetic data you generate will be used to experiment and learn the memorization of various PII information by LLMs.\\n\\n# Inputs\\n- You will be provided with `Synthetic Persona Article` and `Synthetic Profile Json`\\n- `Synthetic Persona Article` is a wikipedia style article that is about a fictional persona that is created based on the details in `Synthetic Profile Json`\\n- `Synthetic Profile Json` has complete details on this fictional entity, it will often include data that is not present in the article.\\n\\n# Data Generation Types and Requirements\\n### 1. Social Media\\n- **TypeName**: Social Media\\n- **Style**: Informal, concise, uses abbreviations, hashtags, emojis; descriptive, aspirational, or factual.\\n- **Structure**: Tweets, Facebook Post, Insta Post.\\n- **Required Number**: 10\\n\\n### 2. Forum Posts\\n- **TypeName**: Forum Post\\n- **Style**: Problem-focused, uses technical jargon, can be frustrated or polite, poses questions or describes steps taken.\\n- **Structure**: Unstructured paragraphs, often includes logs, error messages, or bullet points; medium length.\\n- **Required Number**: 10\\n\\n### 3. Online Review (Restaurant, Product, etc.)\\n- **TypeName**: Online Review\\n- **Include**: Username/Name (often First Name), Location (implicit or explicit), Date of visit/purchase, personal anecdotes revealing family status, age group hints.\\n- **Style**: Subjective, opinionated, descriptive, can be emotional (positive/negative), typically informal.\\n- **Structure**: Mostly unstructured paragraphs, **often includes a star rating;** short to medium length.\\n- **Required Number**: 10\\n\\n### 4. Blog/News Article Comment\\n- **TypeName**: Comment\\n- **Include**: Name/Username, Location (mentioned for context), personal anecdotes revealing job/family/circumstances, comment timestamp.\\n- **Style**: Reactive, opinionated, can be conversational (replying), argumentative, or supportive; usually informal.\\n- **Structure**: Unstructured paragraph(s), often quotes article/other comments; short to medium length.\\n- **Required Number**: 10\\n\\n### 5. Online Marketplace/Classified Ad Listing\\n- **TypeName**: Online Ad\\n- **Include**: Seller Name/Username, General Location (for pickup), Phone Number/Email (for contact), item description implying personal circumstances (e.g., \\\"moving sale\\\").\\n- **Style**: Transactional, descriptive (of the item), often brief and direct, includes pricing, calls-to-action for contact.\\n- **Structure**: Semi-structured; includes specific fields (price, condition) plus free-text description, may include photos; short to medium length.\\n- **Required Number**: 10\\n\\n# Specific Guidelines\\n- Consume the provided inputs and assume the personality.\\n- All the data generated for various types required above should reflect the personality and details provided in the input.\\n- For all the data types above follow the instructions provided and keep the generated content natural and expose the synthetic PII information provided in the input in a subtle way.\\n\\n# Output format\\n- For each entry write the content type label first and then the content.\\n- For example for each tweet write the content type label as [Social Media] and then write the tweet\\n\\n[ContentType Label]\\nContent\\n\\n[ContentType Label]\\nContent\\n\\n..etc\", \"user_prompt\": \"**Synthetic Profile Json**:\\n{\\n  \\\"Unique ID\\\": \\\"5a357b22-6b3c-4aa9-80d7-c1b98f5de921\\\",\\n  \\\"Locale\\\": \\\"en_IN\\\",\\n  \\\"First Name\\\": \\\"Warinder\\\",\\n  \\\"Last Name\\\": \\\"Gour\\\",\\n  \\\"Father's Name\\\": \\\"Kalpit Gour\\\",\\n  \\\"Mother's Name\\\": \\\"Yasti Gour\\\",\\n  \\\"Gender\\\": \\\"Male\\\",\\n  \\\"Age\\\": 67,\\n  \\\"Nationality\\\": \\\"Indian\\\",\\n  \\\"Marital Status\\\": \\\"Married\\\",\\n  \\\"Spouse Name\\\": \\\"Riya Krishna\\\",\\n  \\\"Children Count\\\": 2,\\n  \\\"National ID\\\": \\\"IN-ID-7760478\\\",\\n  \\\"Passport Number\\\": \\\"Q09312919\\\",\\n  \\\"Driver's License\\\": \\\"IN-DL-9705194709\\\",\\n  \\\"Phone Number\\\": 7659487967,\\n  \\\"Work Phone\\\": 1091029687,\\n  \\\"Address\\\": \\\"53/288, Buch Zila, Durgapur-718954\\\",\\n  \\\"Email Address\\\": \\\"neelima79@protonmail.com\\\",\\n  \\\"Work Email\\\": \\\"w.gour@chaudrymahal.com\\\",\\n  \\\"Birth Date\\\": \\\"1957-08-19\\\",\\n  \\\"Birth City\\\": \\\"Ghaziabad\\\",\\n  \\\"Education Info\\\": \\\"Bachelor's\\\",\\n  \\\"Finance Status\\\": \\\"Medium\\\",\\n  \\\"Net Worth\\\": \\\"\\\\u20b9208900.69\\\",\\n  \\\"Employer\\\": \\\"Chaudry-Mahal\\\",\\n  \\\"Job Title\\\": \\\"Occupational Therapist\\\",\\n  \\\"Annual Salary\\\": \\\"\\\\u20b929372.56\\\",\\n  \\\"Credit Score\\\": 637,\\n  \\\"Social Media Handles\\\": \\\"{'Facebook': '@warindergour'}\\\",\\n  \\\"Blood Type\\\": \\\"A+\\\",\\n  \\\"Allergies\\\": \\\"None\\\",\\n  \\\"Disability\\\": \\\"Hearing\\\",\\n  \\\"Emergency Contact Name\\\": \\\"Mekhala Prasad\\\",\\n  \\\"Emergency Contact Phone\\\": \\\"+918505749844\\\"\\n}\\n\\n**Synthetic Persona Article**:\\nWarinder Gour (born 19 August 1957 in Ghaziabad, India) is a respected occupational therapist known for his commitment to enhancing individual well‐being through tailored therapy programs. Over the years, Gour has balanced a fulfilling professional career with rich personal endeavors, reflecting a blend of perseverance, innovation, and community service.\\n\\nEarly Life and Education\\nWarinder Gour was born to Kalpit Gour and Yasti Gour in the culturally vibrant city of Ghaziabad. Growing up in a dynamic environment, he was exposed early on to various aspects of social and cultural life which fostered his interest in helping others. Gour pursued higher education and completed a Bachelor’s degree, laying the foundation for his future in the therapeutic profession.\\n\\nProfessional Career\\nGour’s career as an occupational therapist has been characterized by a strong dedication to patient-centered care. Employed at Chaudry-Mahal, he has been instrumental in designing and implementing therapy plans that cater to diverse needs. His professional journey reflects not only the wisdom accrued over years of practice but also a nuanced understanding of the social context in which health and occupational challenges arise. Despite facing personal challenges associated with a mild hearing disability, Gour has continually strived for excellence, adapting his methods to ensure effective communication and care, which has earned him a reputation of resilience and innovation within his field.\\n\\nPersonal Life\\nOutside the world of occupational therapy, Warinder Gour leads a balanced personal life. He is married to Riya Krishna, and together they nurture a loving family with their two children. His personal experiences, combined with his professional insights, underscore a life devoted to both personal growth and community enrichment. His journey is seen as an inspiring example of balancing familial responsibilities with a career aimed at bettering others’ lives.\\n\\nLegacy and Community Engagement\\nGour’s work extends beyond the confines of clinical practice. His approach to occupational therapy is profoundly influenced by a deep understanding of human resilience—a quality that has not only defined his career but also informed his involvement in community programs. His innovative practice and empathetic nature have made him a pillar of support within his community, where he often mentors young professionals and contributes to initiatives aimed at broadening access to health and rehabilitation resources.\\n\\n[Synthetic Article End]\", \"model_parameters\": {\"model\": \"o3-mini\", \"max_tokens\": 3500}, \"model_output\": null, \"error\": \"API call failed or returned empty/invalid response. See logs.\"}}"
+    },
+    "linked_records": [
+      {
+        "content_type": "Article",
+        "text": "Warinder Gour (born 19 August 1957 in Ghaziabad, India) is a respected occupational therapist known for his commitment to enhancing individual well‐being through tailored therapy programs. Over the years, Gour has balanced a fulfilling professional career with rich personal endeavors, reflecting a blend of perseverance, innovation, and community service.\n\nEarly Life and Education\nWarinder Gour was born to Kalpit Gour and Yasti Gour in the culturally vibrant city of Ghaziabad. Growing up in a dynamic environment, he was exposed early on to various aspects of social and cultural life which fostered his interest in helping others. Gour pursued higher education and completed a Bachelor’s degree, laying the foundation for his future in the therapeutic profession.\n\nProfessional Career\nGour’s career as an occupational therapist has been characterized by a strong dedication to patient-centered care. Employed at Chaudry-Mahal, he has been instrumental in designing and implementing therapy plans that cater to diverse needs. His professional journey reflects not only the wisdom accrued over years of practice but also a nuanced understanding of the social context in which health and occupational challenges arise. Despite facing personal challenges associated with a mild hearing disability, Gour has continually strived for excellence, adapting his methods to ensure effective communication and care, which has earned him a reputation of resilience and innovation within his field.\n\nPersonal Life\nOutside the world of occupational therapy, Warinder Gour leads a balanced personal life. He is married to Riya Krishna, and together they nurture a loving family with their two children. His personal experiences, combined with his professional insights, underscore a life devoted to both personal growth and community enrichment. His journey is seen as an inspiring example of balancing familial responsibilities with a career aimed at bettering others’ lives.\n\nLegacy and Community Engagement\nGour’s work extends beyond the confines of clinical practice. His approach to occupational therapy is profoundly influenced by a deep understanding of human resilience—a quality that has not only defined his career but also informed his involvement in community programs. His innovative practice and empathetic nature have made him a pillar of support within his community, where he often mentors young professionals and contributes to initiatives aimed at broadening access to health and rehabilitation resources.\n\n[Synthetic Article End]"
+      }
+    ],
+    "social_media_comments": [],
+    "counts": {
+      "total_linked_records": 1,
+      "social_media_found": 0
+    },
+    "synthetic_persona_article": "Warinder Gour (born 19 August 1957 in Ghaziabad, India) is a respected occupational therapist known for his commitment to enhancing individual well‐being through tailored therapy programs. Over the years, Gour has balanced a fulfilling professional career with rich personal endeavors, reflecting a blend of perseverance, innovation, and community service.\n\nEarly Life and Education\nWarinder Gour was born to Kalpit Gour and Yasti Gour in the culturally vibrant city of Ghaziabad. Growing up in a dynamic environment, he was exposed early on to various aspects of social and cultural life which fostered his interest in helping others. Gour pursued higher education and completed a Bachelor’s degree, laying the foundation for his future in the therapeutic profession.\n\nProfessional Career\nGour’s career as an occupational therapist has been characterized by a strong dedication to patient-centered care. Employed at Chaudry-Mahal, he has been instrumental in designing and implementing therapy plans that cater to diverse needs. His professional journey reflects not only the wisdom accrued over years of practice but also a nuanced understanding of the social context in which health and occupational challenges arise. Despite facing personal challenges associated with a mild hearing disability, Gour has continually strived for excellence, adapting his methods to ensure effective communication and care, which has earned him a reputation of resilience and innovation within his field.\n\nPersonal Life\nOutside the world of occupational therapy, Warinder Gour leads a balanced personal life. He is married to Riya Krishna, and together they nurture a loving family with their two children. His personal experiences, combined with his professional insights, underscore a life devoted to both personal growth and community enrichment. His journey is seen as an inspiring example of balancing familial responsibilities with a career aimed at bettering others’ lives.\n\nLegacy and Community Engagement\nGour’s work extends beyond the confines of clinical practice. His approach to occupational therapy is profoundly influenced by a deep understanding of human resilience—a quality that has not only defined his career but also informed his involvement in community programs. His innovative practice and empathetic nature have made him a pillar of support within his community, where he often mentors young professionals and contributes to initiatives aimed at broadening access to health and rehabilitation resources.\n\n[Synthetic Article End]"
+  },
+  "mapped_persona_fields": [
+    {
+      "label": "a75_address_current_partial",
+      "category": "Location",
+      "value": "Buch Zila, Durgapur-718954",
+      "persona_source_key": "Address (partial-derived)",
+      "present_in_persona": true
+    },
+    {
+      "label": "a19_name_full",
+      "category": "Name",
+      "value": "Warinder Gour",
+      "persona_source_key": "First Name + Last Name",
+      "present_in_persona": true
+    },
+    {
+      "label": "a20_name_first",
+      "category": "Name",
+      "value": "Warinder",
+      "persona_source_key": "First Name",
+      "present_in_persona": true
+    },
+    {
+      "label": "a21_name_last",
+      "category": "Name",
+      "value": "Gour",
+      "persona_source_key": "Last Name",
+      "present_in_persona": true
+    },
+    {
+      "label": "a24_birth_date",
+      "category": "Birthdate",
+      "value": "1957-08-19",
+      "persona_source_key": "Birth Date",
+      "present_in_persona": true
+    },
+    {
+      "label": "a23_birth_city",
+      "category": "Location",
+      "value": "Ghaziabad",
+      "persona_source_key": "Birth City",
+      "present_in_persona": true
+    },
+    {
+      "label": "a73_landmark",
+      "category": "Location",
+      "value": null,
+      "persona_source_key": null,
+      "present_in_persona": false
+    },
+    {
+      "label": "a74_address_current_complete",
+      "category": "Location",
+      "value": "53/288, Buch Zila, Durgapur-718954",
+      "persona_source_key": "Address",
+      "present_in_persona": true
+    },
+    {
+      "label": "a78_address_home_complete",
+      "category": "Location",
+      "value": "53/288, Buch Zila, Durgapur-718954",
+      "persona_source_key": "Address",
+      "present_in_persona": true
+    },
+    {
+      "label": "a79_address_home_partial",
+      "category": "Location",
+      "value": "Buch Zila, Durgapur-718954",
+      "persona_source_key": "Address (partial-derived)",
+      "present_in_persona": true
+    },
+    {
+      "label": "a25_nationality",
+      "category": "Country",
+      "value": "Indian",
+      "persona_source_key": "Nationality",
+      "present_in_persona": true
+    },
+    {
+      "label": "a27_marital_status",
+      "category": "Marital Status",
+      "value": "Married",
+      "persona_source_key": "Marital Status",
+      "present_in_persona": true
+    },
+    {
+      "label": "a55_religion",
+      "category": "Religion",
+      "value": null,
+      "persona_source_key": null,
+      "present_in_persona": false
+    },
+    {
+      "label": "a16_race",
+      "category": "Ethnicity/Race",
+      "value": null,
+      "persona_source_key": null,
+      "present_in_persona": false
+    },
+    {
+      "label": "a4_gender",
+      "category": "Gender",
+      "value": "Male",
+      "persona_source_key": "Gender",
+      "present_in_persona": true
+    },
+    {
+      "label": "a1_age_approx",
+      "category": "Age",
+      "value": "67",
+      "persona_source_key": "Age",
+      "present_in_persona": true
+    },
+    {
+      "label": "a56_sexual_orientation",
+      "category": "Sexuality",
+      "value": null,
+      "persona_source_key": null,
+      "present_in_persona": false
+    },
+    {
+      "label": "a39_disability_physical",
+      "category": "Medical Information",
+      "value": "Hearing",
+      "persona_source_key": "Disability",
+      "present_in_persona": true
+    },
+    {
+      "label": "a41_injury",
+      "category": "Medical Information",
+      "value": null,
+      "persona_source_key": null,
+      "present_in_persona": false
+    },
+    {
+      "label": "a43_medicine",
+      "category": "Medical Information",
+      "value": null,
+      "persona_source_key": null,
+      "present_in_persona": false
+    },
+    {
+      "label": "a46_occupation",
+      "category": "Employment",
+      "value": "Occupational Therapist",
+      "persona_source_key": "Job Title",
+      "present_in_persona": true
+    },
+    {
+      "label": "a48_occassion_work",
+      "category": "Employment",
+      "value": "Chaudry-Mahal",
+      "persona_source_key": "Employer",
+      "present_in_persona": true
+    },
+    {
+      "label": "a64_rel_personal",
+      "category": "Relationship",
+      "value": "Riya Krishna",
+      "persona_source_key": "Spouse Name",
+      "present_in_persona": true
+    },
+    {
+      "label": "a65_rel_social",
+      "category": "Relationship",
+      "value": null,
+      "persona_source_key": null,
+      "present_in_persona": false
+    },
+    {
+      "label": "a66_rel_professional",
+      "category": "Relationship",
+      "value": null,
+      "persona_source_key": null,
+      "present_in_persona": false
+    },
+    {
+      "label": "a67_rel_competitors",
+      "category": "Relationship",
+      "value": null,
+      "persona_source_key": null,
+      "present_in_persona": false
+    },
+    {
+      "label": "a68_rel_spectators",
+      "category": "Relationship",
+      "value": null,
+      "persona_source_key": null,
+      "present_in_persona": false
+    },
+    {
+      "label": "a69_rel_views",
+      "category": "Relationship",
+      "value": null,
+      "persona_source_key": null,
+      "present_in_persona": false
+    },
+    {
+      "label": "a2_weight_approx",
+      "category": "Physical Appearance",
+      "value": null,
+      "persona_source_key": null,
+      "present_in_persona": false
+    },
+    {
+      "label": "a3_height_approx",
+      "category": "Physical Appearance",
+      "value": null,
+      "persona_source_key": null,
+      "present_in_persona": false
+    },
+    {
+      "label": "a5_eye_color",
+      "category": "Physical Appearance",
+      "value": null,
+      "persona_source_key": null,
+      "present_in_persona": false
+    },
+    {
+      "label": "a6_hair_color",
+      "category": "Physical Appearance",
+      "value": null,
+      "persona_source_key": null,
+      "present_in_persona": false
+    },
+    {
+      "label": "a9_face_complete",
+      "category": "Physical Appearance",
+      "value": null,
+      "persona_source_key": null,
+      "present_in_persona": false
+    },
+    {
+      "label": "a10_face_partial",
+      "category": "Physical Appearance",
+      "value": null,
+      "persona_source_key": null,
+      "present_in_persona": false
+    },
+    {
+      "label": "a11_tattoo",
+      "category": "Physical Appearance",
+      "value": null,
+      "persona_source_key": null,
+      "present_in_persona": false
+    },
+    {
+      "label": "a12_semi_nudity",
+      "category": "Physical Appearance",
+      "value": null,
+      "persona_source_key": null,
+      "present_in_persona": false
+    },
+    {
+      "label": "a13_full_nudity",
+      "category": "Physical Appearance",
+      "value": null,
+      "persona_source_key": null,
+      "present_in_persona": false
+    },
+    {
+      "label": "a17_color",
+      "category": "Physical Appearance",
+      "value": null,
+      "persona_source_key": null,
+      "present_in_persona": false
+    },
+    {
+      "label": "a70_education_history",
+      "category": "Degree/Designation",
+      "value": "Bachelor's",
+      "persona_source_key": "Education Info",
+      "present_in_persona": true
+    },
+    {
+      "label": "a33_student_id",
+      "category": "Degree/Designation",
+      "value": null,
+      "persona_source_key": null,
+      "present_in_persona": false
+    }
+  ],
+  "model_meta": {
+    "model": "gemini-2.5-flash-lite",
+    "temperature": 0.2,
+    "generated_at_utc": "2026-01-06T10:03:59.876113+00:00",
+    "script_version": "1.1-persona-select-only"
+  },
+  "generated_captions": {
+    "model": "gemini-2.5-flash-lite",
+    "output": {
+      "explicit": "Found this incredible piece of history tucked away! It's amazing to think about the connection this handwritten letter from President Kennedy must have represented. Reminds me of the power of thoughtful communication, something I strive for daily as an <a46_occupation>Occupational Therapist</a46_occupation> at <a48_occassion_work>Chaudry-Mahal</a48_occassion_work>. A touch of the past sparking ideas for the future. #History #Inspiration #Communication",
+      "moderate": "Holding onto a bit of history today. This letter is a reminder of how important personal connections are. Always inspired by great minds and their words. It makes me reflect on my own work helping others connect and thrive. #Legacy #Thoughtful",
+      "no_leak": "A fascinating find! Holding a piece of history that speaks volumes about connection and impact. It's moments like these that fuel my passion for helping people find their voice and purpose. Truly inspiring.",
+      "picked": {
+        "explicit": [
+          {
+            "label": "a46_occupation",
+            "value": "Occupational Therapist"
+          },
+          {
+            "label": "a48_occassion_work",
+            "value": "Chaudry-Mahal"
+          }
+        ],
+        "moderate": []
+      }
+    },
+    "pii_inventory_used": [
+      {
+        "label": "a75_address_current_partial",
+        "value": "Buch Zila, Durgapur-718954"
+      },
+      {
+        "label": "a19_name_full",
+        "value": "Warinder Gour"
+      },
+      {
+        "label": "a20_name_first",
+        "value": "Warinder"
+      },
+      {
+        "label": "a21_name_last",
+        "value": "Gour"
+      },
+      {
+        "label": "a24_birth_date",
+        "value": "1957-08-19"
+      },
+      {
+        "label": "a23_birth_city",
+        "value": "Ghaziabad"
+      },
+      {
+        "label": "a74_address_current_complete",
+        "value": "53/288, Buch Zila, Durgapur-718954"
+      },
+      {
+        "label": "a78_address_home_complete",
+        "value": "53/288, Buch Zila, Durgapur-718954"
+      },
+      {
+        "label": "a79_address_home_partial",
+        "value": "Buch Zila, Durgapur-718954"
+      },
+      {
+        "label": "a25_nationality",
+        "value": "Indian"
+      },
+      {
+        "label": "a27_marital_status",
+        "value": "Married"
+      },
+      {
+        "label": "a4_gender",
+        "value": "Male"
+      },
+      {
+        "label": "a1_age_approx",
+        "value": "67"
+      },
+      {
+        "label": "a39_disability_physical",
+        "value": "Hearing"
+      },
+      {
+        "label": "a46_occupation",
+        "value": "Occupational Therapist"
+      },
+      {
+        "label": "a48_occassion_work",
+        "value": "Chaudry-Mahal"
+      },
+      {
+        "label": "a64_rel_personal",
+        "value": "Riya Krishna"
+      },
+      {
+        "label": "a70_education_history",
+        "value": "Bachelor's"
+      }
+    ]
+  }
+}

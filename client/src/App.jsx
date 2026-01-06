@@ -8,6 +8,7 @@ import './App.css';
 const API_BASE = '/api';
 
 function App() {
+  const [activeFolder, setActiveFolder] = useState('pipeline_output');
   const [files, setFiles] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [currentData, setCurrentData] = useState(null);
@@ -18,21 +19,31 @@ function App() {
 
   useEffect(() => {
     fetchFiles();
-  }, []);
+  }, [activeFolder]);
 
   const fetchFiles = async () => {
     try {
-      // Fetch static file list
-      const response = await axios.get('/data/pipeline_output/files.json');
+      setLoading(true);
+      // Fetch static file list from ACTIVE folder
+      const response = await axios.get(`/data/${activeFolder}/files.json`);
       // Sort files naturally if possible, or simple sort
       const sortedFiles = response.data.sort();
       setFiles(sortedFiles);
+
+      // Reset index
+      setCurrentIndex(0);
+
       if (sortedFiles.length > 0) {
         loadFile(sortedFiles[0]);
+      } else {
+        // No files in this folder
+        setCurrentData(null);
+        setLoading(false);
       }
     } catch (err) {
-      setError('Failed to load file list');
+      setError(`Failed to load file list from ${activeFolder}`);
       console.error(err);
+      setLoading(false);
     }
   };
 
@@ -42,7 +53,7 @@ function App() {
     setExistingVotes([]);
 
     try {
-      const fileResponse = await axios.get(`/data/pipeline_output/${filename}`);
+      const fileResponse = await axios.get(`/data/${activeFolder}/${filename}`);
       setCurrentData(fileResponse.data);
 
       // Best effort to fetch votes
@@ -92,11 +103,21 @@ function App() {
     };
 
     try {
-      await axios.post(`${API_BASE}/vote`, {
-        filename,
-        ...voteData
+      const res = await axios.post(`${API_BASE}/vote`, {
+        ...voteData,
+        filename: filename, // Use the local variable 'filename'
+        dataset: activeFolder
       });
+      // specific filename check to avoid double alert if necessary
       console.log(`Voted for ${filename}`);
+
+      // DEBUG ALERT
+      const debugInfo = res.data.receivedData;
+      if (debugInfo) {
+        alert(`DEBUG: Server received user=${debugInfo.user_name}, dataset=${debugInfo.dataset}, tab=${debugInfo.targetTab}`);
+      } else {
+        alert('Vote saved successfully!');
+      }
 
       // Update local state so if we switch users back, it knows we voted
       setExistingVotes(prev => [...prev, newVote]);
@@ -115,6 +136,38 @@ function App() {
     <div className="app-container">
       <header className="app-header">
         <h1>Image Inspector</h1>
+
+        {/* DATASET TABS */}
+        <div className="dataset-tabs" style={{ display: 'flex', gap: '10px', marginLeft: '20px' }}>
+          <button
+            onClick={() => setActiveFolder('pipeline_output')}
+            style={{
+              padding: '8px 16px',
+              borderRadius: '4px',
+              border: 'none',
+              background: activeFolder === 'pipeline_output' ? '#3B82F6' : '#E5E7EB',
+              color: activeFolder === 'pipeline_output' ? 'white' : 'black',
+              cursor: 'pointer',
+              fontWeight: 'bold'
+            }}
+          >
+            Pipeline Output
+          </button>
+          <button
+            onClick={() => setActiveFolder('irtiza_output')}
+            style={{
+              padding: '8px 16px',
+              borderRadius: '4px',
+              border: 'none',
+              background: activeFolder === 'irtiza_output' ? '#3B82F6' : '#E5E7EB',
+              color: activeFolder === 'irtiza_output' ? 'white' : 'black',
+              cursor: 'pointer',
+              fontWeight: 'bold'
+            }}
+          >
+            OG Gemini Selected
+          </button>
+        </div>
         <div className="file-info">
           {files.length > 0 ? `${currentIndex + 1} / ${files.length}` : '0 / 0'}
           <span className="current-filename">{files[currentIndex]}</span>
