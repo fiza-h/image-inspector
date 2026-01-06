@@ -105,7 +105,8 @@ function App() {
         handleNext();
       }
     } catch (err) {
-      alert('Failed to save vote');
+      const errorMessage = err.response?.data?.details || err.response?.data?.error || err.message || 'Failed to save vote';
+      alert(`Error: ${errorMessage}`);
       console.error(err);
     }
   };
