@@ -1,72 +1,78 @@
-const { GoogleSpreadsheet } = require('google-spreadsheet');
+// server/services/googleSheet.js
+const path = require("path");
+const fs = require("fs");
+require("dotenv").config();
 
-const path = require('path');
-const fs = require('fs');
-require('dotenv').config();
+const { google } = require("googleapis");
 
 class GoogleSheetService {
     constructor() {
         this.sheetId = process.env.SHEET_ID;
-        // Check for credentials in environment variable (for Vercel) or file (local)
+        this.sheetTab = process.env.SHEET_TAB || "Sheet1"; // <-- set this to your actual tab name
+
+        // Credentials: Vercel env var JSON OR local credentials.json
         if (process.env.GOOGLE_CREDENTIALS) {
             try {
                 const creds = JSON.parse(process.env.GOOGLE_CREDENTIALS);
                 this.serviceAccountEmail = creds.client_email;
                 this.privateKey = creds.private_key;
             } catch (error) {
-                console.error('Failed to parse GOOGLE_CREDENTIALS environment variable');
+                console.error("Failed to parse GOOGLE_CREDENTIALS environment variable");
             }
         } else {
-            this.credsPath = path.join(__dirname, '../credentials.json');
+            this.credsPath = path.join(__dirname, "../credentials.json");
             if (fs.existsSync(this.credsPath)) {
                 const creds = require(this.credsPath);
                 this.serviceAccountEmail = creds.client_email;
                 this.privateKey = creds.private_key;
             } else {
-                console.error('credentials.json not found in server directory');
+                console.error("credentials.json not found in server directory");
             }
         }
 
-        if (!this.sheetId) {
-            console.error('SHEET_ID is missing from .env');
-        }
+        if (!this.sheetId) console.error("SHEET_ID is missing from env");
     }
 
-    async getDoc() {
+    getAuthClient() {
         if (!this.serviceAccountEmail || !this.privateKey) {
-            throw new Error('Missing Google credentials');
+            throw new Error("Missing Google credentials");
         }
 
-        const doc = new GoogleSpreadsheet(this.sheetId);
+        // IMPORTANT: Vercel env strings often store newlines as \\n
+        const key = this.privateKey.replace(/\\n/g, "\n");
 
-        // v4 Authentication
-        await doc.useServiceAccountAuth({
-            client_email: this.serviceAccountEmail,
-            private_key: this.privateKey,
+        return new google.auth.JWT({
+            email: this.serviceAccountEmail,
+            key,
+            scopes: ["https://www.googleapis.com/auth/spreadsheets"],
         });
-
-        await doc.loadInfo();
-        return doc;
     }
 
     async addVote(data) {
-        try {
-            const doc = await this.getDoc();
-            const sheet = doc.sheetsByIndex[0];
+        const auth = this.getAuthClient();
+        const sheets = google.sheets({ version: "v4", auth });
 
-            // Add timestamp
-            const row = {
-                timestamp: new Date().toISOString(),
-                ...data
-            };
+        // Must match your sheet columns order (recommended headers):
+        // timestamp | user_name | filename | explicit_selected | moderate_selected | no_leak_selected | comments
+        const row = [
+            new Date().toISOString(),
+            data.user_name ?? "",
+            data.filename ?? "",
+            data.explicit_selected ?? "",
+            data.moderate_selected ?? "",
+            data.no_leak_selected ?? "",
+            data.comments ?? "",
+        ];
 
-            await sheet.addRow(row);
-            console.log('Vote added to Google Sheet');
-            return true;
-        } catch (error) {
-            console.error('Error adding vote to Google Sheet:', error);
-            throw error;
-        }
+        await sheets.spreadsheets.values.append({
+            spreadsheetId: this.sheetId,
+            range: `${this.sheetTab}!A1`,
+            valueInputOption: "RAW",
+            insertDataOption: "INSERT_ROWS",
+            requestBody: { values: [row] },
+        });
+
+        return true;
     }
 }
 
