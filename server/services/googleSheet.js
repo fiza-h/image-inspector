@@ -1,5 +1,5 @@
 const { GoogleSpreadsheet } = require('google-spreadsheet');
-const { JWT } = require('google-auth-library');
+
 const path = require('path');
 const fs = require('fs');
 require('dotenv').config();
@@ -37,13 +37,14 @@ class GoogleSheetService {
             throw new Error('Missing Google credentials');
         }
 
-        const serviceAccountAuth = new JWT({
-            email: this.serviceAccountEmail,
-            key: this.privateKey,
-            scopes: ['https://www.googleapis.com/auth/spreadsheets'],
+        const doc = new GoogleSpreadsheet(this.sheetId);
+
+        // v4 Authentication
+        await doc.useServiceAccountAuth({
+            client_email: this.serviceAccountEmail,
+            private_key: this.privateKey,
         });
 
-        const doc = new GoogleSpreadsheet(this.sheetId, serviceAccountAuth);
         await doc.loadInfo();
         return doc;
     }
